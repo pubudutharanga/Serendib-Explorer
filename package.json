@@ -3,17 +3,11 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "homepage": "https://pubudutharanga.github.io/Serendib-Explorer",
+  "homepage": "https://pubudutharanga.github.io/Serendib-Explorer/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "test": "vitest",
-    "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build",
-    "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist -r https://github.com/pubudutharanga/Serendib-Explorer.git",
-    "postbuild":"node scripts/create-404.cjs"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.1",
