@@ -7,16 +7,16 @@ import { Compass, MapPin, Leaf, Trees, Mountain, Sun, Cloud, Bird, Star, Map } f
 
 // Local background images from public folder
 const localBackgrounds = [
-  '/assets/images/hero-backgrounds/colombo.jpg',
-  '/assets/images/hero-backgrounds/ella.jpg', 
-  '/assets/images/hero-backgrounds/sigiriya.jpg',
-  '/assets/images/hero-backgrounds/ruwanwalimahasaya.jpg',
-  '/assets/images/hero-backgrounds/elephants.jpg',
-  '/assets/images/hero-backgrounds/galle.jpg',
-  '/assets/images/hero-backgrounds/polhena.jpg',
-  '/assets/images/hero-backgrounds/mirissa.jpg',
-  '/assets/images/hero-backgrounds/mask.jpg',
-  '/assets/images/hero-backgrounds/beach.jpg'
+  './assets/images/hero-backgrounds/colombo.jpg',
+  './assets/images/hero-backgrounds/ella.jpg', 
+  './assets/images/hero-backgrounds/sigiriya.jpg',
+  './assets/images/hero-backgrounds/ruwanwalimahasaya.jpg',
+  './assets/images/hero-backgrounds/elephants.jpg',
+  './assets/images/hero-backgrounds/galle.jpg',
+  './assets/images/hero-backgrounds/polhena.jpg',
+  './assets/images/hero-backgrounds/mirissa.jpg',
+  './assets/images/hero-backgrounds/mask.jpg',
+  './assets/images/hero-backgrounds/beach.jpg'
 ]
 
 // Fallback images in case local images are not available

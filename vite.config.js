@@ -4,8 +4,8 @@ import { imagetools } from 'vite-imagetools'
 
 export default defineConfig({
   plugins: [react(), imagetools()],
-  base: '/Serendib-Explorer/',
   server: { port: 5173 },
+   base: '/Serendib-Explorer',
   test: {
     globals: true,
     environment: 'jsdom',
