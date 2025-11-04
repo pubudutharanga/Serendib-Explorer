@@ -1,4 +1,4 @@
-// src/pages/ModernDestinationDetail.jsx - FIXED with default export
+// src/pages/ModernDestinationDetail.jsx - UPDATED with available icons
 import React, { useState, useRef } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import data from '../data/destinations.json'
@@ -19,7 +19,15 @@ import {
   Maximize2,
   Play,
   Hotel,
-  Navigation
+  Navigation,
+  Camera,
+  Utensils,
+  ShoppingBag,
+  Eye,
+  Mountain,
+  Activity,
+  Trees,
+  Palette
 } from 'lucide-react'
 import { ModernCard } from '../components/ui/ModernCard'
 import { ModernButton } from '../components/ui/ModernButton'
@@ -103,6 +111,27 @@ export default function ModernDestinationDetail() {
       // Show toast notification
       alert('Link copied to clipboard!')
     }
+  }
+
+  // Activity icons mapping with available icons
+  const activityIcons = {
+    hiking: Mountain,
+    trekking: Mountain,
+    photography: Camera,
+    dining: Utensils,
+    shopping: ShoppingBag,
+    sightseeing: Eye,
+    wildlife: Trees,
+    adventure: Activity,
+    cultural: Palette,
+    nature: Trees,
+    default: Activity
+  }
+
+  // Get icon for activity type
+  const getActivityIcon = (activityType) => {
+    const type = activityType?.toLowerCase() || 'default'
+    return activityIcons[type] || activityIcons.default
   }
 
   return (
@@ -282,7 +311,7 @@ export default function ModernDestinationDetail() {
               transition={{ delay: 0.5 }}
             >
               <div className="flex space-x-1 rounded-2xl bg-muted p-1">
-                {['overview', 'gallery', 'videos', 'reviews'].map((tab) => (
+                {['overview', 'activities', 'gallery', 'videos'].map((tab) => (
                   <button
                     key={tab}
                     onClick={() => setActiveTab(tab)}
@@ -362,6 +391,79 @@ export default function ModernDestinationDetail() {
                   </ModernCard>
                 )}
 
+                {activeTab === 'activities' && (
+                  <ModernCard className="overflow-hidden">
+                    <div className="p-8">
+                      <h2 className="text-3xl font-bold mb-6">Things to Do</h2>
+                      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        {(dest.activities && dest.activities.length > 0) ? (
+                          dest.activities.map((activity, index) => {
+                            const ActivityIcon = getActivityIcon(activity.type)
+                            return (
+                              <motion.div
+                                key={index}
+                                initial={{ opacity: 0, y: 20 }}
+                                animate={{ opacity: 1, y: 0 }}
+                                transition={{ delay: index * 0.1 }}
+                                className="flex items-start gap-4 p-4 rounded-xl border border-border hover:border-primary/30 transition-all duration-300 group"
+                              >
+                                <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-xl flex items-center justify-center text-white flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
+                                  <ActivityIcon className="w-6 h-6" />
+                                </div>
+                                <div className="flex-1">
+                                  <h3 className="font-semibold text-lg mb-2 group-hover:text-primary transition-colors">
+                                    {activity.name}
+                                  </h3>
+                                  <p className="text-muted-foreground mb-3 leading-relaxed">
+                                    {activity.description}
+                                  </p>
+                                  <div className="flex flex-wrap gap-2">
+                                    {activity.duration && (
+                                      <span className="inline-flex items-center gap-1 px-2 py-1 bg-blue-100 text-blue-700 rounded-full text-xs font-medium">
+                                        <Clock className="w-3 h-3" />
+                                        {activity.duration}
+                                      </span>
+                                    )}
+                                    {activity.difficulty && (
+                                      <span className={`inline-flex items-center px-2 py-1 rounded-full text-xs font-medium ${
+                                        activity.difficulty === 'Easy' ? 'bg-green-100 text-green-700' :
+                                        activity.difficulty === 'Moderate' ? 'bg-yellow-100 text-yellow-700' :
+                                        'bg-red-100 text-red-700'
+                                      }`}>
+                                        {activity.difficulty}
+                                      </span>
+                                    )}
+                                    {activity.priceRange && (
+                                      <span className="inline-flex items-center px-2 py-1 bg-purple-100 text-purple-700 rounded-full text-xs font-medium">
+                                        {activity.priceRange}
+                                      </span>
+                                    )}
+                                  </div>
+                                  {activity.tips && (
+                                    <div className="mt-3 p-3 bg-muted rounded-lg">
+                                      <p className="text-sm text-muted-foreground">
+                                        <strong>Tip:</strong> {activity.tips}
+                                      </p>
+                                    </div>
+                                  )}
+                                </div>
+                              </motion.div>
+                            )
+                          })
+                        ) : (
+                          <div className="col-span-2 text-center py-8">
+                            <Activity className="w-16 h-16 text-muted-foreground mx-auto mb-4" />
+                            <h3 className="text-xl font-semibold mb-2">No Activities Listed</h3>
+                            <p className="text-muted-foreground">
+                              Activity information for {dest.name} is coming soon.
+                            </p>
+                          </div>
+                        )}
+                      </div>
+                    </div>
+                  </ModernCard>
+                )}
+
                 {activeTab === 'gallery' && (
                   <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
                     {dest.images.map((image, index) => (
@@ -412,39 +514,6 @@ export default function ModernDestinationDetail() {
                       </ModernCard>
                     ))}
                   </div>
-                )}
-
-                {activeTab === 'reviews' && (
-                  <ModernCard>
-                    <div className="p-8">
-                      <h2 className="text-2xl font-bold mb-6">Visitor Reviews</h2>
-                      <div className="space-y-6">
-                        {[1, 2, 3].map((review) => (
-                          <div key={review} className="pb-6 border-b last:border-0 last:pb-0">
-                            <div className="flex items-center gap-4 mb-3">
-                              <div className="w-12 h-12 bg-gradient-to-r from-primary to-secondary rounded-full flex items-center justify-center text-white font-semibold">
-                                {['JS', 'AM', 'SR'][review - 1]}
-                              </div>
-                              <div>
-                                <div className="font-semibold">{['John Smith', 'Anna Maria', 'Sam Rogers'][review - 1]}</div>
-                                <div className="flex items-center gap-1 text-sm text-muted-foreground">
-                                  <Star className="w-4 h-4 fill-yellow-400 text-yellow-400" />
-                                  <span>5.0 • {['2 weeks', '1 month', '3 months'][review - 1]} ago</span>
-                                </div>
-                              </div>
-                            </div>
-                            <p className="text-muted-foreground leading-relaxed">
-                              {[
-                                "Absolutely breathtaking! The views were worth every step. The local guides were knowledgeable and friendly.",
-                                "A must-visit destination in Sri Lanka. The cultural significance combined with natural beauty is unparalleled.",
-                                "Perfect family trip. Our kids loved the adventure and we appreciated the well-maintained facilities."
-                              ][review - 1]}
-                            </p>
-                          </div>
-                        ))}
-                      </div>
-                    </div>
-                  </ModernCard>
                 )}
               </motion.div>
             </AnimatePresence>

@@ -3962,6 +3962,5588 @@
 "familyFriendly": true,
 "accessibility": "Limited for some activities",
 "tags": ["Adventure", "Rafting", "Canyoning", "Rainforest", "Outdoor"]
-}   
-  ]
+},
+{
+"id": "bundala-national-park",
+"name": "Bundala National Park",
+"region": "Southern",
+"city": "Hambantota",
+"category": [
+"nature",
+"wildlife",
+"birdwatching"
+],
+"description": "Bundala National Park is an internationally important wintering ground for migratory water birds in Sri Lanka. It harbors 197 species of birds, including the greater flamingo. It's a UNESCO biosphere reserve and Ramsar wetland, featuring lagoons, dunes, and wildlife like elephants, crocodiles, and turtles.",
+"highlights": [
+"Greater flamingo flocks",
+"Migratory birds",
+"Elephants and crocodiles",
+"Sea turtle nesting",
+"Lagoons and dunes"
+],
+"images": [
+"https://upload.wikimedia.org/wikipedia/commons/e/e6/Wildlife_Preserve_Near_Kirinda%2C_Sri_Lanka.jpg",
+"https://lp-cms-production.imgix.net/2023-04/LPT0915_009.jpg",
+"https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/01/8a/75.jpg",
+"https://www.srilankaecotourism.lk/location_img/1489647984bundala_14.jpg",
+"http://blog.srilanka-villa.com/wp-content/uploads/2015/10/Bundala-National-Park-Birdwatching.jpg",
+"https://www.attractionsinsrilanka.com/wp-content/uploads/2021/04/Bundala-National-Park.jpg",
+"https://www.lanka-excursions-holidays.com/uploads/4/0/2/1/40216937/bundala-national-park-and-bird-sanctuary-title-photo_orig.jpg",
+"https://www.lanka-excursions-holidays.com/uploads/4/0/2/1/40216937/flamingos-1014859-1920-900_orig.jpg",
+"https://www.srilankaecotourism.lk/location_img/1489647985bundala_20.jpg",
+"https://lk.chm-cbd.net/sites/lk/files/2022-06/8.jpg",
+"https://fernandotravels.com.au/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbundala-hedaer-one.1de5dc4d.jpg&w=3840&q=75"
+],
+"videos": [
+"https://www.youtube.com/watch?v=k2Xx2ifcuxo",
+"https://www.youtube.com/watch?v=rN6Xbgl2dS8",
+"https://www.youtube.com/watch?v=1mjHn_TD0Cw",
+"https://www.youtube.com/watch?v=OJUSJrLdu-o",
+"https://www.youtube.com/watch?v=7V5QYSECQnM"
+],
+"location": {
+"lat": 6.1936,
+"lng": 81.225
+},
+"hotels": [
+{
+"name": "Jetwing Yala",
+"rating": 4.5,
+"priceRange": " $",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Luxury Resort",
+          "distance": "Near Yala",
+          "amenities": ["Pool", "Spa", "Restaurant", "Free WiFi"]
+        },
+        {
+          "name": "Cinnamon Wild Yala",
+          "rating": 4.5,
+          "priceRange": " $$$",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Eco Resort",
+          "distance": "Not specified",
+          "amenities": ["Pool", "Restaurant", "Safari Tours"]
+        },
+        {
+          "name": "Leopard Safaris",
+          "rating": 4.5,
+          "priceRange": " ",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Glamping",
+"distance": "Not specified",
+"amenities": ["Tents", "Meals", "Guided Tours"]
+},
+{
+"name": "Yala Leisure",
+"rating": 4.0,
+"priceRange": " ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Hotel",
+          "distance": "Not specified",
+          "amenities": ["Pool", "Restaurant"]
+        },
+        {
+          "name": "The Safari",
+          "rating": 4.0,
+          "priceRange": " $",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Luxury",
+"distance": "Not specified",
+"amenities": ["Spa", "Pool"]
+},
+{
+"name": "Elephant Reach Hotel",
+"rating": 4.0,
+"priceRange": " ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Hotel",
+          "distance": "Not specified",
+          "amenities": ["Pool", "Restaurant"]
+        },
+        {
+          "name": "Mahogany Hotel",
+          "rating": 4.0,
+          "priceRange": " ",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Boutique",
+"distance": "Not specified",
+"amenities": ["Garden", "Free WiFi"]
+},
+{
+"name": "Bundala Village Eco Resort",
+"rating": 4.0,
+"priceRange": " ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Eco Resort",
+          "distance": "Not specified",
+          "amenities": ["Nature Views", "Tours"]
+        },
+        {
+          "name": "Tissa Lake Resort",
+          "rating": 4.0,
+          "priceRange": " ",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Resort",
+"distance": "Not specified",
+"amenities": ["Lake View", "Pool"]
+}
+],
+"activities": [
+{
+"name": "Bird Watching Safari",
+"duration": "3-4 hours",
+"difficulty": "Easy",
+"price": "$20-30",
+"description": "Explore the park's wetlands and spot migratory birds including flamingos"
+},
+{
+"name": "Jeep Safari Tour",
+"duration": "4-6 hours",
+"difficulty": "Easy",
+"price": "$40-60",
+"description": "Drive through the park to see elephants, crocodiles and other wildlife"
+},
+{
+"name": "Turtle Watching",
+"duration": "2-3 hours",
+"difficulty": "Easy",
+"price": "$10-20",
+"description": "Observe sea turtles nesting on the beaches between October and January"
+}
+],
+"bestTime": "September - March",
+"avoidTime": "April - August",
+"weather": "Dry season ideal for wildlife viewing",
+"rating": 4.5,
+"visitors": 50000,
+"entryFee": "$15 for foreigners",
+"duration": "Half day",
+"difficulty": "Easy",
+"familyFriendly": true,
+"accessibility": "Limited, jeep access",
+"tags": ["UNESCO", "Birds", "Wetland", "Safari", "Turtles"]
+},
+{
+"id": "kalpitiya",
+"name": "Kalpitiya Peninsula & Beaches",
+"region": "North Western",
+"city": "Kalpitiya",
+"category": [
+"beach",
+"adventure",
+"nature"
+],
+"description": "Kalpitiya is a coastal peninsula in northwestern Sri Lanka, renowned for its pristine beaches, kitesurfing spots, dolphin watching, and Dutch colonial history. Surrounded by lagoons and islands, it's a hub for water sports and marine adventures.",
+"highlights": [
+"Kitesurfing in the lagoon",
+"Dolphin and whale watching",
+"Dutch Fort and Church",
+"Beach relaxation",
+"Island hopping"
+],
+"images": [
+"https://www.srilankainstyle.com/storage/app/media/Locations/Kalpitiya-2.jpg",
+"https://travelmermaid.com/wp-content/uploads/2019/01/Vella-Island-Kalpitiya-Sri-Lanka-Travel-Mermaid.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/1/19/SL_Kalpitiya_asv2020-01_img4_Fishery_harbour.jpg",
+"https://www.lovesrilanka.org/wp-content/uploads/2020/06/kalpitiya-map.jpg",
+"https://srilankatravelpages.com/my_content/uploads/2024/03/Kalpitiya.jpg",
+"https://dunetowers.b-cdn.net/wp-content/uploads/2022/10/kitesurfing-kalpitiya-1024x683.jpg",
+"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/23/d9/ca/nearly-1600-km-os-beaches.jpg?w=1000&h=1000&s=1",
+"https://www.margarita-village.com/wp-content/uploads/2020/06/what-to-do-in-kalpitiya.jpg",
+"https://cf.bstatic.com/xdata/images/hotel/max500/127730404.jpg?k=3420abc730b52340b4be85637f255d12faeac28e44549bd8ee16c65316301431&o=&hp=1",
+"https://www.yogawinetravel.com/wp-content/uploads/2020/02/Walkway-and-kitesurfers-in-Kalpitiya-Sri-Lanka.jpg",
+"https://static.travelated.com/storage/articles-images/119/11927864/2452099794.jpg?w=3840&webp.quality=50&format=webp&scale=down&mode=crop"
+],
+"videos": [
+"https://www.youtube.com/watch?v=v117eo0KapU",
+"https://www.youtube.com/watch?v=Gkjir1eqlcg",
+"https://www.youtube.com/watch?v=yKrxC97Q-5c",
+"https://www.youtube.com/watch?v=kOF4IPuLQBY",
+"https://www.youtube.com/watch?v=kVvKH6EC7nU"
+],
+"location": {
+"lat": 8.2353,
+"lng": 79.7662
+},
+"hotels": [
+{
+"name": "Dolphin Beach Resort",
+"rating": 4.5,
+"priceRange": " ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Beach Resort",
+          "distance": "Beachfront",
+          "amenities": ["Pool", "Spa", "Restaurant", "Water Sports"]
+        },
+        {
+          "name": "Bar Reef Resort",
+          "rating": 4.0,
+          "priceRange": "$$ ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Resort",
+          "distance": "Not specified",
+          "amenities": ["Pool", "Beach Access", "Diving"]
+        },
+        {
+          "name": "Ruwala Nature Resort",
+          "rating": 4.5,
+          "priceRange": " $$",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Nature Resort",
+          "distance": "Not specified",
+          "amenities": ["Garden", "Kayaking", "Free WiFi"]
+        },
+        {
+          "name": "Kitesurfing Lanka",
+          "rating": 4.5,
+          "priceRange": "$$ ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Kite Resort",
+          "distance": "Not specified",
+          "amenities": ["Kitesurfing Lessons", "Pool"]
+        },
+        {
+          "name": "Palmyrah House",
+          "rating": 4.5,
+          "priceRange": " ",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Boutique Hotel",
+"distance": "Not specified",
+"amenities": ["Pool", "Restaurant"]
+},
+{
+"name": "Elements Beach Resort",
+"rating": 4.0,
+"priceRange": "",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Beach Resort",
+          "distance": "Not specified",
+          "amenities": ["Beachfront", "Water Sports"]
+        },
+        {
+          "name": "Surfpoint Kite Village",
+          "rating": 4.0,
+          "priceRange": "",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Kite Camp",
+"distance": "Not specified",
+"amenities": ["Kitesurfing", "Restaurant"]
+},
+{
+"name": "Dune Towers",
+"rating": 4.5,
+"priceRange": "",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Beach Hotel",
+          "distance": "Not specified",
+          "amenities": ["Pool", "Kitesurfing"]
+        },
+        {
+          "name": "Margarita Village",
+          "rating": 4.0,
+          "priceRange": "",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Village Resort",
+"distance": "Not specified",
+"amenities": ["Garden", "Activities"]
+}
+],
+"activities": [
+{
+"name": "Kitesurfing Lesson",
+"duration": "2-3 hours",
+"difficulty": "Moderate",
+"price": "$50-100",
+"description": "Learn or practice kitesurfing in the windy lagoon"
+},
+{
+"name": "Dolphin Watching Boat Tour",
+"duration": "3-4 hours",
+"difficulty": "Easy",
+"price": "$20-40",
+"description": "Spot pods of dolphins in the Indian Ocean"
+},
+{
+"name": "Visit Dutch Fort",
+"duration": "1 hour",
+"difficulty": "Easy",
+"price": "Free",
+"description": "Explore the historic colonial fort and church"
+}
+],
+"bestTime": "December - April",
+"avoidTime": "May - November",
+"weather": "Dry and windy, ideal for water sports",
+"rating": 4.4,
+"visitors": 100000,
+"entryFee": "Varies by activity",
+"duration": "2-3 days",
+"difficulty": "Easy to Moderate",
+"familyFriendly": true,
+"accessibility": "Good for most abilities",
+"tags": ["Kitesurfing", "Dolphins", "Beach", "Lagoon", "Colonial"]
+},
+{
+"id": "pidurangala",
+"name": "Pidurangala Rock",
+"region": "Central",
+"city": "Sigiriya",
+"category": [
+"historical",
+"nature",
+"adventure"
+],
+"description": "Pidurangala Rock is an ancient rock formation adjacent to Sigiriya, offering stunning panoramic views of Sigiriya Rock Fortress. It features historical Buddhist caves, a reclining Buddha statue, and a challenging hike to the summit.",
+"highlights": [
+"Views of Sigiriya Rock",
+"Reclining Buddha statue",
+"Ancient cave temple",
+"Panoramic vistas",
+"Sunrise/sunset spot"
+],
+"images": [
+"https://images.squarespace-cdn.com/content/v1/6298cb774cf3830bc9b342bf/217c36f2-eeaf-47c2-a9bb-fea6ba58ab89/Jellie+view+Sigiriya+from+Pidurangala+Rock.jpg",
+"https://destinationlesstravel.com/wp-content/uploads/2019/05/DSC_0266-1.jpg",
+"https://nexttravelsrilanka.com/wp-content/uploads/2023/02/Pidurangala-Rock.jpg",
+"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/22/a2/b0/2d/top-of-the-pidurangala.jpg?w=900&h=500&s=1",
+"https://waybird.imgix.net/experiences/kodak_images/000/015/931/original/Hike_to_the_top_of_Pidurangala_Rock_1.jpg?w=1420&h=946&crop=center%20center&fit=min&dpr=1&q=50&auto=format",
+"https://images.squarespace-cdn.com/content/v1/5a4188e76f4ca304304bb0e99ab/1556269117659-0WTDO1QS6OLLB8YF586R/sigiriya-edit-2.jpg",
+"https://www.lanka-excursions-holidays.com/uploads/4/0/2/1/40216937/pidurangala-view-to-sigiriya-title-photo_orig.jpg",
+"https://thisgirlabroad.com/wp-content/uploads/2020/07/pidurangala-rock-7.jpg",
+"http://ticketsntour.com/wp-content/uploads/2023/09/pidurangala-rock-stars-1024x682.jpg",
+"https://theluxurytravellist.com/wp-content/uploads/2025/05/Pidurangala-Rock-2.jpeg",
+"https://journeybybackpack.com/wp-content/uploads/2025/07/Pidurangala-Rock-02.jpg"
+],
+"videos": [
+"https://www.youtube.com/watch?v=GM63NcERkXg",
+"https://www.youtube.com/watch?v=JN5zfp0XLOA",
+"https://www.youtube.com/watch?v=4mJbOLVlqE0",
+"https://www.youtube.com/watch?v=xTkzgqP-CJE",
+"https://www.youtube.com/watch?v=Llx1qZEEodw"
+],
+"location": {
+"lat": 7.9547,
+"lng": 80.7605
+},
+"hotels": [
+{
+"name": "Sigiriya Village Hotel",
+"rating": 4.0,
+"priceRange": " ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Village Hotel",
+          "distance": "Near Sigiriya",
+          "amenities": ["Pool", "Restaurant", "Free WiFi"]
+        },
+        {
+          "name": "Jetwing Lake",
+          "rating": 4.5,
+          "priceRange": " $$$",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Luxury Hotel",
+          "distance": "Not specified",
+          "amenities": ["Pool", "Spa", "Lake View"]
+        },
+        {
+          "name": "Heritance Kandalama",
+          "rating": 4.5,
+          "priceRange": " $",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Resort",
+"distance": "Not specified",
+"amenities": ["Pool", "Spa", "Restaurant"]
+},
+{
+"name": "Aliya Resort",
+"rating": 4.5,
+"priceRange": " ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Resort",
+          "distance": "Not specified",
+          "amenities": ["Pool", "Gym"]
+        },
+        {
+          "name": "Water Garden Sigiriya",
+          "rating": 4.5,
+          "priceRange": "$$ $",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Luxury Resort",
+          "distance": "Not specified",
+          "amenities": ["Pool", "Garden"]
+        },
+        {
+          "name": "Sigiriya Jungle Resort",
+          "rating": 4.0,
+          "priceRange": " $$",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Jungle Resort",
+          "distance": "Not specified",
+          "amenities": ["Nature Views", "Pool"]
+        },
+        {
+          "name": "Fresco Water Villa",
+          "rating": 4.0,
+          "priceRange": "$$ ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Villa",
+          "distance": "Not specified",
+          "amenities": ["Pool", "Restaurant"]
+        },
+        {
+          "name": "Elephas Resort",
+          "rating": 4.0,
+          "priceRange": " $$",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Resort",
+          "distance": "Not specified",
+          "amenities": ["Pool", "Spa"]
+        },
+        {
+          "name": "Habarana Village by Cinnamon",
+          "rating": 4.5,
+          "priceRange": "",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Village Resort",
+"distance": "Nearby",
+"amenities": ["Pool", "Restaurant"]
+}
+],
+"activities": [
+{
+"name": "Hike to Summit",
+"duration": "1-2 hours",
+"difficulty": "Moderate",
+"price": "$3",
+"description": "Climb to the top for views of Sigiriya and explore ancient caves"
+},
+{
+"name": "Visit Cave Temple",
+"duration": "30 minutes",
+"difficulty": "Easy",
+"price": "Included",
+"description": "See the reclining Buddha and ancient monastery ruins"
+},
+{
+"name": "Sunrise Photography",
+"duration": "1 hour",
+"difficulty": "Moderate",
+"price": "Included",
+"description": "Capture stunning sunrise views over the landscape"
+}
+],
+"bestTime": "December - April",
+"avoidTime": "May - November",
+"weather": "Dry and clear for hiking",
+"rating": 4.7,
+"visitors": 150000,
+"entryFee": "$3",
+"duration": "2-3 hours",
+"difficulty": "Moderate",
+"familyFriendly": true,
+"accessibility": "Limited, steep hike",
+"tags": ["Hike", "Views", "Sigiriya", "Buddhist", "Rock"]
+},
+{
+"id": "kataragama",
+"name": "Kataragama Pilgrimage Site",
+"region": "Uva",
+"city": "Kataragama",
+"category": [
+"cultural",
+"religious",
+"historical"
+],
+"description": "Kataragama is a sacred pilgrimage town revered by Buddhists, Hindus, and the indigenous Vedda people of Sri Lanka. Famous for its multi-religious Kataragama Temple complex, ancient Kiri Vehera stupa, and the vibrant annual Perahera festival. The site attracts devotees and tourists seeking spiritual experiences amid historical shrines and natural surroundings.",
+"highlights": [
+"Kataragama Temple complex",
+"Kiri Vehera ancient stupa",
+"Sella Kataragama Temple",
+"Annual Perahera Festival",
+"Wedasiti Kanda Viharaya viewpoint"
+],
+"images": [
+"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/de/d7/b9/kataragama-temple.jpg?w=1200&h=-1&s=1",
+"https://www.honeymoonguidesrilanka.com/wp-content/uploads/2024/10/Kathragama-1200x630-1.jpg",
+"https://www.tourblue.com/assets/contents/activity_images/b912e76f762700d172790216dd2ae4ad.jpg",
+"https://sun-b2b.s3.us-east-2.amazonaws.com/attraction/2023-10-18things17-33-51.jpg",
+"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/6c/16/fb/caption.jpg?w=800&h=400&s=1",
+"https://www.lanka-excursions-holidays.com/uploads/4/0/2/1/40216937/kataragama-dsc-0475-1200_orig.jpg",
+"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/e7/ac/ae/caption.jpg?w=1200&h=1200&s=1",
+"https://visituva.lk/gallery/202509/1758803160_e775535a73fb0455301d.jpg",
+"https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/08/ba/18/39.jpg",
+"https://www.lanka-excursions-holidays.com/uploads/4/0/2/1/40216937/kataragama-dsc-0468-1200_orig.jpg",
+"https://visituva.lk/gallery/202407/1720414459_0565972d4509b08fe894.jpg"
+],
+"videos": [
+"https://www.youtube.com/watch?v=_c8iHgam1cA",
+"https://www.youtube.com/watch?v=G5zMe3MA7P0",
+"https://www.youtube.com/watch?v=uJhyBVbJ-LM",
+"https://www.youtube.com/watch?v=GPjiiSZqwW8",
+"https://www.youtube.com/watch?v=U3IX0fzb3Oc"
+],
+"location": {
+"lat": 6.4134,
+"lng": 81.3346
+},
+"hotels": [
+{
+"name": "Mandara Rosen Kataragama",
+"rating": 4.5,
+"priceRange": "$",
+          "contact": "+94 47 2 236030",
+          "website": "https://www.mandararesorts.com/",
+          "type": "Luxury",
+          "distance": "2 km",
+          "amenities": ["Pool", "Spa", "Restaurant", "Free WiFi"]
+        },
+        {
+          "name": "Magampura Eco Village Resort",
+          "rating": 4.0,
+          "priceRange": "",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Eco Resort",
+"distance": "Not specified",
+"amenities": ["Pool", "Garden", "Restaurant"]
+},
+{
+"name": "Hotel Sunflower",
+"rating": 4.0,
+"priceRange": " ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Hotel",
+          "distance": "Not specified",
+          "amenities": ["Free WiFi", "Restaurant"]
+        },
+        {
+          "name": "The Grand Hotel Kataragama",
+          "rating": 4.5,
+          "priceRange": " $$$",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Luxury",
+          "distance": "Not specified",
+          "amenities": ["Pool", "Spa"]
+        },
+        {
+          "name": "Kataragama Safari Hotel",
+          "rating": 4.0,
+          "priceRange": " ",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Safari Hotel",
+"distance": "Not specified",
+"amenities": ["Pool", "Restaurant"]
+},
+{
+"name": "Oak Ray Lake Resort",
+"rating": 4.5,
+"priceRange": " ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Resort",
+          "distance": "Not specified",
+          "amenities": ["Lake View", "Pool"]
+        },
+        {
+          "name": "Gem River Edge Eco Resort",
+          "rating": 4.0,
+          "priceRange": "$$ ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Eco Resort",
+          "distance": "Not specified",
+          "amenities": ["River View", "Garden"]
+        },
+        {
+          "name": "Hotel Chamara",
+          "rating": 3.5,
+          "priceRange": "$",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Hotel",
+          "distance": "Not specified",
+          "amenities": ["Free WiFi"]
+        },
+        {
+          "name": "Lavendish Okra Resort",
+          "rating": 4.0,
+          "priceRange": " $$",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Resort",
+          "distance": "Not specified",
+          "amenities": ["Pool", "Spa"]
+        }
+      ],
+      "activities": [
+        {
+          "name": "Visit Kataragama Temple",
+          "duration": "1-2 hours",
+          "difficulty": "Easy",
+          "price": "Free/Donation",
+          "description": "Explore the sacred multi-religious temple complex and participate in rituals"
+        },
+        {
+          "name": "Attend Perahera Festival",
+          "duration": "Varies",
+          "difficulty": "Easy",
+          "price": "Free",
+          "description": "Witness the colorful annual festival with processions in July/August"
+        },
+        {
+          "name": "Yala National Park Safari",
+          "duration": "3-4 hours",
+          "difficulty": "Moderate",
+          "price": "$25-50",
+          "description": "Spot leopards and elephants in the nearby national park"
+        }
+      ],
+      "bestTime": "July - August",
+      "avoidTime": "September - November",
+      "weather": "Warm and dry during festival season",
+      "rating": 4.4,
+      "visitors": 200000,
+      "entryFee": "Free",
+      "duration": "Half day",
+      "difficulty": "Easy",
+      "familyFriendly": true,
+      "accessibility": "Good for most abilities",
+      "tags": ["Temple", "Festival", "Pilgrimage", "Religious", "Safari"]
+    },
+    {
+      "id": "ratnapura",
+      "name": "Ratnapura City of Gems",
+      "region": "Sabaragamuwa",
+      "city": "Ratnapura",
+      "category": [
+        "cultural",
+        "nature",
+        "adventure"
+      ],
+      "description": "Ratnapura, known as the City of Gems, is the capital of Sabaragamuwa Province and a major center for gem mining and trading in Sri Lanka. Surrounded by rainforests and waterfalls, it's a gateway to Sinharaja Forest Reserve and offers unique experiences in gemology, historical sites, and natural beauty.",
+      "highlights": [
+        "Gem mining experiences",
+        "National Gem & Jewellery Museum",
+        "Maha Saman Devalaya temple",
+        "Bopath Ella Waterfall",
+        "Sinharaja Forest excursions"
+      ],
+      "images": [
+        "https://theportuguesetraveler.com/wp-content/uploads/2024/11/gem-mine-stone-mining-ratnapura-sri-lanka-10.jpg.webp",
+        "https://theportuguesetraveler.com/wp-content/uploads/2024/11/gem-mine-stone-mining-ratnapura-sri-lanka-20.jpg.webp",
+        "https://theportuguesetraveler.com/wp-content/uploads/2024/11/gem-market-precious-stones-ratnapura-sri-lanka-18.jpg.webp",
+        "https://media.tacdn.com/media/attractions-splice-spp-674x446/15/6e/50/89.jpg",
+        "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/0d/f9/d4.jpg",
+        "https://theportuguesetraveler.com/wp-content/uploads/2024/11/clock-tower-ratnapura-sri-lanka-3.jpg.webp",
+        "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/07/2e/64/bd.jpg",
+        "https://theportuguesetraveler.com/wp-content/uploads/2024/11/portuguese-dutch-fort-gem-museum-ratnapura-sri-lanka-3.jpg.webp",
+        "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/08/39/74/2a.jpg",
+        "https://lakpura.com/cdn/shop/products/LK60661400-03-E-1280-720.jpg?v=1626001094&width=1445",
+        "http://lakpura.com/cdn/shop/products/LK60661400-01-E-1280-720.jpg?v=1626001094"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=RJhOOgzHikQ",
+        "https://www.youtube.com/watch?v=CusxopZTD7U",
+        "https://www.youtube.com/watch?v=GJXNrHwG-3w",
+        "https://www.youtube.com/watch?v=xnz-9R0B7aU",
+        "https://www.youtube.com/watch?v=2a_jBEXMZWI"
+      ],
+      "location": {
+        "lat": 6.6828,
+        "lng": 80.3992
+      },
+      "hotels": [
+        {
+          "name": "Ratnaloka Tour Inns",
+          "rating": 4.0,
+          "priceRange": "$$ ",
+          "contact": "+94 45 2 222450",
+          "website": "Not specified",
+          "type": "Inn",
+          "distance": "Central",
+          "amenities": ["Pool", "Restaurant", "Free WiFi"]
+        },
+        {
+          "name": "Centauria Lake Resort",
+          "rating": 4.5,
+          "priceRange": " ",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Resort",
+"distance": "Not specified",
+"amenities": ["Lake View", "Spa", "Pool"]
+},
+{
+"name": "Nilani Hotel",
+"rating": 4.0,
+"priceRange": "",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Hotel",
+          "distance": "Not specified",
+          "amenities": ["Restaurant", "Free WiFi"]
+        },
+        {
+          "name": "Sapphire Holiday Resort",
+          "rating": 3.5,
+          "priceRange": "$",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Resort",
+          "distance": "Not specified",
+          "amenities": ["Pool"]
+        },
+        {
+          "name": "Gemland Hotel",
+          "rating": 4.0,
+          "priceRange": "",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Hotel",
+"distance": "Not specified",
+"amenities": ["Free WiFi", "Garden"]
+},
+{
+"name": "Rathnaloka Tour Inn",
+"rating": 4.0,
+"priceRange": " ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Inn",
+          "distance": "Not specified",
+          "amenities": ["Restaurant"]
+        },
+        {
+          "name": "The Plantation House",
+          "rating": 4.5,
+          "priceRange": " $$$",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Boutique",
+          "distance": "Not specified",
+          "amenities": ["Garden", "Pool"]
+        },
+        {
+          "name": "White Monkey",
+          "rating": 4.0,
+          "priceRange": " ",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Guesthouse",
+"distance": "Not specified",
+"amenities": ["Free WiFi"]
+},
+{
+"name": "Summerfield's",
+"rating": 4.5,
+"priceRange": " ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Resort",
+          "distance": "Not specified",
+          "amenities": ["Spa", "Restaurant"]
+        }
+      ],
+      "activities": [
+        {
+          "name": "Gem Mining Tour",
+          "duration": "2-3 hours",
+          "difficulty": "Moderate",
+          "price": "$20-40",
+          "description": "Experience traditional gem mining and learn about precious stones"
+        },
+        {
+          "name": "Visit Maha Saman Devalaya",
+          "duration": "1 hour",
+          "difficulty": "Easy",
+          "price": "$5",
+          "description": "Explore the historic temple dedicated to god Saman"
+        },
+        {
+          "name": "Bopath Ella Waterfall Visit",
+          "duration": "2 hours",
+          "difficulty": "Easy",
+          "price": "Free",
+          "description": "Enjoy the unique fan-shaped waterfall and swim in natural pools"
+        }
+      ],
+      "bestTime": "January - March",
+      "avoidTime": "April - December",
+      "weather": "Dry with occasional showers",
+      "rating": 4.3,
+      "visitors": 50000,
+      "entryFee": "Varies by attraction",
+      "duration": "1-2 days",
+      "difficulty": "Easy to Moderate",
+      "familyFriendly": true,
+      "accessibility": "Limited in mining areas",
+      "tags": ["Gems", "Mining", "Temple", "Waterfalls", "Forest"]
+    },
+    {
+      "id": "batticaloa",
+      "name": "Batticaloa Lagoon & Beaches",
+      "region": "Eastern",
+      "city": "Batticaloa",
+      "category": [
+        "beaches",
+        "nature",
+        "historical"
+      ],
+      "description": "Batticaloa is a coastal city famous for its vast lagoon, pristine beaches, and colonial heritage. Known for the legend of singing fish in the lagoon, Dutch Fort, and beautiful Kallady Beach. It's a blend of natural beauty, history, and Tamil culture in eastern Sri Lanka.",
+      "highlights": [
+        "Batticaloa Lagoon boat rides",
+        "Kallady Beach relaxation",
+        "Batticaloa Dutch Fort",
+        "Batticaloa Lighthouse views",
+        "Eco Park nature walks"
+      ],
+      "images": [
+        "https://media.licdn.com/dms/image/v2/D5612AQErkqs3eFQAPw/article-cover_image-shrink_720_1280/B56ZoWILUFIcAQ-/0/1761307834685?e=2147483647&v=beta&t=SC4tg1MPHxsfhH72c0Q26aVK1-OAxswWUqblESu2dok",
+        "https://katerblue.com/uploads/0000/587/2022/10/24/batti.jpg",
+        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/73/1c/c4/perimeter-of-the-park.jpg?w=900&h=-1&s=1",
+        "https://blog-img-dev.s3.ap-south-1.amazonaws.com/blog/wp-content/uploads/2025/03/Things-To-Do-In-Batticaloa-Cover-Photo-840x425.jpg",
+        "https://srilankatravelpages.com/my_content/uploads/2025/07/Batticaloa.jpg",
+        "https://www.sankileisure.com/wp-content/uploads/2020/07/Batticaloa-Lagoon-1024x683.jpg",
+        "https://media-cdn.tripadvisor.com/media/photo-c/1280x250/09/45/32/ed/batticaloa-lighthouse.jpg",
+        "https://airial.travel/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fplace-photos%2FAJnk2cw_vR7zBYjzh0f4JUGf2TgvoCJb0zQwQsoJNikXrg4pyKcphFawnQ1yMw7IM2AZuauL64RFpJKdKTKSiTtUMADGQP7rfNIvTx5vkc24wchz2uQnwgJqiVIJe1J6eo7GlE4tKv71IrRdCVM-f9KoHIgmCA%3Ds4800-w400-h400&w=3840&q=70",
+        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/37/6f/13/kallady-beach.jpg?w=500&h=-1&s=1",
+        "https://www.attractionsinsrilanka.com/wp-content/uploads/2022/02/Eco-Park-Batticaloa-01.jpg",
+        "https://www.traveladventures.org/countries/sri-lanka/images/batticaloa01.jpg"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=4c1REDgPhLk",
+        "https://www.youtube.com/watch?v=yTGViOZJ5XY",
+        "https://www.youtube.com/watch?v=0SvmbfPZlkE",
+        "https://www.youtube.com/watch?v=AiySXsLpxuI",
+        "https://www.youtube.com/watch?v=SQ0r_-lmIA8"
+      ],
+      "location": {
+        "lat": 7.7102,
+        "lng": 81.6924
+      },
+      "hotels": [
+        {
+          "name": "Riva Del Sole",
+          "rating": 4.0,
+          "priceRange": "$$ ",
+          "contact": "+94 65 2 228095",
+          "website": "Not specified",
+          "type": "Beach Hotel",
+          "distance": "Near beach",
+          "amenities": ["Pool", "Restaurant", "Beachfront"]
+        },
+        {
+          "name": "Deep Sea Resort",
+          "rating": 4.0,
+          "priceRange": " $$",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Resort",
+          "distance": "Not specified",
+          "amenities": ["Pool", "Spa"]
+        },
+        {
+          "name": "New Eastern Hotel",
+          "rating": 3.5,
+          "priceRange": "$",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Hotel",
+          "distance": "Not specified",
+          "amenities": ["Free WiFi", "Restaurant"]
+        },
+        {
+          "name": "River's Edge Hotel",
+          "rating": 4.0,
+          "priceRange": "$$ ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Hotel",
+          "distance": "Not specified",
+          "amenities": ["River View"]
+        },
+        {
+          "name": "East Lagoon Hotel",
+          "rating": 4.5,
+          "priceRange": " ",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Luxury",
+"distance": "Not specified",
+"amenities": ["Pool", "Lagoon View"]
+},
+{
+"name": "Hotel East Lagoon",
+"rating": 4.0,
+"priceRange": "",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Hotel",
+          "distance": "Not specified",
+          "amenities": ["Restaurant"]
+        },
+        {
+          "name": "Grand Star Guest House",
+          "rating": 3.5,
+          "priceRange": "$",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Guesthouse",
+          "distance": "Not specified",
+          "amenities": ["Free WiFi"]
+        },
+        {
+          "name": "Naval Beach Resort",
+          "rating": 4.0,
+          "priceRange": "",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Resort",
+"distance": "Not specified",
+"amenities": ["Beachfront", "Pool"]
+},
+{
+"name": "Maalu Maalu Resort",
+"rating": 4.5,
+"priceRange": "$$$",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Luxury Resort",
+"distance": "Not specified",
+"amenities": ["Spa", "Restaurant"]
+}
+],
+"activities": [
+{
+"name": "Lagoon Boat Tour",
+"duration": "1-2 hours",
+"difficulty": "Easy",
+"price": "$10-20",
+"description": "Explore the vast lagoon and listen for singing fish"
+},
+{
+"name": "Kallady Beach Relaxation",
+"duration": "Full day",
+"difficulty": "Easy",
+"price": "Free",
+"description": "Enjoy the golden sands and swim in calm waters"
+},
+{
+"name": "Visit Dutch Fort",
+"duration": "1 hour",
+"difficulty": "Easy",
+"price": "Free",
+"description": "Explore the historic colonial fort and its surroundings"
+}
+],
+"bestTime": "April - September",
+"avoidTime": "October - March",
+"weather": "Dry and sunny, ideal for beach activities",
+"rating": 4.2,
+"visitors": 80000,
+"entryFee": "Free for most sites",
+"duration": "1-2 days",
+"difficulty": "Easy",
+"familyFriendly": true,
+"accessibility": "Good for beaches and fort",
+"tags": ["Lagoon", "Beaches", "Fort", "Lighthouse", "Eco Park"]
+},
+{
+"id": "pasikuda",
+"name": "Pasikuda Beach",
+"region": "Eastern",
+"city": "Batticaloa",
+"category": [
+"beach",
+"nature",
+"relaxation"
+],
+"description": "Pasikuda is a coastal resort town on Sri Lanka's eastern coast, renowned for its pristine golden sands and one of the longest stretches of shallow coastline in the world. The calm, turquoise waters make it ideal for swimming and water activities, with a fringing reef providing protection from strong currents. It's a perfect spot for relaxation, surrounded by luxury resorts and nearby cultural attractions.",
+"highlights": [
+"Golden sandy beaches with shallow waters",
+"Water sports including jet skiing and paddleboarding",
+"Nearby Kalkudah Beach",
+"Ayurvedic spa experiences",
+"Sunrise views and local fishing villages"
+],
+"images": [
+"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/cb/d8/d8/pasikudah-beach-you-would.jpg?w=1200&h=1200&s=1",
+"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/fb/1d/af/20190226-125426-largejpg.jpg?w=1200&h=-1&s=1",
+"https://cdn.audleytravel.com/1050/750/79/7995096-passikudah.webp",
+"https://media.travelbag.co.uk/media/3bidhmvw/lkcmbhtl062-uga-bay-by-uga-escapes-beach-003.jpg?rxy=0.5,0.5&rmode=Crop&quality=80&width=1280&height=704&format=webp",
+"https://d104tpg70nvstz.cloudfront.net/2016/09/Passikudah-header-image-mobile-2.jpg",
+"https://www.wondersofceylon.com/content/images/2023/12/WoC-Pasikuda-Featured.webp",
+"https://erp.lakpura.com/images/LK94009847-01-E.JPG",
+"https://www.lovesrilanka.org/wp-content/uploads/2020/07/LS_B2_Hikkaduwa_800x520.jpg",
+"https://cdn.atrsafari.com/cdn/05explore/locations-and-lodges/asia/srilanka/pasikuda/0/stills/00page/01.jpg",
+"https://www.lovesrilanka.org/wp-content/uploads/2019/09/LSL_Cropped_Pasikuda_Bay_800x520.jpg",
+"https://www.srilankanexpeditions.co.uk/images/sri-lanka-guide/pasikudah-beach/02.jpg"
+],
+"videos": [
+"https://www.youtube.com/watch?v=m6OQbAoMvpQ",
+"https://www.youtube.com/watch?v=Py6u52BIxTI",
+"https://www.youtube.com/watch?v=FuRMX1sY_Fw",
+"https://www.youtube.com/watch?v=RUh9re2nQWM",
+"https://www.youtube.com/watch?v=JUwQCK2BCsM"
+],
+"location": {
+"lat": 7.92833,
+"lng": 81.56167
+},
+"hotels": [
+{
+"name": "Amaya Beach Pasikudah",
+"rating": 4.5,
+"priceRange": "  $",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Resort",
+          "distance": "Not specified",
+          "amenities": ["Pool", "Spa", "Restaurant", "Free WiFi"]
+        },
+        {
+          "name": "Uga Bay",
+          "rating": 4.7,
+          "priceRange": " $$$",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Luxury",
+          "distance": "Not specified",
+          "amenities": ["Pool", "Spa", "Restaurant"]
+        },
+        {
+          "name": "Anantaya Resort & Spa",
+          "rating": 4.3,
+          "priceRange": "  ",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Resort",
+"distance": "Not specified",
+"amenities": ["Pool", "Spa", "Free WiFi"]
+},
+{
+"name": "Sun Siyam Pasikudah",
+"rating": 4.5,
+"priceRange": " ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Luxury",
+          "distance": "Not specified",
+          "amenities": ["Pool", "Restaurant"]
+        },
+        {
+          "name": "Karpaha Sands",
+          "rating": 4.8,
+          "priceRange": "  $$ $",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Boutique",
+          "distance": "Not specified",
+          "amenities": ["Pool", "Garden", "Free WiFi"]
+        },
+        {
+          "name": "Marina Beach Passikudah",
+          "rating": 4.2,
+          "priceRange": " $$",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Hotel",
+          "distance": "Not specified",
+          "amenities": ["Restaurant", "Free WiFi"]
+        },
+        {
+          "name": "The Calm Resort & Spa",
+          "rating": 4.3,
+          "priceRange": "  $$ ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Resort",
+          "distance": "Not specified",
+          "amenities": ["Pool", "Spa"]
+        },
+        {
+          "name": "Earl's Passi Bay Hotel",
+          "rating": 4.0,
+          "priceRange": " $$",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Hotel",
+          "distance": "Not specified",
+          "amenities": ["Pool", "Restaurant"]
+        },
+        {
+          "name": "Maalu Maalu Resort & Spa",
+          "rating": 4.4,
+          "priceRange": "  $$ $",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Resort",
+          "distance": "Not specified",
+          "amenities": ["Pool", "Spa", "Restaurant"]
+        }
+      ],
+      "activities": [
+        {
+          "name": "Water Sports Adventure",
+          "duration": "1-2 hours",
+          "difficulty": "Easy",
+          "price": "$20-50",
+          "description": "Enjoy jet skiing, paddleboarding, or windsurfing in the calm shallow waters"
+        },
+        {
+          "name": "Beach Relaxation and Swimming",
+          "duration": "Full day",
+          "difficulty": "Easy",
+          "price": "Free",
+          "description": "Lounge on the golden sands and swim in the protected bay"
+        },
+        {
+          "name": "Explore Nearby Kalkudah",
+          "duration": "2-3 hours",
+          "difficulty": "Easy",
+          "price": "$10 transport",
+          "description": "Visit the adjacent rugged beach and local fishing communities"
+        }
+      ],
+      "bestTime": "March - October",
+      "avoidTime": "November - February",
+      "weather": "Dry with low rainfall",
+      "rating": 4.6,
+      "visitors": 150000,
+      "entryFee": "Free",
+      "duration": "1-2 days",
+      "difficulty": "Easy",
+      "familyFriendly": true,
+      "accessibility": "Good for most abilities",
+      "tags": ["Beach", "Shallow Waters", "Water Sports", "Relaxation", "East Coast"]
+    },
+    {
+      "id": "kalkudah",
+      "name": "Kalkudah Beach",
+      "region": "Eastern",
+      "city": "Batticaloa",
+      "category": [
+        "beach",
+        "nature",
+        "relaxation"
+      ],
+      "description": "Kalkudah is a coastal resort town on Sri Lanka's east coast, known for its long, rugged beach adjacent to the more developed Pasikudah. The area offers serene beaches with calm waters, ideal for swimming and relaxation, though less commercialized than its neighbor. It's a great spot for those seeking a quieter beach experience with nearby luxury accommodations.",
+      "highlights": [
+        "Rugged golden beach",
+        "Calm waters for swimming",
+        "Proximity to Pasikudah resorts",
+        "Local fishing activities",
+        "Scenic coastal views"
+      ],
+      "images": [
+        "https://lp-cms-production.imgix.net/2021-05/Kalkudah_Beach_Sri_Lanka.jpg",
+        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/cb/d8/d8/pasikudah-beach-you-would.jpg?w=1400&h=1400&s=1",
+        "https://media.timeout.com/images/101827201/image.jpg",
+        "https://content.r9cdn.net/rimg/dimg/5d/0f/e4e00b68-city-305705-170e173d1fb.jpg?width=1200&height=630&xhint=3970&yhint=2033&crop=true",
+        "https://upload.wikimedia.org/wikipedia/commons/8/88/Kalkudah_Beach.jpg",
+        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/71/9a/c1/amaya-beach.jpg?w=600&h=-1&s=1",
+        "https://r-xx.bstatic.com/xdata/images/city/608x352/788698.webp?k=a65bb3692692fe09af9c3674744eb1180ae0a74adb19fd8c7336ce26cc2a0aa1&o=",
+        "https://www.teardrop-hotels.com/kalkudah-beach-house/wp-content/uploads/sites/10/2025/03/Kalkudah-Beach-House-1920x1000-1.jpg",
+        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/b3/7c/d7/vista-dalla-camera-dell.jpg?w=1400&h=1400&s=1",
+        "https://www.attractionsinsrilanka.com/wp-content/uploads/2019/11/Kalkudah-Beach-1.jpg",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/662316751.jpg?k=f0ab685e8c592e260eeac84dc608b46c32ecb6c54af4a24f3a5d99ee6ad14353&o="
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=FuRMX1sY_Fw",
+        "https://www.youtube.com/watch?v=JUwQCK2BCsM",
+        "https://www.youtube.com/watch?v=JianBDcYDiM",
+        "https://www.youtube.com/watch?v=hjjxlJutCtg",
+        "https://www.youtube.com/watch?v=9C_ISYSB9I8"
+      ],
+      "location": {
+        "lat": 7.71667,
+        "lng": 81.58333
+      },
+      "hotels": [
+        {
+          "name": "Uga Bay",
+          "rating": 4.7,
+          "priceRange": " ",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Luxury",
+"distance": "Not specified",
+"amenities": ["Pool", "Spa", "Restaurant", "Free WiFi"]
+},
+{
+"name": "Amaya Beach Pasikudah",
+"rating": 4.5,
+"priceRange": "  $",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Resort",
+          "distance": "Not specified",
+          "amenities": ["Pool", "Spa", "Restaurant"]
+        },
+        {
+          "name": "Anantaya Resort & Spa",
+          "rating": 4.3,
+          "priceRange": "",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Resort",
+"distance": "Not specified",
+"amenities": ["Pool", "Spa", "Free WiFi"]
+},
+{
+"name": "Sun Siyam Pasikudah",
+"rating": 4.7,
+"priceRange": "  $",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Luxury",
+          "distance": "Not specified",
+          "amenities": ["Pool", "Restaurant"]
+        },
+        {
+          "name": "Kalkudah Beach House",
+          "rating": 4.5,
+          "priceRange": " $$$",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Boutique",
+          "distance": "Not specified",
+          "amenities": ["Pool", "Garden", "Free WiFi"]
+        },
+        {
+          "name": "Marina Beach Passikudah",
+          "rating": 4.0,
+          "priceRange": "  ",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Hotel",
+"distance": "Not specified",
+"amenities": ["Restaurant", "Free WiFi"]
+},
+{
+"name": "The Calm Resort & Spa",
+"rating": 4.3,
+"priceRange": " ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Resort",
+          "distance": "Not specified",
+          "amenities": ["Pool", "Spa"]
+        },
+        {
+          "name": "Karpaha Sands",
+          "rating": 4.8,
+          "priceRange": "   $",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Luxury",
+"distance": "Not specified",
+"amenities": ["Pool", "Garden"]
+},
+{
+"name": "Kay Jay Palms",
+"rating": 4.0,
+"priceRange": " ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Hotel",
+          "distance": "Not specified",
+          "amenities": ["Pool", "Restaurant"]
+        }
+      ],
+      "activities": [
+        {
+          "name": "Beach Exploration",
+          "duration": "1-2 hours",
+          "difficulty": "Easy",
+          "price": "Free",
+          "description": "Walk along the rugged shoreline and enjoy the natural beauty"
+        },
+        {
+          "name": "Swimming in Calm Waters",
+          "duration": "1-2 hours",
+          "difficulty": "Easy",
+          "price": "Free",
+          "description": "Take a dip in the protected bay areas"
+        },
+        {
+          "name": "Visit Pasikudah Nearby",
+          "duration": "2-3 hours",
+          "difficulty": "Easy",
+          "price": "$10 transport",
+          "description": "Explore the adjacent developed beach and resorts"
+        }
+      ],
+      "bestTime": "February - November",
+      "avoidTime": "December - January",
+      "weather": "Dry and sunny",
+      "rating": 4.4,
+      "visitors": 100000,
+      "entryFee": "Free",
+      "duration": "1 day",
+      "difficulty": "Easy",
+      "familyFriendly": true,
+      "accessibility": "Good for most abilities",
+      "tags": ["Beach", "Rugged Coast", "Relaxation", "East Coast", "Nature"]
+    },
+    {
+      "id": "nilaveli",
+      "name": "Nilaveli Beach",
+      "region": "Eastern",
+      "city": "Trincomalee",
+      "category": [
+        "beach",
+        "nature",
+        "adventure"
+      ],
+      "description": "Nilaveli is a coastal resort town north of Trincomalee on Sri Lanka's east coast, famous for its pristine beaches and proximity to Pigeon Island National Park. The name means 'open-land of the moon-shine,' reflecting its scenic beauty. It's ideal for snorkeling, diving, and beach relaxation, with clear waters and marine biodiversity.",
+      "highlights": [
+        "Pristine white sand beaches",
+        "Pigeon Island National Park",
+        "Snorkeling and diving spots",
+        "Nearby Uppuveli Beach",
+        "Koneswaram Temple visits"
+      ],
+      "images": [
+        "https://lp-cms-production.imgix.net/2021-03/Uppuveli_Sri_Lanka.jpg",
+        "https://media-cdn.tripadvisor.com/media/photo-s/13/5b/bb/57/beach-bbq-dinning.jpg",
+        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/b0/0f/54/photo0jpg.jpg?w=900&h=500&s=1",
+        "https://www.everlastingwandering.com/wp-content/uploads/2021/02/Nilaveli-Beach-Sri-Lanka.jpg",
+        "https://ceylonclassictours.com/wp-content/uploads/2023/09/Nilaveli-Beach.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/3/39/Nillaveli_Beach.JPG",
+        "https://travel.com/wp-content/uploads/2025/09/Aerial-view-of-Nilaveli-Beach-in-Sri-Lanka-showing-pristine-white-sand-and-turquoise-waters.webp",
+        "https://cinnamonair.imgix.net/2025/03/Nilaveli-1-scaled.jpg?&w=650&h=500&fit=crop&crop=center&auto=compress&auto=format,enhance&q=70",
+        "https://www.storyofsrilanka.com/images/slider/nilaveli-beach/01.jpg",
+        "https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3609847750541875016",
+        "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=325898294693892"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=9C_ISYSB9I8",
+        "https://www.youtube.com/watch?v=utjp03hAkzo",
+        "https://www.youtube.com/watch?v=ux0eNZA5zTI",
+        "https://www.youtube.com/watch?v=HqeJ8ZSFWd8",
+        "https://www.youtube.com/watch?v=qMT-A4cD_Xk"
+      ],
+      "location": {
+        "lat": 8.68333,
+        "lng": 81.20000
+      },
+      "hotels": [
+        {
+          "name": "Nilaveli Beach Hotel",
+          "rating": 4.2,
+          "priceRange": "   ",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Hotel",
+"distance": "Not specified",
+"amenities": ["Pool", "Restaurant", "Free WiFi"]
+},
+{
+"name": "The Reef Resort",
+"rating": 4.5,
+"priceRange": " ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Resort",
+          "distance": "Not specified",
+          "amenities": ["Pool", "Garden", "Free WiFi"]
+        },
+        {
+          "name": "Nilaveli Beach Resort",
+          "rating": 4.0,
+          "priceRange": "   ",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Resort",
+"distance": "Not specified",
+"amenities": ["Pool", "Restaurant"]
+},
+{
+"name": "Jungle Beach Resort",
+"rating": 4.5,
+"priceRange": " ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Luxury",
+          "distance": "Not specified",
+          "amenities": ["Pool", "Spa", "Restaurant"]
+        },
+        {
+          "name": "Pigeon Island Beach Resort",
+          "rating": 4.3,
+          "priceRange": "  $$ ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Resort",
+          "distance": "Not specified",
+          "amenities": ["Pool", "Free WiFi"]
+        },
+        {
+          "name": "Anilana Nilaveli",
+          "rating": 4.4,
+          "priceRange": " ",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Luxury",
+"distance": "Not specified",
+"amenities": ["Pool", "Spa"]
+},
+{
+"name": "Sea View Beach Hotel",
+"rating": 4.0,
+"priceRange": "  ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Hotel",
+          "distance": "Not specified",
+          "amenities": ["Restaurant", "Free WiFi"]
+        },
+        {
+          "name": "Blue Sand Beach Resort",
+          "rating": 4.2,
+          "priceRange": "",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Resort",
+"distance": "Not specified",
+"amenities": ["Pool"]
+},
+{
+"name": "Amaranthe Bay Resort & Spa",
+"rating": 4.6,
+"priceRange": "  $$$",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Luxury",
+"distance": "Not specified",
+"amenities": ["Pool", "Spa", "Restaurant"]
+}
+],
+"activities": [
+{
+"name": "Snorkeling at Pigeon Island",
+"duration": "2-4 hours",
+"difficulty": "Moderate",
+"price": "$20-30",
+"description": "Explore coral reefs and marine life at the national park"
+},
+{
+"name": "Beach Relaxation",
+"duration": "Full day",
+"difficulty": "Easy",
+"price": "Free",
+"description": "Enjoy the pristine sands and clear waters"
+},
+{
+"name": "Visit Koneswaram Temple",
+"duration": "1-2 hours",
+"difficulty": "Easy",
+"price": "$5",
+"description": "Explore the historic Hindu temple in nearby Trincomalee"
+}
+],
+"bestTime": "May - September",
+"avoidTime": "October - April",
+"weather": "Dry season, ideal for beach activities",
+"rating": 4.5,
+"visitors": 120000,
+"entryFee": "Varies by attraction",
+"duration": "1-2 days",
+"difficulty": "Easy to Moderate",
+"familyFriendly": true,
+"accessibility": "Good for most abilities",
+"tags": ["Beach", "Snorkeling", "National Park", "Relaxation", "East Coast"]
+},
+{
+"id": "beruwala",
+"name": "Beruwala Beach & Mosque",
+"region": "Western",
+"city": "Beruwala",
+"category": [
+"beach",
+"coastal",
+"cultural",
+"historical"
+],
+"description": "Beruwala is a coastal town on Sri Lanka's south-west coast, known as the starting point of the 300 km-long sandy beach coastline. Famous for its golden beaches, historic mosques including one of the oldest in Sri Lanka, and as the site of the first Muslim settlement established by Arab traders. It's a popular beach resort area offering water sports, Ayurveda treatments, and nearby cultural attractions.",
+"highlights": [
+"Ketchchimalai Mosque",
+"Masjid Al Abrar",
+"Barberyn Island Lighthouse",
+"Beruwala Fishery Harbour",
+"Historical Muslim settlement sites"
+],
+"images": [
+"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/6d/6f/a6/arabische-schule-in-der.jpg?w=1200&h=-1&s=1",
+"https://www.travelkalutara.com/wp-content/uploads/2018/02/800px-Ketchimalai_Mosque-_Beruwala_Sri_Lanka.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Ketchchimalai_Mosque.jpg/1200px-Ketchchimalai_Mosque.jpg",
+"https://media-cdn.tripadvisor.com/media/photo-s/16/f1/80/e7/outside-the-mosque-with.jpg",
+"https://www.holidify.com/images/cmsuploads/compressed/5738687965d3157ef50cb_20220902223354.jpg",
+"https://www.lakpura.com/images/LK94009832-06-E.JPG",
+"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/23/00/5d/beruwala.jpg?w=900&h=500&s=1",
+"https://www.lanka-excursions-holidays.com/uploads/4/0/2/1/40216937/beruwela-02-900_orig.jpg",
+"https://mindtrip.ai/cdn-cgi/image/format=webp,w=720/https://iorigin.mindtrip.ai/attractions/4539/4a22/c6b3/f1c6/cf83/c35f/5272/9e39",
+"https://www.lanka-excursions-holidays.com/uploads/4/0/2/1/40216937/beruwela-04-900_orig.jpg",
+"https://www.lanka-excursions-holidays.com/uploads/4/0/2/1/40216937/beruwela-01-900_orig.jpg"
+],
+"videos": [
+"https://www.youtube.com/watch?v=3W04rx_kmY4",
+"https://www.youtube.com/watch?v=UR3zx18J8hA",
+"https://www.youtube.com/watch?v=hCaxpZHBgs4",
+"https://www.youtube.com/watch?v=TBUkZjxNJ1E",
+"https://www.youtube.com/watch?v=D75lnhf73mM"
+],
+"location": {
+"lat": 6.467,
+"lng": 79.983
+},
+"hotels": [
+{
+"name": "Occidental Eden Beruwala",
+"rating": 4.5,
+"priceRange": "$",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Resort",
+          "distance": "Not specified",
+          "amenities": ["Pool", "Spa", "Restaurant", "Free WiFi"]
+        },
+        {
+          "name": "The Palms",
+          "rating": 4.0,
+          "priceRange": "",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Hotel",
+"distance": "Not specified",
+"amenities": ["Pool", "Restaurant", "Free WiFi"]
+},
+{
+"name": "Cinnamon Bey Beruwala",
+"rating": 4.5,
+"priceRange": " $",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Resort",
+          "distance": "Not specified",
+          "amenities": ["Pool", "Spa", "Restaurant"]
+        },
+        {
+          "name": "Heritance Ayurveda",
+          "rating": 4.5,
+          "priceRange": " $$$",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Resort",
+          "distance": "Not specified",
+          "amenities": ["Spa", "Restaurant", "Free WiFi"]
+        },
+        {
+          "name": "Earl's Reef Beruwala",
+          "rating": 4.0,
+          "priceRange": " ",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Hotel",
+"distance": "Not specified",
+"amenities": ["Pool", "Spa"]
+},
+{
+"name": "Amuura Beach House",
+"rating": 4.5,
+"priceRange": " ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Guesthouse",
+          "distance": "Not specified",
+          "amenities": ["Garden", "Free WiFi"]
+        },
+        {
+          "name": "Mermaid Hotel & Club",
+          "rating": 4.0,
+          "priceRange": " ",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Hotel",
+"distance": "Not specified",
+"amenities": ["Pool", "Restaurant"]
+},
+{
+"name": "Pandanus Beach Resort & Spa",
+"rating": 4.0,
+"priceRange": " ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Resort",
+          "distance": "Not specified",
+          "amenities": ["Pool", "Spa"]
+        },
+        {
+          "name": "EKHO Surf",
+          "rating": 4.0,
+          "priceRange": " ",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Hotel",
+"distance": "Not specified",
+"amenities": ["Pool", "Free WiFi"]
+}
+],
+"activities": [
+{
+"name": "Relax on Beruwala Beach",
+"duration": "2-3 hours",
+"difficulty": "Easy",
+"price": "Free",
+"description": "Enjoy the golden sandy beach and turquoise waters, perfect for swimming and sunbathing"
+},
+{
+"name": "Visit Kechimalai Mosque",
+"duration": "1 hour",
+"difficulty": "Easy",
+"price": "Free",
+"description": "Explore one of Sri Lanka's oldest mosques with scenic ocean views"
+},
+{
+"name": "Boat Trip to Barberyn Lighthouse",
+"duration": "1-2 hours",
+"difficulty": "Easy",
+"price": "$10-20",
+"description": "Take a short boat ride to the island lighthouse for panoramic views"
+}
+],
+"bestTime": "November - April",
+"avoidTime": "May - October",
+"weather": "Tropical climate with average temperature of 26.3°C",
+"rating": 4.4,
+"visitors": 150000,
+"entryFee": "Varies by attraction",
+"duration": "1-2 days",
+"difficulty": "Easy",
+"familyFriendly": true,
+"accessibility": "Good, accessible via highway and rail",
+"tags": ["Beach", "Mosque", "Lighthouse", "Harbour", "Muslim Heritage", "Coastal"]
+},
+{
+"id": "ahangama",
+"name": "Ahangama Beach & Surfing",
+"region": "Southern",
+"city": "Ahangama",
+"category": [
+"beach",
+"surfing",
+"nature"
+],
+"description": "Ahangama is a coastal town in the Southern Province of Sri Lanka, known for its calm and peaceful beach setting with majestic palm trees, pristine beaches, sparkling waters, and picturesque landscapes. It is a secret treasure ideal for a relaxing vacation, offering serenity and accessibility via the nearby city of Galle. The town overlooks Weligama Bay, a central surfing spot, and features beachside shops, restaurants, shacks, and bars. It is renowned for its distinct stilt fishermen, coir industry, and consistent surfing opportunities.",
+"highlights": [
+"Pristine beaches including Kathaluwa beach, Kabalana beach, Ahangama beach, Goviyapana beach, and Midigama beach",
+"Surfing spots in Weligama Bay and surrounding areas",
+"Stilt fishermen",
+"Martin Wickramasinghe Folk Art Museum",
+"Kataluva Purvarama Maha Viharaya temple"
+],
+"images": [
+"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/f9/69/28/stilt-fishing.jpg?w=1200&h=-1&s=1",
+"https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/0e/44/91/f3.jpg",
+"https://mokumsurfclub.com/wp-content/uploads/2016/09/ahangama_fishermen_poles_sticks_ocean_sunset_sri_lanka.jpg",
+"https://www.shutterstock.com/shutterstock/videos/1018178425/thumb/1.jpg?ip=x480",
+"https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=10160608381973377",
+"https://imkiran.com/wp-content/uploads/2016/02/IMG_7349.jpg",
+"https://c8.alamy.com/comp/PBNWDY/sri-lankan-stilt-fishermen-early-morning-fishing-with-large-surf-in-the-background-at-ahangama-beach-PBNWDY.jpg",
+"https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3667875190857364699",
+"https://www.beyondescapes.com/uploads/excursions/XqzoLSRWA9j1.jpg",
+"https://www.greenholidaytravels.com/wp-content/uploads/2019/02/Stilt-fishing_2.jpg",
+"https://c8.alamy.com/comp/PBHFN0/sri-lankan-stilt-fishermen-at-sunset-at-ahangama-beach-PBHFN0.jpg"
+],
+"videos": [
+"https://www.youtube.com/watch?v=E0IA4_B3LHk",
+"https://www.youtube.com/watch?v=NRuaAWyFjxg",
+"https://www.youtube.com/watch?v=XKUbhJ6TVSU",
+"https://www.youtube.com/watch?v=J3-cZBKPFG0",
+"https://www.youtube.com/watch?v=O4Sq13p-Q7g"
+],
+"location": {
+"lat": 5.983,
+"lng": 80.367
+},
+"hotels": [
+{
+"name": "Timeless Villa",
+"rating": 4.5,
+"priceRange": " ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Villa",
+          "distance": "Not specified",
+          "amenities": ["Pool", "Garden", "Free WiFi"]
+        },
+        {
+          "name": "Mosvold Villa",
+          "rating": 4.5,
+          "priceRange": "$$ $",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Villa",
+          "distance": "Not specified",
+          "amenities": ["Pool", "Spa", "Restaurant"]
+        },
+        {
+          "name": "The South",
+          "rating": 4.5,
+          "priceRange": " $$",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Hotel",
+          "distance": "Not specified",
+          "amenities": ["Pool", "Free WiFi"]
+        },
+        {
+          "name": "Harding Boutique Hotel",
+          "rating": 4.5,
+          "priceRange": "$$ $",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Boutique Hotel",
+          "distance": "Not specified",
+          "amenities": ["Pool", "Restaurant"]
+        },
+        {
+          "name": "The Sandhya",
+          "rating": 4.0,
+          "priceRange": " $$",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Hotel",
+          "distance": "Not specified",
+          "amenities": ["Pool", "Spa"]
+        },
+        {
+          "name": "Makai Surf House",
+          "rating": 4.5,
+          "priceRange": "$",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Guesthouse",
+          "distance": "Not specified",
+          "amenities": ["Free WiFi", "Garden"]
+        },
+        {
+          "name": "Nuga House",
+          "rating": 4.5,
+          "priceRange": "$$ ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Hotel",
+          "distance": "Not specified",
+          "amenities": ["Pool", "Restaurant"]
+        },
+        {
+          "name": "Terra Resort",
+          "rating": 4.0,
+          "priceRange": " $$",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Resort",
+          "distance": "Not specified",
+          "amenities": ["Pool", "Spa"]
+        },
+        {
+          "name": "Dreamsea",
+          "rating": 4.5,
+          "priceRange": "$$ ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Hotel",
+          "distance": "Not specified",
+          "amenities": ["Pool", "Free WiFi"]
+        }
+      ],
+      "activities": [
+        {
+          "name": "Surfing at Local Breaks",
+          "duration": "2-3 hours",
+          "difficulty": "Moderate",
+          "price": "$20-30",
+          "description": "Hit the waves at one of Ahangama's renowned surf spots with consistent conditions"
+        },
+        {
+          "name": "Watch Stilt Fishermen",
+          "duration": "1 hour",
+          "difficulty": "Easy",
+          "price": "Free",
+          "description": "Observe the traditional stilt fishing technique unique to Sri Lanka's south coast"
+        },
+        {
+          "name": "Visit Kataluva Temple",
+          "duration": "1-2 hours",
+          "difficulty": "Easy",
+          "price": "Free",
+          "description": "Explore the ancient temple with Kandyan-style paintings and historical significance"
+        }
+      ],
+      "bestTime": "December - April",
+      "avoidTime": "May - November",
+      "weather": "Tropical coastal climate, warm year-round",
+      "rating": 4.5,
+      "visitors": 80000,
+      "entryFee": "Varies by attraction",
+      "duration": "1-2 days",
+      "difficulty": "Easy to Moderate",
+      "familyFriendly": true,
+      "accessibility": "Good, via highway",
+      "tags": ["Beach", "Surfing", "Stilt Fishing", "Temples", "Weligama Bay", "Relaxation"]
+    },
+    {
+      "id": "weligama",
+      "name": "Weligama Beach & Stilt Fishing",
+      "region": "Southern",
+      "city": "Weligama",
+      "category": [
+        "beach",
+        "surfing",
+        "nature"
+      ],
+      "description": "Weligama is a town on the south coast of Sri Lanka, located in Matara District, Southern Province. The name means 'sandy village,' referring to its sandy sweep bay. It is a popular tourist destination with main industries in tourism and fishing. The area features boutique hotels, an offshore islet called Taprobane with a historic villa, traditional stilt fishing, and beeralu lace-making handicrafts.",
+      "highlights": [
+        "Weligama Beach",
+        "Taprobane Island",
+        "Kusta Raja Gala statue",
+        "Stilt Fishing",
+        "Beeralu Lace-Making"
+      ],
+      "images": [
+        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/f9/69/28/stilt-fishing.jpg?w=1200&h=-1&s=1",
+        "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhjjJdG8XFxGXBrtWJDM-FOswqcpC6hsRrcHXo4TNQZHCpBP4EvnCbI4ZV5SbETdJh3sP2aJHxPJOwpeoLf0je9QPjkGmfKAbd-urr11Wq1Pm-ea5_lmDrgz9Lc4G20GQc7mXg9mFCIUNY/w1200-h630-p-k-no-nu/stilt_fisherman_in+_weligama_visitweligama.org.jpg",
+        "http://srussenschuck.com/wp-content/uploads/2018/05/Welligama-3-1024x631.jpg",
+        "https://cdn.bunniktours.com.au/public/pages/November2024/Stilt%20Fishermen,%20Weligama%20by%20David%20Reed.jpg",
+        "https://lifetoreset.wordpress.com/wp-content/uploads/2019/02/dscf7936.jpg",
+        "https://www.shutterstock.com/shutterstock/photos/553414342/display_1500/stock-photo-weligama-sri-lanka-december-traditional-sri-lankan-stilt-fishermen-are-fishing-on-553414342.jpg",
+        "https://c8.alamy.com/comp/ARCG8M/stilt-fishermen-weligama-sri-lanka-asia-ARCG8M.jpg",
+        "https://media.istockphoto.com/id/851494214/photo/stilt-fisherman-in-weligama-sri-lanka.jpg?s=612x612&w=0&k=20&c=qUT0h691X4tvjRk4FthDQ6WvbE9a2e-T73-fmE_lIt0=",
+        "https://thumbs.dreamstime.com/b/stilt-fishermen-weligama-sri-lanka-small-town-south-coast-located-matara-district-southern-province-93323558.jpg",
+        "https://thumbs.dreamstime.com/b/stilt-fishing-method-fishing-unique-to-island-country-sri-lanka-known-as-pearl-indian-ocean-302285076.jpg",
+        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/31/84/11/34/amazing-sri-lanaka.jpg?w=600&h=400&s=1"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=YGeivlm5C78",
+        "https://www.youtube.com/watch?v=pGWDAXESsJo",
+        "https://www.youtube.com/watch?v=O4Sq13p-Q7g",
+        "https://www.youtube.com/watch?v=IZe05GMo11o",
+        "https://www.youtube.com/watch?v=j6Nw-qBX3p0"
+      ],
+      "location": {
+        "lat": 5.97389,
+        "lng": 80.42944
+      },
+      "hotels": [
+        {
+          "name": "Weligama Bay Marriott Resort & Spa",
+          "rating": 4.5,
+          "priceRange": " ",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Resort",
+"distance": "Not specified",
+"amenities": ["Pool", "Spa", "Restaurant", "Free WiFi"]
+},
+{
+"name": "Weligama Bay Resort",
+"rating": 4.0,
+"priceRange": " ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Resort",
+          "distance": "Not specified",
+          "amenities": ["Pool", "Restaurant"]
+        },
+        {
+          "name": "Cape Weligama",
+          "rating": 4.5,
+          "priceRange": " $$$",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Luxury Resort",
+          "distance": "Not specified",
+          "amenities": ["Pool", "Spa", "Restaurant"]
+        },
+        {
+          "name": "Rise Bed & Breakfast",
+          "rating": 4.5,
+          "priceRange": "$",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Bed & Breakfast",
+          "distance": "Not specified",
+          "amenities": ["Free WiFi", "Garden"]
+        },
+        {
+          "name": "Villa Hillcrest",
+          "rating": 4.0,
+          "priceRange": " ",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Villa",
+"distance": "Not specified",
+"amenities": ["Pool"]
+},
+{
+"name": "Eraeliya Villas & Gardens",
+"rating": 4.5,
+"priceRange": " $$$",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Villa",
+"distance": "Not specified",
+"amenities": ["Pool", "Garden"]
+},
+{
+"name": "Malabar Hill",
+"rating": 4.5,
+"priceRange": "$",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Resort",
+          "distance": "Not specified",
+          "amenities": ["Pool", "Spa"]
+        },
+        {
+          "name": "Hangtime Hostel",
+          "rating": 4.0,
+          "priceRange": "$",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Hostel",
+          "distance": "Not specified",
+          "amenities": ["Free WiFi"]
+        },
+        {
+          "name": "W15 Weligama",
+          "rating": 4.0,
+          "priceRange": "",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Hotel",
+"distance": "Not specified",
+"amenities": ["Pool", "Restaurant"]
+}
+],
+"activities": [
+{
+"name": "Surfing at Weligama Bay",
+"duration": "2-3 hours",
+"difficulty": "Moderate",
+"price": "$20-30",
+"description": "Learn or practice surfing in the beginner-friendly waves of Weligama Bay"
+},
+{
+"name": "Watch Stilt Fishermen",
+"duration": "1 hour",
+"difficulty": "Easy",
+"price": "Free",
+"description": "Observe the iconic stilt fishermen at work along the coast"
+},
+{
+"name": "Visit Kushtarajagala Statue",
+"duration": "1 hour",
+"difficulty": "Easy",
+"price": "Free",
+"description": "See the ancient rock-carved Bodhisattva statue from the 6th-9th century"
+}
+],
+"bestTime": "November - April",
+"avoidTime": "May - October",
+"weather": "Warm coastal climate, highs around 89°F in May",
+"rating": 4.5,
+"visitors": 120000,
+"entryFee": "Varies by attraction",
+"duration": "1-2 days",
+"difficulty": "Easy to Moderate",
+"familyFriendly": true,
+"accessibility": "Good, via rail and highway",
+"tags": ["Beach", "Stilt Fishing", "Surfing", "Historical Statue", "Island", "Handicrafts"]
+},
+{
+"id": "knuckles-mountain-range",
+"name": "Knuckles Mountain Range",
+"region": "Central",
+"city": "Matale",
+"category": [
+"nature",
+"adventure",
+"ecotourism"
+],
+"description": "The Knuckles Mountain Range, also known as Dumbara Mountain Range, is a UNESCO World Heritage site in central Sri Lanka's Matale and Kandy districts. Named for its fist-like peaks when viewed from certain angles, it's a biodiversity hotspot with isolated cloud forests, endemic flora and fauna, and a climatic microcosm exhibiting all of Sri Lanka's climatic zones. Home to over 34% of the country's endemic trees, shrubs, and herbs, it's ideal for hiking, trekking, and nature exploration.",
+"highlights": [
+"Recumbent folds and peaks resembling knuckles",
+"Isolated cloud forests with diverse endemic flora and fauna",
+"Climatic microcosm of Sri Lanka",
+"High proportion of country's biodiversity",
+"Nine peaks over 1200 meters, highest Gombaniya at 1906m",
+"UNESCO World Heritage site"
+],
+"images": [
+"https://static.horizonguides.com/images/_matrixImage/Sri-Lanka_knuckles-mountain-range_corbetsgap.jpg",
+"https://www.yogawinetravel.com/wp-content/uploads/2020/02/Mini-Worlds-End-in-Knuckles-Mountain-Range-in-Sri-Lanka_feature.jpg",
+"https://res.cloudinary.com/enchanting/q_70,f_auto,w_1000,h_650,c_fit/exodus-web/2021/12/knuckles-mountain-range-001-1.jpg",
+"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/6c/a9/04/cloudy-knuckles-its-heavenreal.jpg?w=1200&h=-1&s=1",
+"https://www.ceylonexpeditions.com/medias/destination_places/big/145/knuckles-mountain-range-sri-lanka-30447.jpg",
+"https://www.passportandpixels.com/wp-content/uploads/2022/03/Knuckles-315_pp.jpg",
+"https://thumbs.dreamstime.com/b/beautiful-scenic-view-knuckles-mountain-series-sri-lanka-ranges-meemure-village-kandy-district-higher-area-often-112343734.jpg",
+"https://cdn.prod.website-files.com/6364d88dd010ce5c6f8aa8fc/6697685fc5cbb62ad691c092_knuckles-mountains-1090X610.webp",
+"http://blog.srilanka-villa.com/wp-content/uploads/2015/11/Sri-Lanka-Knuckle-Mountain-Range.jpg",
+"https://twogetlost.com/wp-content/uploads/2022/06/4-800x450.jpg",
+"https://media-cdn.tripadvisor.com/media/photo-s/16/6c/a8/f4/knuckles-mountain-range.jpg"
+],
+"videos": [
+"https://www.youtube.com/watch?v=X1-OFAqqA80",
+"https://www.youtube.com/watch?v=B7rMZIBm53U",
+"https://www.youtube.com/watch?v=igawmxb35qQ",
+"https://www.youtube.com/watch?v=If-VK0bBOEA",
+"https://www.youtube.com/watch?v=9S-dvszVlTY"
+],
+"location": {
+"lat": 7.45,
+"lng": 80.8
+},
+"hotels": [
+{
+"name": "The Grand Mountain Hotel",
+"rating": 4.5,
+"priceRange": "$",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Hotel",
+          "distance": "Not specified",
+          "amenities": ["Pool", "Fitness Center", "Restaurant", "Free WiFi"]
+        },
+        {
+          "name": "Lakegala Resort",
+          "rating": 4.0,
+          "priceRange": "",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Resort",
+"distance": "Not specified",
+"amenities": ["Pool", "Garden", "Restaurant"]
+},
+{
+"name": "Ferndale Retreat Knuckles",
+"rating": 4.5,
+"priceRange": "$",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Retreat",
+          "distance": "Not specified",
+          "amenities": ["Garden", "Terrace", "Free WiFi"]
+        },
+        {
+          "name": "The Inn At Matale",
+          "rating": 4.0,
+          "priceRange": "",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Inn",
+"distance": "Not specified",
+"amenities": ["Garden", "Free WiFi"]
+},
+{
+"name": "Spiritual Nature Farm",
+"rating": 4.5,
+"priceRange": " ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Farm Stay",
+          "distance": "Not specified",
+          "amenities": ["Garden", "Free WiFi"]
+        },
+        {
+          "name": "Plantation Retreat",
+          "rating": 4.5,
+          "priceRange": " $$$",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Retreat",
+          "distance": "Not specified",
+          "amenities": ["Pool", "Garden"]
+        },
+        {
+          "name": "Heavens Acres Lodge",
+          "rating": 4.0,
+          "priceRange": " ",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Lodge",
+"distance": "Not specified",
+"amenities": ["Garden", "Restaurant"]
+},
+{
+"name": "Hatale Tea Estate Bungalow",
+"rating": 4.5,
+"priceRange": " ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Bungalow",
+          "distance": "Not specified",
+          "amenities": ["Pool", "Garden", "Free WiFi"]
+        },
+        {
+          "name": "Pearl's Homestay Matale",
+          "rating": 4.0,
+          "priceRange": "$",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Homestay",
+          "distance": "Not specified",
+          "amenities": ["Garden", "Free WiFi"]
+        }
+      ],
+      "activities": [
+        {
+          "name": "Hiking to Mini World's End",
+          "duration": "4-6 hours",
+          "difficulty": "Moderate",
+          "price": "$10-20",
+          "description": "Trek through forests and rice paddies to a stunning viewpoint overlooking valleys"
+        },
+        {
+          "name": "Waterfall Exploration",
+          "duration": "2-4 hours",
+          "difficulty": "Easy to Moderate",
+          "price": "Free to $5",
+          "description": "Visit cascading waterfalls like Dumbara or Na Ella in the forest reserve"
+        },
+        {
+          "name": "Bird Watching and Nature Walk",
+          "duration": "3-5 hours",
+          "difficulty": "Easy",
+          "price": "$15-25",
+          "description": "Observe endemic birds and wildlife in the diverse cloud forests"
+        }
+      ],
+      "bestTime": "January - March",
+      "avoidTime": "April - June",
+      "weather": "Clear skies and mild temperatures",
+      "rating": 4.5,
+      "visitors": 50000,
+      "entryFee": "$10 for foreigners",
+      "duration": "1-3 days",
+      "difficulty": "Moderate",
+      "familyFriendly": true,
+      "accessibility": "Limited, hiking trails may be challenging",
+      "tags": ["UNESCO", "Hiking", "Cloud Forest", "Biodiversity", "Trekking", "Waterfalls", "Camping"]
+    },
+    {
+      "id": "mulkirigala-rock-temples",
+      "name": "Mulkirigala Rock Temples",
+      "region": "Southern",
+      "city": "Tangalle",
+      "category": [
+        "historical",
+        "cultural",
+        "religious"
+      ],
+      "description": "Mulkirigala Raja Maha Vihara is an ancient Buddhist temple built on a 205m high natural rock near Tangalle, Sri Lanka. Known as 'Little Sigiriya', it features seven cave temples across five terraces with Kandyan-era murals, reclining Buddhas, and rock inscriptions dating back to the 3rd century BC. A key archaeological site with royal patronage throughout history.",
+      "highlights": [
+        "Ancient cave temple complex on massive rock",
+        "Largest reclining Buddha in Paduma Rahath Viharaya",
+        "Kandyan Era murals of Buddha's life and Jataka stories",
+        "Rock inscriptions from 2nd century BC to 10th century AD",
+        "Dethispala Bodhiya from Jaya Sri Maha Bodhi",
+        "Seven viharas across five compounds"
+      ],
+      "images": [
+        "https://nauticalarch.org/files/2014/02/GDA14Feb16KEM_196-blog.jpg",
+        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/4e/5d/19/mulgirigala-rock-temple.jpg?w=1200&h=-1&s=1",
+        "https://www.honeymoonguidesrilanka.com/wp-content/uploads/2024/11/Mulkirigala-Cave-Temple-1200x630-1.jpg",
+        "https://images.squarespace-cdn.com/content/v1/5b735348266c075124b0ffb3/1709175861685-0WXZSX8T0AJFG1GW5DOI/MULKIRIGALA+ROCK+TEMPLE.jpeg?format=1500w",
+        "https://airlinescrewtours.com/wp-content/uploads/2022/09/MK1.jpg",
+        "https://www.srilankaview.com/Mulkirigala/images/Mulkirigala113a.jpg",
+        "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=415743871048248&get_thumbnail=1",
+        "https://www.lanka-excursions-holidays.com/uploads/4/0/2/1/40216937/mulkirigala-monastery-title-photo_orig.jpg",
+        "https://storage.ghadiscovery.com/cdn-cgi/image/width=1920,f=auto,g=auto,fit=scale-down/img/images/0/6/4/5/1345460-1-eng-GB/c9d97a239935-Mulkirigala.jpg",
+        "https://c8.alamy.com/comp/HNAJBP/mulkirigala-raja-maha-vihara-rock-temple-built-on-a-rock-205m-above-HNAJBP.jpg",
+        "https://nauticalarch.org/files/2014/02/GDA14Feb16KEM_042-blog.jpg"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=UtlzsU3HbLA",
+        "https://www.youtube.com/watch?v=JKFLzAEGQPI",
+        "https://www.youtube.com/watch?v=_R7vzjb19qo",
+        "https://www.youtube.com/watch?v=wCP8GL5u3js",
+        "https://www.youtube.com/watch?v=m3JaW9L73V4"
+      ],
+      "location": {
+        "lat": 6.123,
+        "lng": 80.736
+      },
+      "hotels": [
+        {
+          "name": "D'Art Villa Retreat and Spa",
+          "rating": 4.5,
+          "priceRange": "$$ $",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Villa",
+          "distance": "Not specified",
+          "amenities": ["Pool", "Spa", "Garden", "Free WiFi"]
+        },
+        {
+          "name": "Ananya Beach Resort",
+          "rating": 4.5,
+          "priceRange": " ",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Resort",
+"distance": "Not specified",
+"amenities": ["Pool", "Private Beach", "Garden"]
+},
+{
+"name": "Moonstone Villas",
+"rating": 4.0,
+"priceRange": " ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Villa",
+          "distance": "Not specified",
+          "amenities": ["Pool", "Restaurant", "Free WiFi"]
+        },
+        {
+          "name": "Ananthaya Beach",
+          "rating": 4.5,
+          "priceRange": " $$$",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Resort",
+          "distance": "Not specified",
+          "amenities": ["Private Beach", "Pool"]
+        },
+        {
+          "name": "Turtle Bay Boutique Hotel",
+          "rating": 4.0,
+          "priceRange": " ",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Boutique Hotel",
+"distance": "Not specified",
+"amenities": ["Pool", "Garden"]
+},
+{
+"name": "Lankavatara Ocean Retreat",
+"rating": 4.5,
+"priceRange": " ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Retreat",
+          "distance": "Not specified",
+          "amenities": ["Pool", "Free WiFi"]
+        },
+        {
+          "name": "Green Hill Cottage",
+          "rating": 4.0,
+          "priceRange": "$$ ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Cottage",
+          "distance": "Not specified",
+          "amenities": ["Garden"]
+        },
+        {
+          "name": "Sanderling Silent Beach Cabanas",
+          "rating": 4.5,
+          "priceRange": " $$",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Cabanas",
+          "distance": "Not specified",
+          "amenities": ["Private Beach", "Garden"]
+        },
+        {
+          "name": "Sunrise Bliss Villa",
+          "rating": 4.0,
+          "priceRange": "$$ ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Villa",
+          "distance": "Not specified",
+          "amenities": ["Garden", "Free WiFi"]
+        }
+      ],
+      "activities": [
+        {
+          "name": "Climb to the Summit",
+          "duration": "1-2 hours",
+          "difficulty": "Moderate",
+          "price": "$3-5",
+          "description": "Ascend 500 steps through terraces to reach the stupa and panoramic views"
+        },
+        {
+          "name": "Explore Cave Temples",
+          "duration": "1-2 hours",
+          "difficulty": "Easy",
+          "price": "Included in entry",
+          "description": "View ancient murals, Buddha statues, and inscriptions in the seven caves"
+        },
+        {
+          "name": "Sunrise or Sunset Viewing",
+          "duration": "1 hour",
+          "difficulty": "Easy",
+          "price": "Included in entry",
+          "description": "Witness glorious sunrises or sunsets from the temple summit"
+        }
+      ],
+      "bestTime": "December - March",
+      "avoidTime": "May - October",
+      "weather": "Dry and sunny",
+      "rating": 4.5,
+      "visitors": 50000,
+      "entryFee": "$3 for foreigners",
+      "duration": "Half day",
+      "difficulty": "Moderate",
+      "familyFriendly": true,
+      "accessibility": "Limited, involves climbing steps",
+      "tags": ["Cave Temple", "Murals", "Buddhist", "Rock Inscriptions", "Stupa", "Archaeological", "Viewpoint"]
+    },
+    {
+      "id": "wadduwa",
+      "name": "Wadduwa Beach",
+      "region": "Western",
+      "city": "Wadduwa",
+      "category": [
+        "beach",
+        "coastal",
+        "relaxation"
+      ],
+      "description": "Wadduwa is a tranquil coastal town on Sri Lanka's western coast, famous for its golden sandy beaches, coconut plantations, and production of toddy and vinegar. Located 33km south of Colombo, it offers serene beaches, historical sites like an ancient Catholic church and temple, and products from coconut fibre. A perfect spot for relaxation and exploring local culture.",
+      "highlights": [
+        "Golden sandy beaches for relaxation",
+        "Coconut plantations and fibre products",
+        "Ancient Catholic church",
+        "Dhaaldawatta Purana Maha Viharaya",
+        "Toddy and vinegar production",
+        "Proximity to Colombo for day trips"
+      ],
+      "images": [
+        "https://linkstravelandtours.co.uk/wp-content/uploads/2018/11/Sri-Lanka-beach-1224x765.jpg",
+        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/e2/9c/a6/photo3jpg.jpg?w=1200&h=700&s=1",
+        "https://image-stock-2.mercuryholidays.co.uk/scenery/indian-ocean/sri-lanka/west-coast-sri-lanka/wadduwa/wadduwa.jpg",
+        "https://www.thesmallhotels.com/storage/images/2018/11/27/1543305169269474.webp",
+        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/f1/25/08/photo0jpg.jpg?w=900&h=500&s=1",
+        "https://beaches-searcher.com/images/beaches/144201236/LK201236.jpg",
+        "https://i.redd.it/1e02minzd6u91.jpg",
+        "https://lh5.googleusercontent.com/p/AF1QipOPDGxvGmB_VD-pWLaBCH0mAVrwNlGmRfeFSiGG=s1600",
+        "https://c8.alamy.com/comp/CC4HB1/hauling-in-the-catch-wadduwa-beach-sri-lanka-asia-CC4HB1.jpg",
+        "https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/2-wadduwa-beach-noa-yerushalmi.jpg",
+        "https://www.thevacationgateway.com/blog-data/uploads/2019/10/800px-Wadduwa_Beach.jpg"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=qvDdThAmraY",
+        "https://www.youtube.com/watch?v=UzoS9l0xB5s",
+        "https://www.youtube.com/watch?v=1vayJ_e8Cpc",
+        "https://www.youtube.com/watch?v=aSZUIXMk7ps",
+        "https://www.youtube.com/source/M78RpE69Zqg/shorts?bp=8gVCCjYSJwoLTTc4UnBFNjlacWcSC003OFJwRTY5WnFnGgtNNzhScEU2OVpxZxoLTTc4UnBFNjlacWcos7XGyYbcu_FJ"
+      ],
+      "location": {
+        "lat": 6.713,
+        "lng": 79.904
+      },
+      "hotels": [
+        {
+          "name": "Blue Beach Hotel",
+          "rating": 4.0,
+          "priceRange": " $$",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Hotel",
+          "distance": "Central",
+          "amenities": ["Pool", "Private Beach", "Garden", "Free WiFi"]
+        },
+        {
+          "name": "The Blue Water",
+          "rating": 4.5,
+          "priceRange": "$$ $",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Resort",
+          "distance": "Not specified",
+          "amenities": ["Pool", "Spa", "Restaurant"]
+        },
+        {
+          "name": "Reef Villa & Spa",
+          "rating": 4.5,
+          "priceRange": " ",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Villa",
+"distance": "Not specified",
+"amenities": ["Pool", "Spa", "Garden"]
+},
+{
+"name": "Clove Beach Wadduwa",
+"rating": 4.0,
+"priceRange": "",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Beach Resort",
+          "distance": "Not specified",
+          "amenities": ["Private Beach", "Restaurant"]
+        },
+        {
+          "name": "Roman Life Ayurveda Resort",
+          "rating": 4.0,
+          "priceRange": "",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Ayurveda Resort",
+"distance": "Not specified",
+"amenities": ["Spa", "Pool"]
+},
+{
+"name": "The Villa by Contemporary Ceylon",
+"rating": 4.5,
+"priceRange": "$",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Villa",
+          "distance": "Not specified",
+          "amenities": ["Pool", "Garden"]
+        },
+        {
+          "name": "Ayana Sea",
+          "rating": 4.0,
+          "priceRange": "",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Hotel",
+"distance": "Not specified",
+"amenities": ["Pool", "Restaurant"]
+},
+{
+"name": "Shalimar Beach Resort",
+"rating": 3.5,
+"priceRange": "$",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Resort",
+"distance": "Not specified",
+"amenities": ["Private Beach"]
+},
+{
+"name": "Grand Beach",
+"rating": 4.0,
+"priceRange": "$$",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Hotel",
+"distance": "Not specified",
+"amenities": ["Pool", "Free WiFi"]
+}
+],
+"activities": [
+{
+"name": "Beach Relaxation and Swimming",
+"duration": "Full day",
+"difficulty": "Easy",
+"price": "Free",
+"description": "Enjoy the golden sands and warm waters of Wadduwa Beach"
+},
+{
+"name": "Coconut Plantation Tour",
+"duration": "1-2 hours",
+"difficulty": "Easy",
+"price": "$5-10",
+"description": "Explore local coconut plantations and learn about toddy production"
+},
+{
+"name": "Visit Historical Sites",
+"duration": "1-2 hours",
+"difficulty": "Easy",
+"price": "Free",
+"description": "See the ancient Catholic church and Dhaaldawatta Purana Maha Viharaya"
+}
+],
+"bestTime": "November - April",
+"avoidTime": "May - October",
+"weather": "Warm and dry",
+"rating": 4.2,
+"visitors": 100000,
+"entryFee": "Free",
+"duration": "1-2 days",
+"difficulty": "Easy",
+"familyFriendly": true,
+"accessibility": "Good for most abilities",
+"tags": ["Beach", "Coconut", "Relaxation", "Historical", "Coastal", "Toddy"]
+},
+{
+"id": "dondra-head-lighthouse",
+"name": "Dondra Head Lighthouse",
+"region": "Southern",
+"city": "Dondra",
+"category": [
+"historical",
+"coastal",
+"nature"
+],
+"description": "Dondra Head Lighthouse, located at the southernmost point of Sri Lanka, is the tallest lighthouse in the country at 49 meters. Built in 1889 by the British, it offers stunning ocean views and is surrounded by rocky shores and palm trees, making it a picturesque historical site with ties to ancient maritime navigation.",
+"highlights": [
+"Tallest lighthouse in Sri Lanka",
+"Southernmost point of the island",
+"Breathtaking panoramic ocean views",
+"Historical British colonial architecture",
+"Nearby Devinuwara Vishnu Temple"
+],
+"images": [
+"https://upload.wikimedia.org/wikipedia/commons/f/fc/Dondra_Head_Lighthouse_-_ATennakoon.jpg",
+"https://d1bv4heaa2n05k.cloudfront.net/user-images/1488968105422/3Fotolia-134990236-Subscription-Monthly-M_main_1488968112487.jpeg",
+"https://www.lanka-excursions-holidays.com/uploads/4/0/2/1/40216937/dondra-head-sri-lanka-south-cape_orig.jpg",
+"https://www.talallahouse.com/wp-content/uploads/photo-gallery/DJI_0207.jpg",
+"https://www.lovesrilanka.org/wp-content/uploads/2020/06/LSL_B2_Matara-Fort_800x520.jpg",
+"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/31/7d/60/45/during-the-sri-lanka.jpg?w=900&h=-1&s=1",
+"https://static.wixstatic.com/media/ba255b_91190543384e4773bd34a830c6ee697a~mv2.jpg/v1/fill/w_1623,h_1080,al_c,q_85/Sri_Lanka_118.jpg",
+"https://www.thetimes.com/imageserver/image/%2Fmethode%2Ftimes%2Fprod%2Fweb%2Fbin%2Ff012a3b4-8f13-11ec-9569-fea923928840.jpg?crop=6720%2C4480%2C0%2C0",
+"https://www.lovesrilanka.org/wp-content/uploads/2020/06/LSL_B2_Old-Dutch-Trade-Centre_800x520.jpg",
+"https://www.shutterstock.com/image-photo/drone-photo-southernmost-point-sri-600nw-2560422121.jpg",
+"https://media.timeout.com/images/102033391/750/422/image.jpg"
+],
+"videos": [
+"https://www.youtube.com/watch?v=nQifcilpH6c",
+"https://www.youtube.com/watch?v=hY-gTPw1XMg",
+"https://www.youtube.com/watch?v=dDzUAsqkmdU",
+"https://www.youtube.com/shorts/y7p35cQygLg",
+"https://www.youtube.com/watch?v=-EGAcshjXOU"
+],
+"location": {
+"lat": 5.92122,
+"lng": 80.59406
+},
+"hotels": [
+{
+"name": "Talalla Retreat",
+"rating": 4.5,
+"priceRange": "$",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Resort",
+          "distance": "Nearby",
+          "amenities": ["Pool", "Spa", "Restaurant"]
+        },
+        {
+          "name": "Vanina Villas",
+          "rating": 4.7,
+          "priceRange": "",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Villa",
+"distance": "Not specified",
+"amenities": ["Pool", "Garden", "Free WiFi"]
+},
+{
+"name": "Talalla Sunshine Beach",
+"rating": 4.3,
+"priceRange": "",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Beach Hotel",
+          "distance": "Not specified",
+          "amenities": ["Beach Access", "Restaurant"]
+        },
+        {
+          "name": "3 Sisters Beach House",
+          "rating": 4.5,
+          "priceRange": "",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Beach House",
+"distance": "Not specified",
+"amenities": ["Free WiFi", "Garden"]
+},
+{
+"name": "Talalla Resort",
+"rating": 4.0,
+"priceRange": "$",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Resort",
+          "distance": "Not specified",
+          "amenities": ["Pool", "Spa"]
+        },
+        {
+          "name": "Dickwella Resort & Spa",
+          "rating": 4.2,
+          "priceRange": "",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Resort",
+"distance": "Not specified",
+"amenities": ["Spa", "Restaurant"]
+},
+{
+"name": "Smeralda Beach Hotel Dikwella",
+"rating": 4.4,
+"priceRange": "",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Beach Hotel",
+          "distance": "Not specified",
+          "amenities": ["Pool", "Free WiFi"]
+        },
+        {
+          "name": "Light House Beach Home",
+          "rating": 4.5,
+          "priceRange": "$",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Guesthouse",
+          "distance": "Not specified",
+          "amenities": ["Beach Access"]
+        },
+        {
+          "name": "Villa Yuvin",
+          "rating": 4.6,
+          "priceRange": "",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Villa",
+"distance": "Not specified",
+"amenities": ["Garden", "Free WiFi"]
+}
+],
+"activities": [
+{
+"name": "Climb the Lighthouse Tower",
+"duration": "30-45 minutes",
+"difficulty": "Moderate",
+"price": "$3",
+"description": "Ascend the 196 steps for panoramic views of the Indian Ocean"
+},
+{
+"name": "Photography Session",
+"duration": "1 hour",
+"difficulty": "Easy",
+"price": "Free",
+"description": "Capture stunning photos of the lighthouse and surrounding seascape"
+},
+{
+"name": "Explore Nearby Temple",
+"duration": "1 hour",
+"difficulty": "Easy",
+"price": "Free",
+"description": "Visit the historic Devinuwara Vishnu Temple nearby"
+}
+],
+"bestTime": "November - April",
+"avoidTime": "May - October",
+"weather": "Dry and sunny",
+"rating": 4.5,
+"visitors": 50000,
+"entryFee": "$3 for foreigners to climb",
+"duration": "1-2 hours",
+"difficulty": "Easy to Moderate",
+"familyFriendly": true,
+"accessibility": "Limited due to stairs",
+"tags": ["Lighthouse", "Southernmost", "Ocean Views", "Historical", "Coastal"]
+},
+{
+"id": "hiriketiya",
+"name": "Hiriketiya Beach",
+"region": "Southern",
+"city": "Dickwella",
+"category": [
+"beach",
+"nature",
+"surf"
+],
+"description": "Hiriketiya Beach is a picturesque horseshoe-shaped bay on Sri Lanka's south coast, renowned for its golden sands, turquoise waters, and excellent surfing conditions. This laid-back destination offers a perfect blend of relaxation, adventure, and bohemian vibe with beachside cafes and yoga studios.",
+"highlights": [
+"Perfect surfing waves for all levels",
+"Horseshoe-shaped bay with calm waters",
+"Vibrant cafe and restaurant scene",
+"Yoga and wellness activities",
+"Nearby Dikwella Beach"
+],
+"images": [
+"https://images.squarespace-cdn.com/content/v1/5f9d5c118a33b435a50c592c/1736962566467-1YE0CCNGW8W1BGI02W8I/9812B0FC-B897-4E04-A98A-DED4ECB137F3.jpg",
+"https://fernandotravels.com.au/next/image?url=https%3A%2F%2Fcms.fernandotravels.com.au%2Fblog-point%2Fuploads%2F6749494f35c34_Hiriketiya_Beach.webp&w=3840&q=75",
+"https://beyondwildplaces.com/wp-content/uploads/2023/11/Hiriketiya-Beach-1.jpg",
+"https://travelmadmum.com/wp-content/uploads/2023/07/Hiriketiya-Beach-8-scaled.jpg",
+"https://mokumsurfclub.com/wp-content/uploads/2016/06/hiriketiya_bay_beach_paradise_view_dots_bay_house_sri_lanka-uai-965x724.jpg",
+"https://cdn.i-scmp.com/sites/default/files/d8/images/methode/2019/11/07/b3f8d24c-0043-11ea-ab68-c2fa11fa07a6_image_hires_191829.JPG",
+"https://www.wondersofceylon.com/content/images/2023/11/WoC-Hiriketiya-Beach-Featured-1.webp",
+"https://littlewanderbook.com/wp-content/uploads/2020/02/Hiriketiya-Sri-Lanka.jpg",
+"https://www.torntackies.com/wp-content/uploads/2019/02/best-beach-sri-lanka-hiriketiya-bay.jpg",
+"https://images.squarespace-cdn.com/content/v1/5a3bb03b4c326d76de73ddaa/efc32996-eabb-4ab5-b5f5-f331978993d3/The_Common_Wanderer-230-2.jpg",
+"https://christinaintheclouds.com/wp-content/uploads/2023/06/Hiriketiya-Beach-Sri-Lanka-2-1024x683.jpg"
+],
+"videos": [
+"https://www.youtube.com/watch?v=Hp51TKkQTJI",
+"https://www.youtube.com/watch?v=gKhzz1ytmug",
+"https://www.youtube.com/watch?v=SjTZBNr-fqE",
+"https://www.youtube.com/watch?v=-EGAcshjXOU",
+"https://www.youtube.com/watch?v=u8lqHcMxRc0"
+],
+"location": {
+"lat": 5.96667,
+"lng": 80.7
+},
+"hotels": [
+{
+"name": "Dots Bay House",
+"rating": 4.5,
+"priceRange": " ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Guesthouse",
+          "distance": "Beachfront",
+          "amenities": ["Surf School", "Restaurant", "Free WiFi"]
+        },
+        {
+          "name": "Salt House",
+          "rating": 4.7,
+          "priceRange": " $$$",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Boutique Hotel",
+          "distance": "Not specified",
+          "amenities": ["Pool", "Yoga", "Garden"]
+        },
+        {
+          "name": "Jasper House",
+          "rating": 4.6,
+          "priceRange": " ",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Villa",
+"distance": "Not specified",
+"amenities": ["Pool", "Spa"]
+},
+{
+"name": "Casa Vana",
+"rating": 4.4,
+"priceRange": " ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Villa",
+          "distance": "Not specified",
+          "amenities": ["Garden", "Free WiFi"]
+        },
+        {
+          "name": "Beach House Hiriketiya",
+          "rating": 4.5,
+          "priceRange": " ",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Beach House",
+"distance": "Not specified",
+"amenities": ["Beach Access"]
+},
+{
+"name": "Dickwella Beach Hotel",
+"rating": 4.2,
+"priceRange": " ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Hotel",
+          "distance": "Not specified",
+          "amenities": ["Pool", "Restaurant"]
+        },
+        {
+          "name": "Dickwella Resort & Spa",
+          "rating": 4.3,
+          "priceRange": " $",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Resort",
+"distance": "Not specified",
+"amenities": ["Spa", "Pool"]
+},
+{
+"name": "The Yard Hiriketiya",
+"rating": 4.5,
+"priceRange": " ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Hotel",
+          "distance": "Not specified",
+          "amenities": ["Garden"]
+        },
+        {
+          "name": "Belika Beach",
+          "rating": 4.4,
+          "priceRange": " ",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Beach Hotel",
+"distance": "Not specified",
+"amenities": ["Beach Access", "Free WiFi"]
+}
+],
+"activities": [
+{
+"name": "Surfing Lessons",
+"duration": "1-2 hours",
+"difficulty": "Moderate",
+"price": "$20-30",
+"description": "Learn to surf on the consistent waves suitable for beginners to advanced"
+},
+{
+"name": "Yoga Session",
+"duration": "1 hour",
+"difficulty": "Easy",
+"price": "$10",
+"description": "Join a beachside yoga class for relaxation and wellness"
+},
+{
+"name": "Beach Relaxation",
+"duration": "2-3 hours",
+"difficulty": "Easy",
+"price": "Free",
+"description": "Lounge on the golden sands and swim in the calm bay waters"
+}
+],
+"bestTime": "November - April",
+"avoidTime": "May - October",
+"weather": "Dry and sunny",
+"rating": 4.7,
+"visitors": 100000,
+"entryFee": "Free",
+"duration": "1-2 days",
+"difficulty": "Easy",
+"familyFriendly": true,
+"accessibility": "Good beach access",
+"tags": ["Beach", "Surf", "Yoga", "Relaxation", "Bay"]
+},
+{
+"id": "ravana-falls",
+"name": "Ravana Falls",
+"region": "Uva",
+"city": "Ella",
+"category": [
+"nature",
+"waterfall",
+"historical"
+],
+"description": "Ravana Falls, also known as Ravana Ella, is one of Sri Lanka's most popular waterfalls, cascading 25 meters down rocky tiers surrounded by lush forest. Named after the legendary king Ravana from the Ramayana epic, it's a stunning natural attraction with crystal-clear pools for bathing.",
+"highlights": [
+"One of Sri Lanka's widest waterfalls",
+"Connection to Ramayana legend",
+"Swimming in natural pools",
+"Nearby Ravana Cave exploration",
+"Scenic views from viewing platform"
+],
+"images": [
+"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/20/1d/bb/rawana-waterfall-in-ella.jpg?w=900&h=500&s=1",
+"https://storage.googleapis.com/stateless-www-justwravel-com/2025/05/5faa9b46-12.jpg",
+"https://theportuguesetraveler.com/wp-content/uploads/2024/11/ravana-falls-waterfall-ella-sri-lanka-21.jpg",
+"https://www.visitella.com/img/places/ravana-falls/gallery/1/1.png",
+"https://wanderon-images.gumlet.io/blogs/new/2024/05/ravana-falls.jpg",
+"https://digitaltravelcouple.com/wp-content/uploads/2019/12/ravana-falls-sri-lanka-1.jpg",
+"https://www.trawell.in/admin/images/upload/52773560Ravana_Falls.jpg",
+"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/c7/d5/00/rawana-ella-falls-ella.jpg?w=800&h=500&s=1",
+"https://theportuguesetraveler.com/wp-content/uploads/2024/11/ravana-falls-waterfall-ella-sri-lanka-3.jpg.webp",
+"https://www.lakpura.com/images/LK94009721-01-E.JPG",
+"https://storage.googleapis.com/stateless-www-justwravel-com/2025/05/31851151-11.jpg"
+],
+"videos": [
+"https://www.youtube.com/watch?v=-oxG4ZW82SU",
+"https://www.youtube.com/watch?v=u8lqHcMxRc0",
+"https://www.youtube.com/shorts/8TDdaTSLtvA",
+"https://www.youtube.com/watch?v=Z-vJzgnNYV8",
+"https://www.youtube.com/watch?v=-EGAcshjXOU"
+],
+"location": {
+"lat": 6.84083,
+"lng": 81.05444
+},
+"hotels": [
+{
+"name": "Ella Mount Heaven Hotel",
+"rating": 4.5,
+"priceRange": " ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Hotel",
+          "distance": "Nearby Ella",
+          "amenities": ["Pool", "Restaurant", "Free WiFi"]
+        },
+        {
+          "name": "Ella Dream Catcher Resort",
+          "rating": 4.4,
+          "priceRange": " ",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Resort",
+"distance": "Not specified",
+"amenities": ["Garden", "Views"]
+},
+{
+"name": "Ella Retreat",
+"rating": 4.3,
+"priceRange": " ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Hotel",
+          "distance": "Not specified",
+          "amenities": ["Spa", "Restaurant"]
+        },
+        {
+          "name": "Feelin' Good Resort",
+          "rating": 4.5,
+          "priceRange": " ",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Resort",
+"distance": "Not specified",
+"amenities": ["Pool", "Garden"]
+},
+{
+"name": "Tea Garden Holiday Inn",
+"rating": 4.2,
+"priceRange": "$",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Inn",
+"distance": "Not specified",
+"amenities": ["Free WiFi"]
+},
+{
+"name": "Ella Deck Resort",
+"rating": 4.4,
+"priceRange": " ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Resort",
+          "distance": "Not specified",
+          "amenities": ["Views", "Restaurant"]
+        },
+        {
+          "name": "Sunnyside Holiday Bungalow",
+          "rating": 4.0,
+          "priceRange": "$",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Bungalow",
+          "distance": "Not specified",
+          "amenities": ["Garden"]
+        },
+        {
+          "name": "EKHO Ella",
+          "rating": 4.5,
+          "priceRange": " $",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Luxury Hotel",
+"distance": "Not specified",
+"amenities": ["Pool", "Spa"]
+},
+{
+"name": "Ella Ridge View",
+"rating": 4.3,
+"priceRange": " $$",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Hotel",
+"distance": "Not specified",
+"amenities": ["Views", "Free WiFi"]
+}
+],
+"activities": [
+{
+"name": "Swim in Natural Pools",
+"duration": "1-2 hours",
+"difficulty": "Easy",
+"price": "Free",
+"description": "Take a refreshing dip in the cool pools at the base of the falls"
+},
+{
+"name": "Hike to Ravana Cave",
+"duration": "2 hours",
+"difficulty": "Moderate",
+"price": "$5",
+"description": "Explore the legendary cave associated with King Ravana"
+},
+{
+"name": "Photography and Viewing",
+"duration": "1 hour",
+"difficulty": "Easy",
+"price": "Free",
+"description": "Capture stunning photos from the roadside viewpoint"
+}
+],
+"bestTime": "October - December",
+"avoidTime": "January - September",
+"weather": "Rainy season for full flow",
+"rating": 4.5,
+"visitors": 150000,
+"entryFee": "Free",
+"duration": "1-2 hours",
+"difficulty": "Easy to Moderate",
+"familyFriendly": true,
+"accessibility": "Good roadside access, limited for bathing",
+"tags": ["Waterfall", "Ramayana", "Swimming", "Cave", "Nature"]
+},
+{
+"id": "liptons-seat",
+"name": "Lipton’s Seat Viewpoint",
+"region": "Uva",
+"city": "Haputale",
+"category": [
+"nature",
+"scenic",
+"historical"
+],
+"description": "Perched high in Sri Lanka's Haputale region, this iconic viewpoint offers breathtaking panoramic views of rolling tea plantations, misty valleys, and distant mountains. Named after Sir Thomas Lipton who used it to survey his tea empire, it's a must-visit for tea enthusiasts and nature lovers.",
+"highlights": [
+"Panoramic views of tea estates",
+"Statue of Sir Thomas Lipton",
+"Dambatenne Tea Factory nearby",
+"Hiking trails through plantations",
+"Sunrise and sunset viewpoints"
+],
+"images": [
+"https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/0b/1d/78/1d.jpg",
+"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/e7/46/09/lovely-tour-lipton-seat.jpg?w=1200&h=-1&s=1",
+"https://www.laurewanders.com/wp-content/uploads/2023/09/Liptons-Seat-00002.jpg",
+"https://www.visitella.com/img/places/liptons-seat/gallery/10/1.png",
+"https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3564670083022454789",
+"https://cdn.prod.rexby.com/image/92460949835d41ab893b7d7ddeb22a27",
+"https://www.trawell.in/admin/images/upload/527735160Liptons_Seat.jpg",
+"https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3646116752506396253",
+"https://resortglenmyu.com/wp-content/uploads/2021/12/The-peak-at-Lipton-Seat.jpg",
+"https://c8.alamy.com/comp/RX58Y6/aerial-famous-green-tea-plantation-landscape-view-from-liptons-seat-haputale-sri-lanka-RX58Y6.jpg"
+],
+"videos": [
+"https://www.youtube.com/watch?v=mRncbRt5GU0",
+"https://www.youtube.com/watch?v=sE9JQDfOehA",
+"https://www.youtube.com/watch?v=8Km1yZfPszo",
+"https://www.youtube.com/watch?v=BdRgtQik5lA",
+"https://www.youtube.com/watch?v=4ry0ynVML9A"
+],
+"location": {
+"lat": 6.8019,
+"lng": 81.015
+},
+"hotels": [
+{
+"name": "Thotalagala",
+"rating": 4.8,
+"priceRange": "$",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Boutique Hotel",
+          "distance": "Nearby",
+          "amenities": ["Pool", "Spa", "Restaurant"]
+        },
+        {
+          "name": "Haputale Heritage Hotel",
+          "rating": 4.2,
+          "priceRange": "",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Heritage",
+"distance": "Not specified",
+"amenities": ["Garden", "Free WiFi"]
+},
+{
+"name": "Leisure Village",
+"rating": 4.0,
+"priceRange": "",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Resort",
+          "distance": "Not specified",
+          "amenities": ["Restaurant", "Views"]
+        },
+        {
+          "name": "Kelburne Mountain View",
+          "rating": 4.5,
+          "priceRange": "",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Bungalow",
+"distance": "Not specified",
+"amenities": ["Garden", "Tea Experience"]
+},
+{
+"name": "The Mist Haputale",
+"rating": 4.3,
+"priceRange": " ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Hotel",
+          "distance": "Not specified",
+          "amenities": ["Free WiFi", "Restaurant"]
+        },
+        {
+          "name": "Amaya Lake Dambulla",
+          "rating": 4.5,
+          "priceRange": " $$$",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Resort",
+          "distance": "Not specified",
+          "amenities": ["Pool", "Spa"]
+        },
+        {
+          "name": "Highland Breeze",
+          "rating": 4.0,
+          "priceRange": " ",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Hotel",
+"distance": "Not specified",
+"amenities": ["Views", "Garden"]
+},
+{
+"name": "Ceylon Tea Bungalows",
+"rating": 4.2,
+"priceRange": " ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Bungalow",
+          "distance": "Not specified",
+          "amenities": ["Tea Tours"]
+        },
+        {
+          "name": "The Tea Factory Hotel",
+          "rating": 4.6,
+          "priceRange": " $",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Luxury",
+"distance": "Not specified",
+"amenities": ["Spa", "Restaurant"]
+}
+],
+"activities": [
+{
+"name": "Hike to Viewpoint",
+"duration": "1-2 hours",
+"difficulty": "Moderate",
+"price": "Free (entry fee for viewpoint)",
+"description": "Trek through tea plantations to reach the stunning viewpoint"
+},
+{
+"name": "Tea Factory Tour",
+"duration": "1 hour",
+"difficulty": "Easy",
+"price": "$10-15",
+"description": "Visit nearby Dambatenne Tea Factory and learn about tea production"
+},
+{
+"name": "Photography and Sunrise Watching",
+"duration": "1-2 hours",
+"difficulty": "Easy",
+"price": "Free",
+"description": "Capture panoramic views, best at sunrise"
+}
+],
+"bestTime": "February - April",
+"avoidTime": "October - January",
+"weather": "Cool and misty, clear mornings",
+"rating": 4.5,
+"visitors": 50000,
+"entryFee": "LKR 100-150",
+"duration": "2-3 hours",
+"difficulty": "Moderate",
+"familyFriendly": true,
+"accessibility": "Limited, involves hiking and steps",
+"tags": ["Viewpoint", "Tea Plantations", "Hiking", "Panoramic Views", "Historical"]
+},
+{
+"id": "ambuluwawa-tower",
+"name": "Ambuluwawa Tower",
+"region": "Central",
+"city": "Gampola",
+"category": [
+"nature",
+"scenic",
+"religious"
+],
+"description": "Ambuluwawa Tower is a striking multi-religious structure perched atop a hill, offering thrilling climbs and 360-degree panoramic views of Sri Lanka's central highlands. It symbolizes religious harmony with nearby temples, mosques, churches, and kovils.",
+"highlights": [
+"Spiral staircase climb",
+"Panoramic 360-degree views",
+"Multi-religious center",
+"Biodiversity park and gardens",
+"Ponds and scenic trails"
+],
+"images": [
+"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/60/ff/c5/ambuluwawa-tower-is-the.jpg?w=900&h=500&s=1",
+"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/35/5b/34/photo2jpg.jpg?w=900&h=-1&s=1",
+"https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/10/62/41/48.jpg",
+"https://www.wondersofceylon.com/content/images/2024/01/Untitled-design---2024-01-05T230942.675.png",
+"https://www.laurewanders.com/wp-content/uploads/2022/03/Ambuluwawa-Tower-Gampola.jpg",
+"https://img.atlasobscura.com/W4x7BuGhKZgV3VHX9HNxYa2ftrk1NiPSN9u8L9YbcT4/rt:fit/h:400/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy8wMWUw/NDU4Zi03ODFiLTQx/MGEtYWFkMi0yZDU4/MWVlNTRkNDdhYmRi/NzViYzM2Mzg5YWNk/MmZfQW1idWx1d2F3/YV9NdWx0aV9SZWxp/Z2lvbl9DZW50ZXIu/anBn.jpg",
+"https://ambuluwawa.com/wp-content/uploads/2024/01/Artboard-1-1024x684.jpg",
+"https://i0.wp.com/waywardwayfarer.com/wp-content/uploads/2024/07/Ambuluwawa-tower-sri-lanka.jpg?resize=800%2C533&ssl=1",
+"https://static.wixstatic.com/media/b9613b_e628a5abffc84e75a1c9763f8169563c~mv2.jpg/v1/fill/w_568,h_378,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/b9613b_e628a5abffc84e75a1c9763f8169563c~mv2.jpg",
+"https://images.trvl-media.com/localexpert/3390697/e3ba1de3-55ef-42e7-9df6-a3588403ef27.jpg?impolicy=resizecrop&rw=1005&rh=565"
+],
+"videos": [
+"https://www.youtube.com/watch?v=3vDJCysmw0Y",
+"https://www.youtube.com/watch?v=Aq03xCRJiYQ",
+"https://www.youtube.com/watch?v=B8M7e_AVZUk",
+"https://m.youtube.com/live/EXvNMGOP0Zg",
+"https://www.youtube.com/watch?v=EKMeXPgsxcY"
+],
+"location": {
+"lat": 7.1667,
+"lng": 80.5333
+},
+"hotels": [
+{
+"name": "Ambuluwawa View Inn",
+"rating": 4.0,
+"priceRange": " ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Inn",
+          "distance": "Nearby",
+          "amenities": ["Views", "Free WiFi"]
+        },
+        {
+          "name": "The Lake Forest Hotel",
+          "rating": 4.5,
+          "priceRange": " $",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Luxury",
+"distance": "Not specified",
+"amenities": ["Pool", "Spa", "Restaurant"]
+},
+{
+"name": "Gampola Rest House",
+"rating": 3.8,
+"priceRange": " ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Rest House",
+          "distance": "Not specified",
+          "amenities": ["Restaurant"]
+        },
+        {
+          "name": "Earl's Regency Kandy",
+          "rating": 4.5,
+          "priceRange": " $",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Luxury",
+"distance": "Nearby Kandy",
+"amenities": ["Pool", "Spa"]
+},
+{
+"name": "Hotel Suisse",
+"rating": 4.0,
+"priceRange": " ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Hotel",
+          "distance": "Not specified",
+          "amenities": ["Garden", "Restaurant"]
+        },
+        {
+          "name": "Oyo Rooms Gampola",
+          "rating": 3.5,
+          "priceRange": "$",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Budget Hotel",
+          "distance": "Not specified",
+          "amenities": ["Free WiFi"]
+        },
+        {
+          "name": "Cinnamon Citadel Kandy",
+          "rating": 4.4,
+          "priceRange": " $",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Resort",
+"distance": "Nearby",
+"amenities": ["Pool", "Restaurant"]
+},
+{
+"name": "Kandy City Hotel",
+"rating": 4.0,
+"priceRange": " ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "City Hotel",
+          "distance": "Not specified",
+          "amenities": ["Free WiFi", "Restaurant"]
+        },
+        {
+          "name": "The Grand Kandyan",
+          "rating": 4.5,
+          "priceRange": " $",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Luxury",
+"distance": "Not specified",
+"amenities": ["Pool", "Spa"]
+}
+],
+"activities": [
+{
+"name": "Tower Climb",
+"duration": "1-2 hours",
+"difficulty": "Moderate to Hard",
+"price": "$5-10",
+"description": "Ascend the spiral staircase for thrilling views"
+},
+{
+"name": "Explore Multi-Religious Sites",
+"duration": "1 hour",
+"difficulty": "Easy",
+"price": "Included in entry",
+"description": "Visit the temple, church, mosque, and kovil"
+},
+{
+"name": "Garden Walks and Photography",
+"duration": "1-2 hours",
+"difficulty": "Easy",
+"price": "Free",
+"description": "Stroll through biodiversity park and capture scenic views"
+}
+],
+"bestTime": "January - April",
+"avoidTime": "October - December",
+"weather": "Cool and windy",
+"rating": 4.4,
+"visitors": 100000,
+"entryFee": "$5 for foreigners",
+"duration": "2-3 hours",
+"difficulty": "Moderate",
+"familyFriendly": true,
+"accessibility": "Limited, steep climb",
+"tags": ["Tower", "Views", "Religious Harmony", "Adventure", "Nature"]
+},
+{
+"id": "victoria-park",
+"name": "Victoria Park (Nuwara Eliya)",
+"region": "Central",
+"city": "Nuwara Eliya",
+"category": [
+"nature",
+"gardens",
+"family"
+],
+"description": "Victoria Park is a beautifully maintained 27-acre public park in the heart of Nuwara Eliya, featuring vibrant flower gardens, rare trees, and excellent birdwatching opportunities. Originally a research field for Hakgala Gardens, it was renamed in 1897 to commemorate Queen Victoria's diamond jubilee.",
+"highlights": [
+"Colorful flower displays",
+"Bird watching opportunities",
+"Children's playground",
+"Ponds and fountains",
+"Mini train ride"
+],
+"images": [
+"https://upload.wikimedia.org/wikipedia/commons/6/62/Victoria_Park%2C_by_Sandunruki.jpg",
+"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/5b/99/cb/victoria-park.jpg?w=900&h=-1&s=1",
+"https://tourmylanka.com/wp-content/uploads/2025/04/Victoria-Park-Nuwara-Eliya5.jpg",
+"https://www.lakpura.com/images/LK94009647-02-E.JPG",
+"https://www.trawell.in/admin/images/upload/140958818Nuwara_Eliya_Victoria_Park.jpg",
+"https://www.flamingotravels.net/_next/image?url=https%3A%2F%2Fimgcdn.flamingotravels.co.in%2FImages%2FPlacesOfInterest%2FThe-Victoria-Park-Nuwara%20Eliya-Sri-Lanka-Places-To-Visit-Intrest-3.jpg&w=828&q=90",
+"https://travelsetu.com/apps/uploads/new_destinations_photos/destination/2024/06/27/993840895845bd88efaabe1233f6e84d_1000x1000.jpg",
+"https://www.greenholidaytravels.com/wp-content/uploads/2019/04/Victoria_park_1.jpg",
+"https://media.timeout.com/images/101833257/750/422/image.jpg",
+"https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=257,fit=crop/YrDq5jQMneCRk99w/queen-victoria-pack-plant-peacock-photograph-by-nobel-bungalow-mP4OJn92JEhpDlGy.jpg"
+],
+"videos": [
+"https://www.youtube.com/watch?v=SUnrTWQodP8",
+"https://www.youtube.com/watch?v=8O4JRSmD04I",
+"https://www.youtube.com/watch?v=BeYlVPmukII",
+"https://www.youtube.com/shorts/nCbII_5dIo8",
+"https://www.youtube.com/watch?v=OKfgsHc7FQ8"
+],
+"location": {
+"lat": 6.9708,
+"lng": 80.7829
+},
+"hotels": [
+{
+"name": "Grand Hotel",
+"rating": 4.5,
+"priceRange": " ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Heritage",
+          "distance": "Central",
+          "amenities": ["Restaurant", "Garden", "High Tea"]
+        },
+        {
+          "name": "Heritance Tea Factory",
+          "rating": 4.5,
+          "priceRange": "$$ $",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Luxury",
+          "distance": "Not specified",
+          "amenities": ["Spa", "Restaurant", "Tea Experience"]
+        },
+        {
+          "name": "The Golden Ridge Hotel",
+          "rating": 4.5,
+          "priceRange": " $$",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Hotel",
+          "distance": "Not specified",
+          "amenities": ["Pool", "Spa"]
+        },
+        {
+          "name": "Jetwing St. Andrew's",
+          "rating": 4.5,
+          "priceRange": "$$ $",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Luxury",
+          "distance": "Not specified",
+          "amenities": ["Restaurant", "Garden"]
+        },
+        {
+          "name": "Araliya Green City",
+          "rating": 4.0,
+          "priceRange": " $$",
+          "contact": "Not specified",
+          "website": "https://www.araliyaresorts.com/araliya-green-city/",
+          "type": "Resort",
+          "distance": "Not specified",
+          "amenities": ["Pool", "Spa", "Restaurant"]
+        },
+        {
+          "name": "Stafford Bungalow",
+          "rating": 4.5,
+          "priceRange": "$$ ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Bungalow",
+          "distance": "Not specified",
+          "amenities": ["Garden"]
+        },
+        {
+          "name": "Queenswood Cottage",
+          "rating": 4.0,
+          "priceRange": " $$",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Cottage",
+          "distance": "Not specified",
+          "amenities": ["Free WiFi"]
+        },
+        {
+          "name": "The Bellwood Manor",
+          "rating": 4.5,
+          "priceRange": "$$ ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Manor",
+          "distance": "Not specified",
+          "amenities": ["Restaurant", "Garden"]
+        },
+        {
+          "name": "La Grande Villa",
+          "rating": 4.5,
+          "priceRange": " ",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Villa",
+"distance": "Not specified",
+"amenities": ["Pool"]
+}
+],
+"activities": [
+{
+"name": "Garden Walking Tour",
+"duration": "1-2 hours",
+"difficulty": "Easy",
+"price": "Included in entry",
+"description": "Stroll through beautiful flower gardens and enjoy the scenery"
+},
+{
+"name": "Bird Watching",
+"duration": "1 hour",
+"difficulty": "Easy",
+"price": "Free",
+"description": "Spot rare birds in this excellent birdwatching spot"
+},
+{
+"name": "Children's Playground Activities",
+"duration": "1-2 hours",
+"difficulty": "Easy",
+"price": "Free",
+"description": "Let kids enjoy the play area and mini train"
+}
+],
+"bestTime": "April - May",
+"avoidTime": "October - December",
+"weather": "Cool and pleasant",
+"rating": 4.2,
+"visitors": 150000,
+"entryFee": "LKR 1000 for foreigners",
+"duration": "1-2 hours",
+"difficulty": "Easy",
+"familyFriendly": true,
+"accessibility": "Good for most abilities",
+"tags": ["Gardens", "Flowers", "Birdwatching", "Family", "Colonial"]
+},
+{
+"id": "royal-botanical-gardens-peradeniya",
+"name": "Royal Botanical Gardens (Peradeniya)",
+"region": "Central",
+"city": "Peradeniya",
+"category": [
+"nature",
+"botanical",
+"historical"
+],
+"description": "The Royal Botanic Gardens in Peradeniya, near Kandy, Sri Lanka, are a breathtaking paradise showcasing over 4,000 plant species from around the world, including orchids, spices, medicinal plants, and palm trees. Originally established as a king's court in 1371 and transformed into a botanical garden in 1780, it spans 147 acres of lush greenery and is renowned for its Orchid House and Fernery.",
+"highlights": [
+"Orchid House",
+"Fernery",
+"Palm alleys",
+"Exotic trees and plants",
+"Spice Garden",
+"Flower gardens",
+"Bamboo collection"
+],
+"images": [
+"https://upload.wikimedia.org/wikipedia/commons/9/98/Botanical_Garden_of_Peradeniya_03.jpg",
+"https://www.greatgardensoftheworld.com/wp-content/uploads/2020/01/GALLERY_RBG-5.jpg",
+"https://thema-collection.imgix.net/2022/11/Peradeniya-MAXIME-IMG_9046.jpg?w=940&h=760&fit=crop&crop=center&auto=format&q=30",
+"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/df/bf/46/peradeniya-botanical.jpg?w=900&h=500&s=1",
+"https://simpsonsforest.com/wp-content/uploads/2024/03/01-1.jpg",
+"https://www.ceylonexpeditions.com/medias/destination_places/big/30/65230709-2425045090885621-3073549803280400384-o.jpg",
+"https://www.shutterstock.com/image-photo/royal-botanic-gardens-peradeniya-about-260nw-2365489439.jpg",
+"https://www.greatgardensoftheworld.com/wp-content/uploads/2020/01/GALLERY_RBG-6.jpg",
+"https://lakpura.com/cdn/shop/products/LK60173800-01-E-1280-720.jpg?v=1620048376",
+"https://www.botanicgardens.gov.lk/wp-content/uploads/2021/11/Peradeniya-2.jpg",
+"https://media-cdn.tripadvisor.com/media/photo-s/17/13/ac/e8/royal-botanical-garden.jpg"
+],
+"videos": [
+"https://www.youtube.com/watch?v=1-XNJVgYwes",
+"https://www.youtube.com/watch?v=k1Qn8r3Q-ks",
+"https://www.youtube.com/watch?v=GnzlOdhJQ0w",
+"https://www.youtube.com/watch?v=6SGA5zzL1M4",
+"https://www.youtube.com/watch?v=S6jJ3hEh_Rw"
+],
+"location": {
+"lat": 7.2714,
+"lng": 80.5958
+},
+"hotels": [
+{
+"name": "Oak Ray Regency",
+"rating": 4.0,
+"priceRange": "",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Hotel",
+          "distance": "Near Gardens",
+          "amenities": ["Pool", "Restaurant", "Free WiFi"]
+        },
+        {
+          "name": "De Paris A Kandy",
+          "rating": 4.2,
+          "priceRange": "",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Hotel",
+"distance": "Near Gardens",
+"amenities": ["Free WiFi", "Restaurant"]
+},
+{
+"name": "Earl's Regent Hotel",
+"rating": 4.5,
+"priceRange": "$",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Luxury",
+          "distance": "Near Gardens",
+          "amenities": ["Pool", "Spa", "Restaurant"]
+        },
+        {
+          "name": "The Change Hotel",
+          "rating": 4.0,
+          "priceRange": "",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Hotel",
+"distance": "Near Gardens",
+"amenities": ["Free WiFi"]
+},
+{
+"name": "Sanatha",
+"rating": 4.3,
+"priceRange": " ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Hotel",
+          "distance": "Near Gardens",
+          "amenities": ["Garden", "Free WiFi"]
+        },
+        {
+          "name": "Viyana Boutique Hotel",
+          "rating": 4.5,
+          "priceRange": " $$$",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Boutique",
+          "distance": "Near Gardens",
+          "amenities": ["Pool", "Spa"]
+        },
+        {
+          "name": "FOX Resorts Kandy",
+          "rating": 4.4,
+          "priceRange": " ",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Resort",
+"distance": "Near Gardens",
+"amenities": ["Restaurant"]
+},
+{
+"name": "Stellar Inn",
+"rating": 4.0,
+"priceRange": " ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Inn",
+          "distance": "Near Gardens",
+          "amenities": ["Free WiFi"]
+        },
+        {
+          "name": "PERADENIYA HOMESTAY & RESORT",
+          "rating": 4.2,
+          "priceRange": " ",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Resort",
+"distance": "Near Gardens",
+"amenities": ["Garden"]
+}
+],
+"activities": [
+{
+"name": "Garden Exploration",
+"duration": "2-3 hours",
+"difficulty": "Easy",
+"price": "Included in entry",
+"description": "Wander through diverse plant collections and themed gardens"
+},
+{
+"name": "Orchid House Visit",
+"duration": "30-45 minutes",
+"difficulty": "Easy",
+"price": "Included in entry",
+"description": "Admire the extensive orchid collection"
+},
+{
+"name": "Photography Tour",
+"duration": "1-2 hours",
+"difficulty": "Easy",
+"price": "Free with entry",
+"description": "Capture the beautiful landscapes and flora"
+}
+],
+"bestTime": "January - April",
+"avoidTime": "October - December",
+"weather": "Dry and pleasant",
+"rating": 4.5,
+"visitors": 1500000,
+"entryFee": "$10 for foreigners",
+"duration": "2-3 hours",
+"difficulty": "Easy",
+"familyFriendly": true,
+"accessibility": "Good for most, some wheelchair access",
+"tags": ["Botanical", "Gardens", "Orchids", "Palms", "Nature"]
+},
+{
+"id": "bakers-falls",
+"name": "Baker’s Falls",
+"region": "Central",
+"city": "Nuwara Eliya",
+"category": [
+"nature",
+"waterfall",
+"hiking"
+],
+"description": "Baker’s Falls is a stunning 20-meter waterfall located in Horton Plains National Park, Sri Lanka. Named after British explorer Samuel Baker, it is surrounded by misty grasslands, cloud forests, and diverse wildlife, making it a highlight of the park's scenic trekking trails.",
+"highlights": [
+"20-meter cascading waterfall",
+"Scenic hiking trail",
+"Surrounding cloud forests",
+"Wildlife spotting",
+"Part of World's End trek"
+],
+"images": [
+"https://upload.wikimedia.org/wikipedia/commons/b/bc/SL_Horton_Plains_NP_asv2020-01_img11.jpg",
+"https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Baker%27s_Falls_Horton_Plains.jpg/1024px-Baker%27s_Falls_Horton_Plains.jpg",
+"https://www.wondersofceylon.com/content/images/2024/01/WoC-Bakers-Falls-Featured.jpg",
+"https://www.thingstodosrilanka.com/wp-content/uploads/2025/07/bakers-falls-hp-nuwara-eliya-2.jpg",
+"https://www.birdingsrilanka.com/assets/images/waterfall/cfa6e67b5e7b09696cdd3b5f802f4275.jpg",
+"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/6a/c7/db/baker-s-fall-in-horton.jpg?w=1200&h=-1&s=1",
+"https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1076111777890541",
+"http://kisstravelling.com/wp-content/uploads/2015/01/Horton_Plains_Bakers_Falls_Nuwara_Eliya.jpg",
+"https://resortglenmyu.com/wp-content/uploads/2021/11/Bakers-Falls-1.jpg",
+"https://www.alltrails.com/mugen/image/location-app-router?url=https%3A%2F%2Fimages.alltrails.com%2FeyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMTA5MjAxODU5LzcyNTQzOTA1NWRkNzQ3MGMzYjlmODg4Y2ZhMTQxNzliLmpwZyIsImVkaXRzIjp7InRvRm9ybWF0Ijoid2VicCIsInJlc2l6ZSI6eyJ3aWR0aCI6MTA4MCwiaGVpZ2h0Ijo3MDAsImZpdCI6ImNvdmVyIn0sInJvdGF0ZSI6bnVsbCwianBlZyI6eyJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXNlU2NhbnMiOnRydWUsInF1YW50aXNhdGlvblRhYmxlIjozfX19&w=3840&q=90",
+"https://tourmylanka.com/wp-content/uploads/2024/09/Bakers-Fall-in-Sri-Lanka.jpg"
+],
+"videos": [
+"https://www.youtube.com/shorts/bvnkletqiNI",
+"https://www.youtube.com/watch?v=Tk00ZaM2-FQ",
+"https://www.youtube.com/watch?v=OJw9BRlol5E",
+"https://www.youtube.com/watch?v=9foF9J3vuXs",
+"https://www.youtube.com/watch?v=1vNgxC3GFjM"
+],
+"location": {
+"lat": 6.8028,
+"lng": 80.8075
+},
+"hotels": [
+{
+"name": "The Capoe House",
+"rating": 4.5,
+"priceRange": " ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Lodge",
+          "distance": "4 miles",
+          "amenities": ["Eco-friendly", "Restaurant"]
+        },
+        {
+          "name": "Hill Safari Eco Lodge Ohiya",
+          "rating": 4.2,
+          "priceRange": " ",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Eco Lodge",
+"distance": "Near Park",
+"amenities": ["Garden", "Free WiFi"]
+},
+{
+"name": "Eco Team Horton Plains",
+"rating": 4.0,
+"priceRange": " ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Camp",
+          "distance": "Near Park",
+          "amenities": ["Camping"]
+        },
+        {
+          "name": "The Glenrock",
+          "rating": 4.5,
+          "priceRange": " $",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Resort",
+"distance": "Near Park",
+"amenities": ["Pool", "Spa"]
+},
+{
+"name": "Belihuloya Rest House",
+"rating": 4.0,
+"priceRange": " ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Rest House",
+          "distance": "Near Park",
+          "amenities": ["Restaurant"]
+        },
+        {
+          "name": "Jetwing Warwick Gardens",
+          "rating": 4.5,
+          "priceRange": " $",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Luxury Reserve",
+"distance": "Near Park",
+"amenities": ["Garden", "Free WiFi"]
+},
+{
+"name": "Romance Valley",
+"rating": 4.3,
+"priceRange": " ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Hotel",
+          "distance": "Near Park",
+          "amenities": ["Romantic setting"]
+        },
+        {
+          "name": "World's End Base Eco-Village",
+          "rating": 4.0,
+          "priceRange": " ",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Eco-Village",
+"distance": "Near Park",
+"amenities": ["Eco-friendly"]
+},
+{
+"name": "Whistling Thrush Cottage",
+"rating": 4.2,
+"priceRange": " ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Cottage",
+          "distance": "Near Park",
+          "amenities": ["Garden"]
+        }
+      ],
+      "activities": [
+        {
+          "name": "Hiking to the Falls",
+          "duration": "1-2 hours",
+          "difficulty": "Moderate",
+          "price": "Included in park entry",
+          "description": "Trek through misty plains to reach the waterfall"
+        },
+        {
+          "name": "Photography",
+          "duration": "30-60 minutes",
+          "difficulty": "Easy",
+          "price": "Free with entry",
+          "description": "Capture the cascading waters and surrounding nature"
+        },
+        {
+          "name": "Wildlife Observation",
+          "duration": "1 hour",
+          "difficulty": "Easy",
+          "price": "Included in entry",
+          "description": "Spot sambar deer and birds in the park"
+        }
+      ],
+      "bestTime": "February - April",
+      "avoidTime": "October - January",
+      "weather": "Cool and misty",
+      "rating": 4.5,
+      "visitors": 50000,
+      "entryFee": "$20-30 (park entry)",
+      "duration": "1-2 hours",
+      "difficulty": "Moderate",
+      "familyFriendly": true,
+      "accessibility": "Limited due to hiking trails",
+      "tags": ["Waterfall", "National Park", "Hiking", "Nature", "Scenic"]
+    },
+    {
+      "id": "kandy-lake",
+      "name": "Kandy Lake",
+      "region": "Central",
+      "city": "Kandy",
+      "category": [
+        "nature",
+        "scenic",
+        "historical"
+      ],
+      "description": "Kandy Lake, also known as Kiri Muhuda or the Sea of Milk, is a picturesque artificial lake in the heart of Kandy, Sri Lanka. Built by the last king of Sri Lanka in 1807, it offers serene views and is adjacent to the Temple of the Sacred Tooth Relic, making it a central landmark for relaxation and cultural exploration.",
+      "highlights": [
+        "Scenic promenade walks",
+        "Fountain views",
+        "Island pavilion",
+        "Surrounding temples",
+        "Bird watching"
+      ],
+      "images": [
+        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/a9/70/52/kandy-lake-in-sri-lanka.jpg?w=1200&h=-1&s=1",
+        "https://www.kandyescapes.com/wp-content/uploads/2020/04/lake-mob.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/d/d3/Kandy_Lake_%289%29.jpg",
+        "https://srilankaexplorers.com/wp-content/uploads/2024/05/1_UTMYLJ4O9xJS89SazTUBLw.jpg",
+        "https://www.lakpura.com/images/LK94009839-02-E.JPG",
+        "https://www.trawell.in/admin/images/upload/472864282Kandy_Lake.jpg",
+        "https://cdn.forevervacation.com/uploads/digital/assets/kandy-lake.jpg",
+        "https://imgcdn.flamingotravels.co.in/Images/PlacesOfInterest/Kandy-Lake-Kandy-Sri-Lanka-Places-To-Visit-Intrest-3.jpg",
+        "https://www.lakpura.com/images/LK94009839-03-E.JPG",
+        "https://previews.123rf.com/images/mlnuwan/mlnuwan1707/mlnuwan170700005/87849367-kandy-lake-and-the-temple-of-the-sacred-tooth-relic-sri-dalada-maligawa-at-sunrise-kandy-sri.jpg",
+        "https://srilankadriverguides.com/wp-content/uploads/2020/03/Kandy-930x620.jpg"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=uDu10XE-2tU",
+        "https://www.youtube.com/watch?v=S6jJ3hEh_Rw",
+        "https://www.youtube.com/watch?v=1vNgxC3GFjM",
+        "https://www.youtube.com/watch?v=wGbbKaCumOE",
+        "https://www.youtube.com/watch?v=P1tQb-BlLUY"
+      ],
+      "location": {
+        "lat": 7.2917,
+        "lng": 80.6422
+      },
+      "hotels": [
+        {
+          "name": "Hotel Suisse",
+          "rating": 4.0,
+          "priceRange": " ",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Hotel",
+"distance": "Near Lake",
+"amenities": ["Pool", "Restaurant"]
+},
+{
+"name": "Lake Avenue",
+"rating": 4.2,
+"priceRange": " ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Hotel",
+          "distance": "Near Lake",
+          "amenities": ["Free WiFi", "Lake View"]
+        },
+        {
+          "name": "Radisson Hotel Kandy",
+          "rating": 4.5,
+          "priceRange": " $",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Luxury",
+"distance": "Near Lake",
+"amenities": ["Pool", "Spa", "Restaurant"]
+},
+{
+"name": "Hotel Thilanka",
+"rating": 4.3,
+"priceRange": " ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Hotel",
+          "distance": "Near Lake",
+          "amenities": ["Pool"]
+        },
+        {
+          "name": "Freedom Lodge",
+          "rating": 4.4,
+          "priceRange": " ",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Lodge",
+"distance": "Near Lake",
+"amenities": ["Garden"]
+},
+{
+"name": "Ru Boutique",
+"rating": 4.5,
+"priceRange": " ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Boutique",
+          "distance": "Near Lake",
+          "amenities": ["Free WiFi"]
+        },
+        {
+          "name": "Queen's Hotel",
+          "rating": 4.0,
+          "priceRange": "$$ ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Heritage",
+          "distance": "Near Lake",
+          "amenities": ["Restaurant"]
+        },
+        {
+          "name": "Viyana Boutique Hotel",
+          "rating": 4.5,
+          "priceRange": " ",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Boutique",
+"distance": "Near Lake",
+"amenities": ["Spa"]
+},
+{
+"name": "Grand Serendib Hotel",
+"rating": 4.5,
+"priceRange": "$$$",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Luxury",
+"distance": "Near Lake",
+"amenities": ["Pool", "Restaurant"]
+}
+],
+"activities": [
+{
+"name": "Promenade Walk",
+"duration": "30-60 minutes",
+"difficulty": "Easy",
+"price": "Free",
+"description": "Stroll around the lake enjoying scenic views"
+},
+{
+"name": "Boating",
+"duration": "30 minutes",
+"difficulty": "Easy",
+"price": "$5-10",
+"description": "Rent a boat to explore the lake"
+},
+{
+"name": "Bird Watching",
+"duration": "1 hour",
+"difficulty": "Easy",
+"price": "Free",
+"description": "Observe local bird species around the lake"
+}
+],
+"bestTime": "December - April",
+"avoidTime": "May - September",
+"weather": "Pleasant and dry",
+"rating": 4.5,
+"visitors": 300000,
+"entryFee": "Free",
+"duration": "1 hour",
+"difficulty": "Easy",
+"familyFriendly": true,
+"accessibility": "Good for all abilities",
+"tags": ["Lake", "Scenic", "Promenade", "Historical", "Relaxation"]
+},
+{
+"id": "kanneliya-rainforest",
+"name": "Kanneliya Rainforest",
+"region": "Southern",
+"city": "Galle",
+"category": [
+"nature",
+"rainforest",
+"biodiversity"
+],
+"description": "Kanneliya Rainforest is one of the most biologically diverse areas in Sri Lanka, part of the Kanneliya-Dediyagala-Nakiyadeniya (KDN) biosphere reserve. Located in the Galle District, this lush tropical rainforest features cascading waterfalls, crystal-clear streams, and a rich array of endemic flora and fauna, making it a paradise for nature lovers and eco-tourists.",
+"highlights": [
+"Anagimala Waterfall",
+"Hiking trails through dense forest",
+"Biodiversity hotspot with endemic species",
+"Natural swimming pools",
+"Scenic viewpoints over the canopy"
+],
+"images": [
+"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/67/f1/a6/anagimala-water-fall.jpg?w=900&h=500&s=1",
+"https://www.andbeyond.com/wp-content/uploads/sites/5/Kanneliya-Rainforest-trek-galle-sri-lanka.jpg",
+"https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/09/9c/84/78.jpg",
+"https://www.srilankaauthenticholidays.com/wp-content/uploads/2020/09/1.jpg",
+"https://www.srilankainstyle.com/storage/app/media/Experiences/Kanneliya%20Rainforest%20trek%20with%20lunch%20in%20a%20lake/kanneliya-rainforest-trek-with-lunch-in-a-lake-slider-5.jpg",
+"https://www.dongasrilanka.com/wp-content/uploads/2022/12/kanneliya.jpeg",
+"https://www.srilankaauthenticholidays.com/wp-content/uploads/2020/09/3.jpg",
+"https://images.trvl-media.com/localexpert/2742771/3ab432f0-2042-4e53-859f-da7352015525.jpg?impolicy=resizecrop&rw=1005&rh=565",
+"https://www.srilankaauthenticholidays.com/wp-content/uploads/2020/09/4.jpg",
+"https://srilankatraveldeals.com/wp-content/uploads/2024/11/Kanneliya-Rainforest.jpg.webp",
+"https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0a/83/56/50.jpg"
+],
+"videos": [
+"https://www.youtube.com/watch?v=vGjIaU7YTmg",
+"https://www.youtube.com/watch?v=DCCbqcPZK2Y",
+"https://www.youtube.com/watch?v=f1qGWYYoIng",
+"https://www.youtube.com/watch?v=uIVVag6O_HI",
+"https://www.youtube.com/watch?v=Sc2yAnClWvg"
+],
+"location": {
+"lat": 6.235,
+"lng": 80.415
+},
+"hotels": [
+{
+"name": "Rainforest Ecolodge",
+"rating": 4.5,
+"priceRange": "$",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Ecolodge",
+          "distance": "Nearby",
+          "amenities": ["Spa", "Restaurant", "Free WiFi"]
+        },
+        {
+          "name": "Eco Garden Holiday Inn",
+          "rating": 4.0,
+          "priceRange": "",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Holiday Inn",
+"distance": "Not specified",
+"amenities": ["Pool", "Garden"]
+},
+{
+"name": "Sinharaja Rainforest Edge",
+"rating": 4.2,
+"priceRange": "",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Resort",
+          "distance": "Not specified",
+          "amenities": ["Restaurant", "Free WiFi"]
+        },
+        {
+          "name": "Kanneliya Forest Resort",
+          "rating": 4.0,
+          "priceRange": "",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Resort",
+"distance": "Not specified",
+"amenities": ["Pool", "Spa"]
+},
+{
+"name": "The Lake Forest Hotel",
+"rating": 4.5,
+"priceRange": "$",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Luxury",
+          "distance": "Not specified",
+          "amenities": ["Pool", "Spa", "Restaurant"]
+        },
+        {
+          "name": "Heritage Hotel",
+          "rating": 4.0,
+          "priceRange": "",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Heritage",
+"distance": "Not specified",
+"amenities": ["Restaurant", "Free WiFi"]
+},
+{
+"name": "Saubagya Inn Tourist Guesthouse",
+"rating": 4.0,
+"priceRange": "$",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Guesthouse",
+"distance": "Not specified",
+"amenities": ["Garden"]
+},
+{
+"name": "Ceylan Lodge",
+"rating": 4.5,
+"priceRange": "",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Lodge",
+          "distance": "Not specified",
+          "amenities": ["Free WiFi"]
+        },
+        {
+          "name": "Sudunelum Holiday Resort",
+          "rating": 4.0,
+          "priceRange": "",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Resort",
+"distance": "Not specified",
+"amenities": ["Pool", "Restaurant"]
+}
+],
+"activities": [
+{
+"name": "Guided Rainforest Trek",
+"duration": "3-4 hours",
+"difficulty": "Moderate",
+"price": "$15-25",
+"description": "Explore the trails with a guide to spot endemic wildlife and learn about the ecosystem"
+},
+{
+"name": "Swimming in Natural Pools",
+"duration": "1-2 hours",
+"difficulty": "Easy",
+"price": "Free",
+"description": "Refresh in the clear streams and waterfalls within the forest"
+},
+{
+"name": "Bird Watching",
+"duration": "2-3 hours",
+"difficulty": "Easy",
+"price": "$10",
+"description": "Observe over 100 species of birds in this biodiversity hotspot"
+}
+],
+"bestTime": "January - April",
+"avoidTime": "May - October",
+"weather": "Dry and pleasant for hiking",
+"rating": 4.5,
+"visitors": 50000,
+"entryFee": "$10 for foreigners",
+"duration": "Half day",
+"difficulty": "Moderate",
+"familyFriendly": true,
+"accessibility": "Limited, trails may be challenging",
+"tags": ["Rainforest", "Waterfalls", "Hiking", "Biodiversity", "Eco-tourism"]
+},
+{
+"id": "diyaluma-falls",
+"name": "Diyaluma Falls",
+"region": "Uva",
+"city": "Koslanda",
+"category": [
+"nature",
+"waterfall",
+"adventure"
+],
+"description": "Diyaluma Falls is the second tallest waterfall in Sri Lanka, cascading 220 meters down a rocky cliff into natural pools below. Located in the scenic hill country, it offers stunning views, swimming opportunities in infinity-like pools at the top, and is a popular spot for adventure seekers near Ella.",
+"highlights": [
+"Upper natural infinity pools",
+"Hiking to the top for panoramic views",
+"Swimming and bathing in crystal-clear waters",
+"Scenic drive through tea plantations",
+"Photogenic cascading tiers"
+],
+"images": [
+"https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/12/6e/f0/29.jpg",
+"https://media.tacdn.com/media/attractions-splice-spp-674x446/0a/b0/81/27.jpg",
+"https://themanduls.com/wp-content/uploads/2024/04/Diyaluma-Falls-Sri-Lanka-1.jpg",
+"https://www.lakpura.com/images/LK94009912-01-E.JPG",
+"https://www.lanka-excursions-holidays.com/uploads/4/0/2/1/40216937/diyaluma-falls-in-the-southern-part-of-the-highlands-of-sri-lanka_orig.jpg",
+"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/fe/50/be/today-lovely-tour-diayluma.jpg?w=1200&h=1200&s=1",
+"http://static1.squarespace.com/static/5a3bb03b4c326d76de73ddaa/5a5f3f79bc3379a23e60b3b5/5c908a894785d38d90bf1051/1750643942963/The_Common_Wanderer_-9291-2.jpg?format=1500w",
+"https://www.trawell.in/admin/images/upload/52773535diyaluma_falls.jpg",
+"https://digitaltravelcouple.com/wp-content/uploads/2019/12/Diyaluma-falls-sri-lanka-drone-top.jpg",
+"https://resortglenmyu.com/wp-content/uploads/2021/12/Diyaluma-Waterfall-at-full-flow..jpg",
+"https://youmeunderthepalmtree.com/wp-content/uploads/2020/10/DSC_0040.jpg"
+],
+"videos": [
+"https://www.youtube.com/watch?v=Z7fqNNd97q0",
+"https://www.youtube.com/watch?v=ZQxHrxLHSxU",
+"https://www.youtube.com/watch?v=evZDvIGpFtA",
+"https://www.youtube.com/watch?v=mh7uR6DIpxg",
+"https://www.youtube.com/watch?v=0rKm9phO_Tg"
+],
+"location": {
+"lat": 6.7269,
+"lng": 81.0167
+},
+"hotels": [
+{
+"name": "Ella Flower Garden Resort",
+"rating": 4.5,
+"priceRange": " ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Resort",
+          "distance": "Nearby Ella",
+          "amenities": ["Pool", "Restaurant", "Free WiFi"]
+        },
+        {
+          "name": "98 Acres Resort & Spa",
+          "rating": 4.7,
+          "priceRange": " $$$",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Luxury Resort",
+          "distance": "Not specified",
+          "amenities": ["Spa", "Pool", "Restaurant"]
+        },
+        {
+          "name": "The Mountain Heavens",
+          "rating": 4.3,
+          "priceRange": " ",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Hotel",
+"distance": "Not specified",
+"amenities": ["Free WiFi", "Garden"]
+},
+{
+"name": "Ella Gap Hotel",
+"rating": 4.0,
+"priceRange": " ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Hotel",
+          "distance": "Not specified",
+          "amenities": ["Restaurant"]
+        },
+        {
+          "name": "Zion View Ella Green Retreat",
+          "rating": 4.5,
+          "priceRange": " $",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Retreat",
+"distance": "Not specified",
+"amenities": ["Pool", "Spa"]
+},
+{
+"name": "Ella Jungle Resort",
+"rating": 4.2,
+"priceRange": " ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Resort",
+          "distance": "Not specified",
+          "amenities": ["Pool", "Restaurant"]
+        },
+        {
+          "name": "Morning Dew Hotel",
+          "rating": 4.0,
+          "priceRange": " ",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Hotel",
+"distance": "Not specified",
+"amenities": ["Free WiFi"]
+},
+{
+"name": "The View Ella",
+"rating": 4.5,
+"priceRange": " ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Hotel",
+          "distance": "Not specified",
+          "amenities": ["Restaurant", "Garden"]
+        },
+        {
+          "name": "Ella Mount Heaven",
+          "rating": 4.0,
+          "priceRange": " ",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Hotel",
+"distance": "Not specified",
+"amenities": ["Pool"]
+}
+],
+"activities": [
+{
+"name": "Hike to Upper Pools",
+"duration": "1-2 hours",
+"difficulty": "Moderate",
+"price": "Free",
+"description": "Trek to the top for swimming in natural infinity pools with stunning views"
+},
+{
+"name": "Waterfall Viewing from Base",
+"duration": "30 minutes",
+"difficulty": "Easy",
+"price": "Free",
+"description": "Admire the full cascade from the roadside viewpoint"
+},
+{
+"name": "Picnic and Photography",
+"duration": "1-2 hours",
+"difficulty": "Easy",
+"price": "Free",
+"description": "Capture the scenic beauty and enjoy a relaxing picnic"
+}
+],
+"bestTime": "June - September",
+"avoidTime": "October - May",
+"weather": "Dry season, ideal for swimming and hiking",
+"rating": 4.6,
+"visitors": 150000,
+"entryFee": "Free",
+"duration": "Half day",
+"difficulty": "Moderate",
+"familyFriendly": true,
+"accessibility": "Limited, requires hiking for upper areas",
+"tags": ["Waterfall", "Swimming", "Hiking", "Scenic", "Adventure"]
+},
+{
+"id": "bambarakanda-falls",
+"name": "Bambarakanda Falls",
+"region": "Uva",
+"city": "Kalupahana",
+"category": [
+"nature",
+"waterfall",
+"scenic"
+],
+"description": "Bambarakanda Falls is the tallest waterfall in Sri Lanka, plunging 263 meters down a sheer rock face amid pine forests and misty mountains. Located in the central highlands, it's a dramatic natural wonder best viewed during the wet season when the flow is at its strongest.",
+"highlights": [
+"Tallest waterfall in Sri Lanka",
+"Surrounded by pine forests",
+"Hiking trail to the base",
+"Panoramic views from viewpoint",
+"Nearby Horton Plains National Park"
+],
+"images": [
+"https://upload.wikimedia.org/wikipedia/commons/c/cb/Bambarakanda_Waterfall.jpg",
+"https://www.lanka-excursions-holidays.com/uploads/4/0/2/1/40216937/bambarakanda-940_orig.jpg",
+"https://www.cdn.travejar.com/storage/india_attraction_tour/1746177151.webp",
+"https://media1.thrillophilia.com/filestore/txn7wg38mea7u1d7pp9u6omoiso0_1482737992_Bambara_20Kanda_20Falls_20image_202.jpg?w=400&dpr=2",
+"https://www.lanka-excursions-holidays.com/uploads/4/0/2/1/40216937/bambarakanda-dsc-0422-1560panoramic_orig.jpg",
+"https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3558140032483801762",
+"https://res.klook.com/image/upload/w_750,h_469,c_fill,q_85/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/vvqzv9aojdroeindxcbl.jpg",
+"https://www.lakpura.com/images/LK94008782-05-E.JPG",
+"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/8c/92/6c/caption.jpg?w=800&h=800&s=1",
+"https://www.viacation.com/_next/image?url=https%3A%2F%2Fwp.viacation.com%2Fwp-content%2Fuploads%2F2025%2F01%2F186020-1.webp&w=1920&q=75",
+"https://www.civitatis.com/f/sri-lanka/ella/galeria/cataratas-bambarakanda-panoramica.jpg"
+],
+"videos": [
+"https://www.youtube.com/watch?v=SkT4-ga3g8s",
+"https://www.youtube.com/watch?v=XvH3r_5EUZc",
+"https://www.youtube.com/watch?v=XYuYSLvk4nM",
+"https://www.youtube.com/watch?v=4cYP0Ar58oM",
+"https://www.youtube.com/watch?v=yyonmluphWE"
+],
+"location": {
+"lat": 6.774,
+"lng": 80.83
+},
+"hotels": [
+{
+"name": "Bambarakanda Holiday Resort",
+"rating": 4.0,
+"priceRange": " ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Resort",
+          "distance": "On-site",
+          "amenities": ["Restaurant", "Free WiFi"]
+        },
+        {
+          "name": "Ohiya Holiday Resort",
+          "rating": 4.2,
+          "priceRange": " ",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Resort",
+"distance": "Nearby",
+"amenities": ["Pool", "Garden"]
+},
+{
+"name": "Horton Plains Holiday Bungalow",
+"rating": 3.8,
+"priceRange": "$",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Bungalow",
+"distance": "Not specified",
+"amenities": ["Free WiFi"]
+},
+{
+"name": "The Plains Green",
+"rating": 4.5,
+"priceRange": " ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Hotel",
+          "distance": "Not specified",
+          "amenities": ["Spa", "Restaurant"]
+        },
+        {
+          "name": "GlenMyu Estate",
+          "rating": 4.7,
+          "priceRange": "$$ $",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Luxury Estate",
+          "distance": "Not specified",
+          "amenities": ["Pool", "Spa"]
+        },
+        {
+          "name": "Haputale Holiday Inn",
+          "rating": 4.0,
+          "priceRange": " $$",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Inn",
+          "distance": "Not specified",
+          "amenities": ["Restaurant"]
+        },
+        {
+          "name": "Lipton's Seat Hotel",
+          "rating": 4.3,
+          "priceRange": "$$ ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Hotel",
+          "distance": "Not specified",
+          "amenities": ["Garden", "Free WiFi"]
+        },
+        {
+          "name": "World's End Lodge",
+          "rating": 4.5,
+          "priceRange": " ",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Lodge",
+"distance": "Not specified",
+"amenities": ["Restaurant"]
+},
+{
+"name": "Ohiya Bungalow",
+"rating": 3.5,
+"priceRange": "$",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Bungalow",
+"distance": "Not specified",
+"amenities": ["Free WiFi"]
+}
+],
+"activities": [
+{
+"name": "Viewpoint Observation",
+"duration": "30 minutes",
+"difficulty": "Easy",
+"price": "LKR 150",
+"description": "Admire the full height of the waterfall from the roadside viewpoint"
+},
+{
+"name": "Hike to Base",
+"duration": "1-2 hours",
+"difficulty": "Moderate",
+"price": "Included in entry",
+"description": "Trek down to the base for a closer view and mist experience"
+},
+{
+"name": "Photography Session",
+"duration": "1 hour",
+"difficulty": "Easy",
+"price": "Free",
+"description": "Capture the majestic cascade amid the pine forests"
+}
+],
+"bestTime": "March - May",
+"avoidTime": "June - February",
+"weather": "Wet season for full flow, but dry for access",
+"rating": 4.4,
+"visitors": 80000,
+"entryFee": "LKR 150",
+"duration": "1-2 hours",
+"difficulty": "Easy to Moderate",
+"familyFriendly": true,
+"accessibility": "Good viewpoint access, hike limited",
+"tags": ["Waterfall", "Tallest", "Hiking", "Scenic", "Forests"]
+},
+{
+"id": "maha-oya-hot-springs",
+"name": "Maha Oya Hot Springs",
+"region": "Eastern",
+"city": "Mahaoya",
+"category": [
+"nature",
+"relaxation",
+"thermal"
+],
+"description": "Maha Oya Hot Springs is a natural thermal spring site located about 2km from Mahaoya town in the Ampara district. Known as the hottest springs in Sri Lanka, it features seven wells with temperatures ranging up to 58°C. The mineral-rich waters are believed to have therapeutic properties, set in a serene natural environment blending relaxation and adventure.",
+"highlights": [
+"Hottest natural springs in Sri Lanka",
+"Seven thermal wells with varying temperatures",
+"Mineral-rich therapeutic waters",
+"Surrounded by lush greenery and scenic views",
+"Popular for relaxation and bathing"
+],
+"images": [
+"https://i0.wp.com/amazinglanka.com/wp/wp-content/uploads/2014/09/DSCF8002.jpg?ssl=1",
+"https://www.attractionsinsrilanka.com/wp-content/uploads/2023/05/Maha-Oya-Hot-Water-Springs.jpg",
+"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmzjV24_dm3sbbyDXO6kMRBopLtb-T6FDRyokh5u5qJNeZ_20MCQ_yzIXk3wj6Zh0HtJ0oKpehkUvshJYAydw0vsUSTaCCZqh2tPTpvoIBiacne8FBTuhqsDGFT3EXVaNAO9_3L45rEodS/s1600-rw/Mahaoya+hot+springs+1-+Lankapradeepa.JPG",
+"https://i0.wp.com/amazinglanka.com/wp/wp-content/uploads/2014/09/DSCF8003.jpg?ssl=1",
+"https://live.staticflickr.com/4073/4904133402_7e58107585_b.jpg",
+"https://i.ytimg.com/vi/gGHbXHOOWtI/maxresdefault.jpg",
+"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmLFLQokIN3J4RmGisvXiZMngWyLYGfTC65YxwgPolKHC-2UaH0hlnX5XTBVoqsLrZ3ROljHpwxErcem876ruV2MSsqcfmahxBeWRBgvB2biuhcbexjXL9Vt_jPTPFx-hCk3BBiD2EUXFJ/s1600/Mahaoya+hot+springs+4+-+Lankapradeepa.JPG",
+"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEju13e7yeeKsj4D9LIhJiLoguTqgdH8pwmjSOZhMjzI70taweii14z3xH7vRTTfXvIScz4ogfvbPoe0dOHqqru82wV7910GpJDDagGYYgCYgblIMHDDra-ydscxx1qbeYSkmnOq5P-FyQY/s1600/rf+007.JPG",
+"https://lankainformation.lk/media/com_mtree/images/listings/m/3779.jpg",
+"https://gatewaytoeast.com/images/attraction/1598944863878.jpg",
+"https://lankatraveldirectory.com/wp-content/uploads/2018/04/2151_Mahaoya-Hot-Water-Spring-1.jpg"
+],
+"videos": [
+"https://www.youtube.com/watch?v=I3jSF-TeOoc",
+"https://www.youtube.com/watch?v=BK1FqKZbuug",
+"https://www.youtube.com/watch?v=Jdj8_chlkQM",
+"https://www.youtube.com/watch?v=y1WkUqDnyZg",
+"https://www.youtube.com/watch?v=bWt-wmOAASE"
+],
+"location": {
+"lat": 7.5311,
+"lng": 81.3454
+},
+"hotels": [
+{
+"name": "Blue Lake Ridge",
+"rating": 4.5,
+"priceRange": " ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Guest House",
+          "distance": "Near Mahaoya",
+          "amenities": ["Lake View", "Free WiFi"]
+        },
+        {
+          "name": "Gal Oya Lodge",
+          "rating": 4.8,
+          "priceRange": " $$$",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Lodge",
+          "distance": "Nearby",
+          "amenities": ["Pool", "Restaurant", "Safari Tours"]
+        },
+        {
+          "name": "Wild Glamping Gal Oya",
+          "rating": 4.7,
+          "priceRange": " $",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Glamping",
+"distance": "Close to park",
+"amenities": ["Tents", "Nature Views", "Meals Included"]
+},
+{
+"name": "Yuhibuhi Forest Resort",
+"rating": 4.2,
+"priceRange": " ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Resort",
+          "distance": "Not specified",
+          "amenities": ["Garden", "Free WiFi"]
+        },
+        {
+          "name": "Amaya Beach - Pasikudah",
+          "rating": 4.5,
+          "priceRange": " $",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Beach Resort",
+"distance": "Regional",
+"amenities": ["Pool", "Spa", "Beach Access"]
+},
+{
+"name": "Anantaya Resort & Spa",
+"rating": 4.4,
+"priceRange": " ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Resort",
+          "distance": "Not specified",
+          "amenities": ["Spa", "Restaurant"]
+        },
+        {
+          "name": "EKHO Lake House",
+          "rating": 4.3,
+          "priceRange": "$$ ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Lake House",
+          "distance": "Not specified",
+          "amenities": ["Lake View", "Free WiFi"]
+        },
+        {
+          "name": "Shakti Vani Ayu Resort",
+          "rating": 4.0,
+          "priceRange": " $$",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Resort",
+          "distance": "Not specified",
+          "amenities": ["Spa", "Yoga"]
+        },
+        {
+          "name": "Sea View Resort",
+          "rating": 4.1,
+          "priceRange": "$$ ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Resort",
+          "distance": "Not specified",
+          "amenities": ["Sea View", "Pool"]
+        }
+      ],
+      "activities": [
+        {
+          "name": "Bathing in Hot Springs",
+          "duration": "1-2 hours",
+          "difficulty": "Easy",
+          "price": "Free",
+          "description": "Soak in the natural thermal wells with therapeutic mineral waters"
+        },
+        {
+          "name": "Picnicking and Relaxation",
+          "duration": "1 hour",
+          "difficulty": "Easy",
+          "price": "Free",
+          "description": "Enjoy a peaceful picnic in the surrounding natural area"
+        },
+        {
+          "name": "Exploring Local Scenery",
+          "duration": "1-2 hours",
+          "difficulty": "Easy",
+          "price": "Free",
+          "description": "Walk around the site and enjoy the lush greenery and views"
+        }
+      ],
+      "bestTime": "Early morning or late afternoon",
+      "avoidTime": "Midday",
+      "weather": "Warm and humid",
+      "rating": 4.0,
+      "visitors": 10000,
+      "entryFee": "Free",
+      "duration": "1-2 hours",
+      "difficulty": "Easy",
+      "familyFriendly": true,
+      "accessibility": "Basic facilities, suitable for most",
+      "tags": ["Hot Springs", "Thermal", "Natural", "Relaxation", "Wellness"]
+    },
+    {
+      "id": "maduru-oya-national-park",
+      "name": "Maduru Oya National Park",
+      "region": "Eastern and Uva",
+      "city": "Aralaganwila",
+      "category": [
+        "nature",
+        "wildlife",
+        "adventure"
+      ],
+      "description": "Maduru Oya National Park, established in 1983 under the Mahaweli development project, spans 588 square kilometers and serves as a catchment for the Maduru Oya Reservoir. It is home to diverse wildlife including Asian elephants, leopards, sloth bears, and over 100 bird species. The park features varied terrain with grasslands, forests, and ancient ruins, offering a less crowded alternative to other national parks.",
+      "highlights": [
+        "Large herds of Asian elephants",
+        "Sighting opportunities for leopards and sloth bears",
+        "Ancient stupas and ruins",
+        "Diverse birdlife with over 100 species",
+        "Scenic reservoir and water bodies"
+      ],
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/b/b5/A_Hill_in_Maduru_Oya.jpg",
+        "https://www.srilankansafari.com/images/lesser-known-attractions-of-maduruoya-national-park/lesser-known-attractions-of-maduruoya-national-park-2.jpg?q=79&w=800&h=571",
+        "https://www.srilankansafari.com/images/lesser-known-attractions-of-maduruoya-national-park/lesser-known-attractions-of-maduruoya-national-park-3.jpg?q=79&w=800&h=571",
+        "https://media.timeout.com/images/103944938/image.jpg",
+        "https://www.srilankansafari.com/images/lesser-known-attractions-of-maduruoya-national-park/lesser-known-attractions-of-maduruoya-national-park-4.jpg?q=79&w=800&h=571",
+        "https://www.attractionsinsrilanka.com/wp-content/uploads/2020/02/Maduru-Oya-National-Park.jpg",
+        "https://www.experiencetravelgroup.com/wp-content/uploads/2025/07/e2.jpg",
+        "https://www.lanka-excursions-holidays.com/uploads/4/0/2/1/40216937/maduru-oya-national-park-title-image_orig.jpg",
+        "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/07/6c/08.jpg",
+        "https://i0.wp.com/amazinglanka.com/wp/wp-content/uploads/2014/02/maduruoya-01.jpg?fit=1280%2C720&ssl=1",
+        "https://nationalparksassociation.org/wp-content/uploads/2023/12/Maduru-Oya-National-Park.jpg"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=1JfT1Sa1gWo",
+        "https://www.youtube.com/watch?v=QndlTiiw7BA",
+        "https://www.youtube.com/watch?v=yAxJgu1wlkA",
+        "https://www.youtube.com/watch?v=S04WRyZpQsY",
+        "https://www.youtube.com/watch?v=9dmXl1ypVkM"
+      ],
+      "location": {
+        "lat": 7.5758,
+        "lng": 81.1428
+      },
+      "hotels": [
+        {
+          "name": "Gal Oya Lodge",
+          "rating": 4.8,
+          "priceRange": " ",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Lodge",
+"distance": "Near park entrance",
+"amenities": ["Pool", "Restaurant", "Safari Tours"]
+},
+{
+"name": "Wild Glamping Gal Oya",
+"rating": 4.7,
+"priceRange": "$",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Glamping",
+          "distance": "Adjacent to park",
+          "amenities": ["Tents", "Nature Views", "Meals"]
+        },
+        {
+          "name": "Blue Lake Ridge",
+          "rating": 4.5,
+          "priceRange": "",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Guest House",
+"distance": "Nearby",
+"amenities": ["Lake View", "Free WiFi"]
+},
+{
+"name": "Yuhibuhi Forest Resort",
+"rating": 4.2,
+"priceRange": " ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Resort",
+          "distance": "Not specified",
+          "amenities": ["Garden", "Pool"]
+        },
+        {
+          "name": "Karpaha Sands",
+          "rating": 4.6,
+          "priceRange": " $$$",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Luxury",
+          "distance": "Regional",
+          "amenities": ["Beach", "Spa"]
+        },
+        {
+          "name": "Hotel Sudu Araliya",
+          "rating": 4.3,
+          "priceRange": " ",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Hotel",
+"distance": "Not specified",
+"amenities": ["Pool", "Restaurant"]
+},
+{
+"name": "EKHO Lake House",
+"rating": 4.4,
+"priceRange": " ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Lake House",
+          "distance": "Not specified",
+          "amenities": ["Lake View"]
+        },
+        {
+          "name": "Santani Wellness Kandy",
+          "rating": 4.9,
+          "priceRange": "  ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Wellness Resort",
+          "distance": "Not specified",
+          "amenities": ["Spa", "Yoga"]
+        },
+        {
+          "name": "Madulkelle Tea and Eco Lodge",
+          "rating": 4.5,
+          "priceRange": " $",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Eco Lodge",
+"distance": "Not specified",
+"amenities": ["Tea Plantation Views"]
+}
+],
+"activities": [
+{
+"name": "Jeep Safari Tour",
+"duration": "4-6 hours",
+"difficulty": "Easy",
+"price": "$20-50",
+"description": "Explore the park by jeep to spot elephants, leopards, and other wildlife"
+},
+{
+"name": "Bird Watching",
+"duration": "2-3 hours",
+"difficulty": "Easy",
+"price": "Included in entry",
+"description": "Observe over 100 species of birds in their natural habitat"
+},
+{
+"name": "Visit Ancient Ruins",
+"duration": "1-2 hours",
+"difficulty": "Moderate",
+"price": "Included in entry",
+"description": "Explore historical stupas and ancient monasteries within the park"
+}
+],
+"bestTime": "March - September",
+"avoidTime": "October - February",
+"weather": "Dry and warm",
+"rating": 4.5,
+"visitors": 50000,
+"entryFee": "$20 for foreigners",
+"duration": "Full day",
+"difficulty": "Easy to Moderate",
+"familyFriendly": true,
+"accessibility": "Limited, jeep access required",
+"tags": ["Wildlife", "Safari", "Elephants", "National Park", "Ruins"]
+},
+{
+"id": "wasgamuwa-national-park",
+"name": "Wasgamuwa National Park",
+"region": "Central and North Central",
+"city": "Matale",
+"category": [
+"nature",
+"wildlife",
+"adventure"
+],
+"description": "Wasgamuwa National Park, spanning 39,322 hectares in the Matale and Polonnaruwa districts, was established in 1984 to protect displaced wildlife from the Mahaweli Development Project. It is renowned for its large elephant herds, sloth bears, and diverse biodiversity including 143 bird species and 150 floral species. The park offers a peaceful, less crowded experience with ancient ruins and river boundaries.",
+"highlights": [
+"Large elephant herds",
+"Rare sloth bear sightings",
+"Diverse birdlife with 143 species",
+"Ancient ruins and historical sites",
+"Serene and untamed wilderness"
+],
+"images": [
+"https://www.srilankaecotourism.lk/location_img/1489667057wasgamu_2.jpg",
+"https://www.srilankanexpeditions.lk/tour_img/1715166189ws-1.jpg",
+"https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/01/86/45.jpg",
+"https://www.srilankaecotourism.lk/location_img/1489667057wasgamu_1.jpg",
+"https://www.srilankansafari.com/images/wasgamuwa-national-park-in-sri-lanka/wasgamuwa11.jpg",
+"https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3500885339131185289",
+"https://www.santani.com/wp-content/uploads/elementor/thumbs/Untitled-design-81-qm056ta703rkqz8js17rbptpb0rtzd22tl5714shgw.jpg",
+"https://cinnamonair.imgix.net/2025/01/shutterstock_1531208408-scaled.jpg?&fit=crop&crop=center&auto=compress&auto=format,enhance&q=70",
+"https://i0.wp.com/amazinglanka.com/wp/wp-content/uploads/2014/02/DSC_7368.jpg?ssl=1",
+"https://cdn.inspiringvacations.com/eyJrZXkiOiJkODcwM2FlOS01NWNkLTRhMzktYTk3ZC1jNDQzYmJmMmE3YWIuanBlZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6ODAwfX19",
+"https://upload.wikimedia.org/wikipedia/commons/b/b1/WasgamuwaNationalPark-September2014_%281%29.JPG"
+],
+"videos": [
+"https://www.youtube.com/watch?v=l4R2u0Z-7CU",
+"https://www.youtube.com/watch?v=CaPZQOQage4",
+"https://www.youtube.com/watch?v=gofA1GxqofU",
+"https://www.youtube.com/watch?v=9T5CSqFOecI",
+"https://www.youtube.com/watch?v=5PdFeWri7Wg"
+],
+"location": {
+"lat": 7.717,
+"lng": 80.933
+},
+"hotels": [
+{
+"name": "Lavendish Wild Safari",
+"rating": 4.5,
+"priceRange": " ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Safari Hotel",
+          "distance": "Near park",
+          "amenities": ["Pool", "Safari Tours", "Restaurant"]
+        },
+        {
+          "name": "Safari Lanka Hotel",
+          "rating": 4.3,
+          "priceRange": " ",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Hotel",
+"distance": "Adjacent",
+"amenities": ["Free WiFi", "Garden"]
+},
+{
+"name": "FarCry, Wasgamuwa",
+"rating": 4.6,
+"priceRange": " $$$",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Lodge",
+"distance": "Close to entrance",
+"amenities": ["Pool", "Spa"]
+},
+{
+"name": "Hotel Elephant Border",
+"rating": 4.2,
+"priceRange": "",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Hotel",
+          "distance": "Not specified",
+          "amenities": ["Restaurant"]
+        },
+        {
+          "name": "Kasun Safari Village",
+          "rating": 4.0,
+          "priceRange": "",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Village Stay",
+"distance": "Not specified",
+"amenities": ["Safari", "Meals"]
+},
+{
+"name": "Wingate Hotel Wilgamuwa",
+"rating": 4.4,
+"priceRange": "",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Hotel",
+          "distance": "Not specified",
+          "amenities": ["Pool", "Free WiFi"]
+        },
+        {
+          "name": "Lakegala Resort",
+          "rating": 4.1,
+          "priceRange": "",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Resort",
+"distance": "Not specified",
+"amenities": ["Lake View"]
+},
+{
+"name": "Kalundewa Retreat",
+"rating": 4.7,
+"priceRange": "$",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Retreat",
+          "distance": "Not specified",
+          "amenities": ["Spa", "Nature Activities"]
+        },
+        {
+          "name": "The Happy House Nature Retreat",
+          "rating": 4.3,
+          "priceRange": "",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Retreat",
+"distance": "Not specified",
+"amenities": ["Garden", "Yoga"]
+}
+],
+"activities": [
+{
+"name": "Elephant Safari",
+"duration": "3-4 hours",
+"difficulty": "Easy",
+"price": "$30-50",
+"description": "Spot large herds of elephants in their natural habitat"
+},
+{
+"name": "Bird Watching Tour",
+"duration": "2-3 hours",
+"difficulty": "Easy",
+"price": "Included in entry",
+"description": "Observe 143 species of birds throughout the park"
+},
+{
+"name": "Explore Ancient Ruins",
+"duration": "1-2 hours",
+"difficulty": "Moderate",
+"price": "Included in entry",
+"description": "Visit historical sites and ruins within the park boundaries"
+}
+],
+"bestTime": "May - September",
+"avoidTime": "October - April",
+"weather": "Dry and warm",
+"rating": 4.5,
+"visitors": 50000,
+"entryFee": "$15 for foreigners",
+"duration": "Half to full day",
+"difficulty": "Easy to Moderate",
+"familyFriendly": true,
+"accessibility": "Jeep required, limited for mobility impaired",
+"tags": ["Wildlife", "Elephants", "National Park", "Birds", "Ruins"]
+},
+{
+"id": "uppuveli",
+"name": "Uppuveli Beach",
+"region": "Eastern",
+"city": "Trincomalee",
+"category": [
+"beach",
+"nature",
+"relaxation"
+],
+"description": "Uppuveli Beach is a pristine stretch of golden sand near Trincomalee on Sri Lanka's east coast, known for its turquoise waters, palm-fringed shores, and relaxed vibe. Less crowded than nearby Nilaveli, it's ideal for swimming, snorkeling, and enjoying fresh seafood while watching stunning sunsets. The area offers a mix of tranquility and adventure with opportunities for whale watching and visits to Pigeon Island.",
+"highlights": [
+"Golden sandy beach and clear waters",
+"Snorkeling and diving spots",
+"Whale and dolphin watching tours",
+"Local seafood restaurants",
+"Sunset views and beach relaxation"
+],
+"images": [
+"https://mediaim.expedia.com/destination/2/9b6649642a3d0df92f0616497e0b5e00.jpg",
+"https://www.trawell.in/admin/images/upload/685870490Uppuveli_Beach.jpg",
+"https://mediaim.expedia.com/destination/2/d26a5d41c25279309c56542c2e1bedc9.jpg",
+"https://lp-cms-production.imgix.net/2021-03/Uppuveli_Sri_Lanka.jpg",
+"https://digitaltravelcouple.com/wp-content/uploads/2019/12/uppuveli-beach-trincomalee-sri-lanka.jpg",
+"https://mediaim.expedia.com/destination/1/06fa53441a97de3ee314f1298ef612a2.jpg?impolicy=fcrop&w=512&h=288&q=medium",
+"https://i0.wp.com/beyondwildplaces.com/wp-content/uploads/2023/10/Uppuveli-Beach.jpg?resize=780%2C585&ssl=1",
+"https://www.thecoastalcampaign.com/wp-content/uploads/2019/10/DJI_0207-2-1024x732.jpg",
+"https://i.ytimg.com/vi/HqeJ8ZSFWd8/maxresdefault.jpg",
+"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/6b/a2/09/uppuweli-beach.jpg?w=900&h=500&s=1",
+"https://images.squarespace-cdn.com/content/v1/6298cb774cf3830bc9b342bf/64e92f32-ae34-49fe-aa37-bf24631840e7/Uppuveli+Beach.jpg"
+],
+"videos": [
+"https://www.youtube.com/watch?v=jKzHIeMPaQo",
+"https://www.youtube.com/watch?v=9C_ISYSB9I8",
+"https://www.youtube.com/watch?v=HqeJ8ZSFWd8",
+"https://www.youtube.com/watch?v=E6R4H1-SPP0",
+"https://www.youtube.com/watch?v=Egf_bJ1Hey4"
+],
+"location": {
+"lat": 8.5833,
+"lng": 81.2167
+},
+"hotels": [
+{
+"name": "Uppuveli Beach by DSK",
+"rating": 4.8,
+"priceRange": "  ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Resort",
+          "distance": "Beachfront",
+          "amenities": ["Pool", "Restaurant", "Free WiFi"]
+        },
+        {
+          "name": "Trinco Blu by Cinnamon",
+          "rating": 4.5,
+          "priceRange": " $$$",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Resort",
+          "distance": "Nearby",
+          "amenities": ["Pool", "Spa", "Restaurant"]
+        },
+        {
+          "name": "Amaranthe Bay",
+          "rating": 4.7,
+          "priceRange": "  $",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Luxury Hotel",
+"distance": "Not specified",
+"amenities": ["Pool", "Spa", "Free WiFi"]
+},
+{
+"name": "Elegant Green Beach Resort",
+"rating": 3.9,
+"priceRange": " ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Resort",
+          "distance": "Not specified",
+          "amenities": ["Pool", "Restaurant"]
+        },
+        {
+          "name": "ALFFA Guest Inn",
+          "rating": 4.0,
+          "priceRange": "  $",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Guesthouse",
+          "distance": "Not specified",
+          "amenities": ["Free WiFi"]
+        },
+        {
+          "name": "Summer Guest House",
+          "rating": 4.8,
+          "priceRange": "  $",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Guesthouse",
+          "distance": "Not specified",
+          "amenities": ["Garden", "Free WiFi"]
+        },
+        {
+          "name": "Oceanfront Nilaveli by ICC",
+          "rating": 4.2,
+          "priceRange": "   ",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Hotel",
+"distance": "Nearby",
+"amenities": ["Pool", "Restaurant"]
+},
+{
+"name": "Regina Beach Bungalow",
+"rating": 4.0,
+"priceRange": "  $",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Bungalow",
+"distance": "Not specified",
+"amenities": ["Beach Access"]
+},
+{
+"name": "Golden Beach Hotel",
+"rating": 4.1,
+"priceRange": " ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Hotel",
+          "distance": "Not specified",
+          "amenities": ["Pool", "Free WiFi"]
+        }
+      ],
+      "activities": [
+        {
+          "name": "Beach Relaxation and Swimming",
+          "duration": "Full day",
+          "difficulty": "Easy",
+          "price": "Free",
+          "description": "Lounge on the golden sands and swim in the clear turquoise waters"
+        },
+        {
+          "name": "Snorkeling Trip",
+          "duration": "2-3 hours",
+          "difficulty": "Easy",
+          "price": "$20-30",
+          "description": "Explore underwater marine life near Pigeon Island"
+        },
+        {
+          "name": "Whale Watching Tour",
+          "duration": "4-5 hours",
+          "difficulty": "Easy",
+          "price": "$40-60",
+          "description": "Boat excursion to spot whales and dolphins in season"
+        }
+      ],
+      "bestTime": "May - September",
+      "avoidTime": "October - April",
+      "weather": "Dry and sunny during peak season",
+      "rating": 4.5,
+      "visitors": 50000,
+      "entryFee": "Free",
+      "duration": "2-3 days",
+      "difficulty": "Easy",
+      "familyFriendly": true,
+      "accessibility": "Good for most abilities",
+      "tags": ["Beach", "Snorkeling", "Whale Watching", "Relaxation", "Sunsets"]
+    },
+    {
+      "id": "kumana-national-park",
+      "name": "Kumana National Park",
+      "region": "Eastern",
+      "city": "Ampara",
+      "category": [
+        "wildlife",
+        "nature",
+        "safari"
+      ],
+      "description": "Kumana National Park, formerly known as Yala East, is a UNESCO-listed bird sanctuary and wildlife reserve in eastern Sri Lanka. Spanning over 35,000 hectares, it's renowned for its diverse ecosystems including mangroves, lagoons, and forests. Home to leopards, elephants, sloth bears, and over 200 bird species, it's a prime spot for safaris and birdwatching, especially during migration season.",
+      "highlights": [
+        "Leopard sightings",
+        "Migratory bird watching",
+        "Elephant herds",
+        "Sloth bears",
+        "Mangrove lagoons"
+      ],
+      "images": [
+        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/51/3a/2e/birds-at-kumana.jpg?w=1200&h=-1&s=1",
+        "https://imgs.mongabay.com/wp-content/uploads/sites/20/2025/05/05141706/1-Banner-option-A-family-of-Kumana-Leopards-c-Shanaka-Kalubowila-1-768x512.jpg",
+        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/44/80/d7/leopard-at-kumana.jpg?w=1200&h=-1&s=1",
+        "https://suryatara.com/wp-content/uploads/2025/05/converted_image-2025-05-07T195628.721.webp",
+        "https://www.lanka-excursions-holidays.com/uploads/4/0/2/1/40216937/kumana-national-park-title-photo_orig.jpg",
+        "https://www.serendibtrail.com/content/images/2024/09/Kumana-National-Park.jpg",
+        "https://www.shutterstock.com/image-photo/leopard-capture-sri-lanka-kumana-260nw-2471375833.jpg",
+        "https://www.srilankaecotourism.lk/location_img/1489658697kumana_park_new_6.jpg",
+        "https://www.shutterstock.com/image-photo/asian-elephant-roaming-freely-kumana-260nw-2647114311.jpg",
+        "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1191602259632453",
+        "https://media.gettyimages.com/id/1388220805/photo/beautiful-herd-of-deer-walking-in-field-kumana-national-park-sri-lanka.jpg?s=612x612&w=gi&k=20&c=fFUVir3WZYP-Y5EeGueU1krWADMMXbXtkPMNCiCL29s="
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=NRXw3nFg58A",
+        "https://www.youtube.com/watch?v=tqf8pxowrkw",
+        "https://www.youtube.com/watch?v=GhOHUlIhxzc",
+        "https://www.youtube.com/watch?v=JD6Bv18A2mE",
+        "https://www.youtube.com/watch?v=YFDF5kFPDE8"
+      ],
+      "location": {
+        "lat": 6.5131,
+        "lng": 81.6878
+      },
+      "hotels": [
+        {
+          "name": "Explorer by Mahoora - Kumana",
+          "rating": 4.5,
+          "priceRange": "   $",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Safari Camp",
+"distance": "3.5 miles",
+"amenities": ["Guided Tours", "Restaurant"]
+},
+{
+"name": "Kumana Under Canvas",
+"rating": 4.2,
+"priceRange": " ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Camping",
+          "distance": "6.1 miles",
+          "amenities": ["Tents", "Safari"]
+        },
+        {
+          "name": "Nilana Beach Cabana",
+          "rating": 4.0,
+          "priceRange": "  $",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Cabana",
+          "distance": "10 miles",
+          "amenities": ["Beach Access"]
+        },
+        {
+          "name": "Robbo's Surf Camp",
+          "rating": 4.3,
+          "priceRange": "   ",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Camp",
+"distance": "22 miles",
+"amenities": ["Surfing", "Restaurant"]
+},
+{
+"name": "Shell Resort",
+"rating": 4.1,
+"priceRange": " ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Resort",
+          "distance": "Not specified",
+          "amenities": ["Pool"]
+        },
+        {
+          "name": "Mangohut",
+          "rating": 4.0,
+          "priceRange": "  $",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Guesthouse",
+          "distance": "Not specified",
+          "amenities": ["Free WiFi"]
+        },
+        {
+          "name": "Flameback Eco Lodge",
+          "rating": 4.5,
+          "priceRange": "   $",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Eco Lodge",
+"distance": "19.9 miles",
+"amenities": ["Pool", "Spa"]
+},
+{
+"name": "Hotel Alaskabay Arugambay",
+"rating": 4.0,
+"priceRange": " ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Hotel",
+          "distance": "Not specified",
+          "amenities": ["Restaurant"]
+        },
+        {
+          "name": "SURF N SUN Arugambay",
+          "rating": 4.2,
+          "priceRange": "   ",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Resort",
+"distance": "Not specified",
+"amenities": ["Beach Access", "Surfing"]
+}
+],
+"activities": [
+{
+"name": "Jeep Safari Tour",
+"duration": "4-6 hours",
+"difficulty": "Moderate",
+"price": "$70-80",
+"description": "Explore the park by jeep to spot leopards and elephants"
+},
+{
+"name": "Bird Watching",
+"duration": "2-3 hours",
+"difficulty": "Easy",
+"price": "Included in entry",
+"description": "Observe over 200 species of birds in the lagoons"
+},
+{
+"name": "Camping Overnight",
+"duration": "Overnight",
+"difficulty": "Moderate",
+"price": "$50-100",
+"description": "Stay in the park for nocturnal wildlife viewing"
+}
+],
+"bestTime": "May - September",
+"avoidTime": "October - April",
+"weather": "Dry season ideal for safaris",
+"rating": 4.5,
+"visitors": 30000,
+"entryFee": "$25 for foreigners",
+"duration": "Full day",
+"difficulty": "Moderate",
+"familyFriendly": true,
+"accessibility": "Limited, jeep required",
+"tags": ["Safari", "Leopards", "Birds", "Elephants", "Mangroves"]
+},
+{
+"id": "gal-oya-national-park",
+"name": "Gal Oya National Park",
+"region": "Eastern",
+"city": "Ampara",
+"category": [
+"wildlife",
+"nature",
+"boat safari"
+],
+"description": "Gal Oya National Park is an untouched wilderness in eastern Sri Lanka, established in 1954 around the Senanayake Samudraya reservoir. It's unique for offering boat safaris where visitors can witness swimming elephants - a rare sight worldwide. The park spans 25,900 hectares of forest and grasslands, home to diverse wildlife including leopards, bears, and over 150 bird species.",
+"highlights": [
+"Boat safaris with swimming elephants",
+"Bird watching opportunities",
+"Jeep safaris for land animals",
+"Indigenous Vedda community visits",
+"Scenic reservoir views"
+],
+"images": [
+"https://www.onthegotours.com/repository/Elephant-Swimming-859191722268820.jpg",
+"https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/29/05/d9.jpg",
+"https://www.laurewanders.com/wp-content/uploads/2022/03/Gal-Oya-National-Park-boat-safari-00001.jpg",
+"https://www.alajode.com/wp-content/uploads/2024/07/Gal-Oya-National-Park-Safari-Sri-Lanka-73.jpg",
+"https://images.squarespace-cdn.com/content/v1/6090e44108fff025fb6cf10a/1620108584155-EXOYYTCTWUEUQKYPM4AL/GalOya_EliseHassey_0218.jpg",
+"https://www.arugambayagenda.com/wp-content/uploads/2025/02/Gal-Oya-National-Park.jpg",
+"https://lakpura.com/cdn/shop/products/LK719K0001-03-E.jpg?v=1680870143&width=1445",
+"https://media.tacdn.com/media/photo-m/1280/30/9f/86/77/caption.jpg",
+"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/04/97/01/56/gal-oya-national-park.jpg?w=900&h=500&s=1",
+"https://www.lanka-excursions-holidays.com/uploads/4/0/2/1/40216937/gal-oya-lodge-y2yvoq-o1600x1000_orig.jpg",
+"https://www.laurewanders.com/wp-content/uploads/2022/03/Gal-Oya-National-Park-boat-safari-00004-1024x683.jpg"
+],
+"videos": [
+"https://www.youtube.com/watch?v=fKQAAEH6jdo",
+"https://www.youtube.com/watch?v=JqjSvrQ43UU",
+"https://www.youtube.com/watch?v=-1IiFwS_6iY",
+"https://www.youtube.com/watch?v=kdW2kGeDtDk",
+"https://www.youtube.com/watch?v=4PXPTrI9NrI"
+],
+"location": {
+"lat": 7.2167,
+"lng": 81.3667
+},
+"hotels": [
+{
+"name": "Gal Oya Lodge",
+"rating": 4.9,
+"priceRange": " $$$",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Eco Lodge",
+"distance": "Nearby",
+"amenities": ["Pool", "Spa", "Restaurant"]
+},
+{
+"name": "Wild Glamping Gal Oya",
+"rating": 4.7,
+"priceRange": "  $",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Glamping",
+          "distance": "Not specified",
+          "amenities": ["Tents", "Guided Tours"]
+        },
+        {
+          "name": "Explorer by Eco Team - Gal Oya",
+          "rating": 4.5,
+          "priceRange": "",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Safari Camp",
+"distance": "Not specified",
+"amenities": ["All-inclusive", "Safari"]
+},
+{
+"name": "Hotel Lake Jay",
+"rating": 4.2,
+"priceRange": "  ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Hotel",
+          "distance": "0.1 miles",
+          "amenities": ["Lake View"]
+        },
+        {
+          "name": "Hotel Senondra",
+          "rating": 4.0,
+          "priceRange": "  $",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Hotel",
+          "distance": "Not specified",
+          "amenities": ["Free WiFi"]
+        },
+        {
+          "name": "Galoya30 Hotel & Safari",
+          "rating": 4.3,
+          "priceRange": "",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Safari Hotel",
+"distance": "Not specified",
+"amenities": ["Safari Tours"]
+},
+{
+"name": "Hotel Sun Blue",
+"rating": 4.1,
+"priceRange": "  ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Hotel",
+          "distance": "Not specified",
+          "amenities": ["Pool"]
+        },
+        {
+          "name": "Nilaveli Beach Hotel",
+          "rating": 4.0,
+          "priceRange": "",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Beach Hotel",
+"distance": "Not specified",
+"amenities": ["Beach Access"]
+},
+{
+"name": "Thirumalai Park",
+"rating": 4.2,
+"priceRange": "  $",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Hotel",
+"distance": "Not specified",
+"amenities": ["Garden"]
+}
+],
+"activities": [
+{
+"name": "Boat Safari",
+"duration": "2-3 hours",
+"difficulty": "Easy",
+"price": "$20-30",
+"description": "Unique boat tour to see swimming elephants"
+},
+{
+"name": "Jeep Safari",
+"duration": "3-4 hours",
+"difficulty": "Moderate",
+"price": "$40-50",
+"description": "Explore the park by jeep for land wildlife"
+},
+{
+"name": "Vedda Community Visit",
+"duration": "1-2 hours",
+"difficulty": "Easy",
+"price": "$10-20",
+"description": "Learn about indigenous Vedda culture"
+}
+],
+"bestTime": "Year-round",
+"avoidTime": "None specific",
+"weather": "Tropical, best in dry season",
+"rating": 4.8,
+"visitors": 10000,
+"entryFee": "$20 for foreigners",
+"duration": "1-2 days",
+"difficulty": "Easy to Moderate",
+"familyFriendly": true,
+"accessibility": "Boat and jeep accessible",
+"tags": ["Boat Safari", "Elephants", "Birds", "Reservoir", "Untouched"]
+}
+   
+  
+] 
 }
