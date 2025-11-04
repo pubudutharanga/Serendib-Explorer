@@ -13,7 +13,7 @@
     "build-storybook": "storybook build",
     "predeploy": "npm run build",
   "deploy": "gh-pages -d dist -r https://github.com/pubudutharanga/Serendib-Explorer.git",
-    "postbuild": "node scripts/create-404.js"
+    "postbuild":"node scripts/create-404.cjs"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.1",
