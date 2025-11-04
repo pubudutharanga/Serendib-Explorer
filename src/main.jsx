@@ -11,7 +11,7 @@ if (GA_ID) initGA(GA_ID)
 
 createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-      <BrowserRouter basename={base}>
+      <BrowserRouter basename={'/Serendib-Explorer/'}>
       <App />
     </BrowserRouter>
   </React.StrictMode>
