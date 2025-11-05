@@ -60,6 +60,12 @@ export default function EnhancedNavigation() {
     }
   }
 
+  // Get correct base path for images
+  const getImagePath = (imageName) => {
+    const base = import.meta.env.BASE_URL || '/';
+    return `${base}assets/${imageName}`;
+  };
+
   return (
     <>
       <motion.nav
@@ -85,13 +91,20 @@ export default function EnhancedNavigation() {
                   className="relative"
                 >
                   <div className="w-14 h-14 bg-white rounded-2xl flex items-center justify-center shadow-lg border border-blue-100 group-hover:shadow-xl transition-all duration-300 overflow-hidden">
-                    {/* Sri Lanka Flag JPG */}
+                    {/* Sri Lanka Flag JPG - Fixed path */}
                     <motion.img
-                      src="./assets/Sri-Lanka-logo.jpg"
+                      src={getImagePath("Sri-Lanka-logo.jpg")}
                       alt="Sri Lanka Flag"
                       className="w-10 h-10 relative z-10 object-cover rounded-lg"
                       whileHover={{ scale: 1.15 }}
                       transition={{ type: "spring", stiffness: 300 }}
+                      onError={(e) => {
+                        console.log('Logo image failed to load:', e.target.src);
+                        // Fallback to a simple div with background color
+                        e.target.style.display = 'none';
+                        e.target.parentElement.style.backgroundColor = '#1e40af';
+                        e.target.parentElement.innerHTML = '<div class="w-8 h-8 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-lg"></div>';
+                      }}
                     />
                   </div>
                 </motion.div>
@@ -175,7 +188,7 @@ export default function EnhancedNavigation() {
       </motion.nav>
 
       {/* Mobile Menu */}
-      <AnimatePresence>
+      <AnimatePresence mode="wait">
         {isMobileMenuOpen && (
           <>
             {/* Backdrop */}
@@ -201,9 +214,16 @@ export default function EnhancedNavigation() {
                   <div className="flex items-center gap-3">
                     <div className="w-12 h-12 bg-white rounded-2xl flex items-center justify-center overflow-hidden shadow-lg border border-blue-100">
                       <img 
-                        src="./assets/Sri-Lanka-logo.jpg"
+                        src={getImagePath("Sri-Lanka-logo.jpg")}
                         alt="Sri Lanka Logo"
                         className="w-10 h-10 object-cover rounded-lg"
+                        onError={(e) => {
+                          console.log('Mobile logo image failed to load:', e.target.src);
+                          // Fallback
+                          e.target.style.display = 'none';
+                          e.target.parentElement.style.backgroundColor = '#1e40af';
+                          e.target.parentElement.innerHTML = '<div class="w-8 h-8 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-lg"></div>';
+                        }}
                       />
                     </div>
                     <div>
@@ -266,12 +286,22 @@ export default function EnhancedNavigation() {
                     className="flex justify-center p-4 bg-white rounded-xl border border-blue-100"
                   >
                     <img 
-                      src="./assets/text.png"
+                      src={getImagePath("text.png")}
                       alt="Serendib Explorer Logo"
                       className="h-12 object-contain"
                       onError={(e) => {
+                        console.log('Horizontal logo image failed to load:', e.target.src);
                         // Fallback if horizontal logo doesn't exist
-                        e.target.style.display = 'none'
+                        e.target.style.display = 'none';
+                        const fallbackDiv = document.createElement('div');
+                        fallbackDiv.className = 'flex items-center justify-center w-full h-12';
+                        fallbackDiv.innerHTML = `
+                          <div class="text-center">
+                            <div class="font-bold text-lg text-blue-600">Serendib Explorer</div>
+                            <div class="text-sm text-slate-600">Discover Sri Lanka</div>
+                          </div>
+                        `;
+                        e.target.parentElement.appendChild(fallbackDiv);
                       }}
                     />
                   </motion.div>

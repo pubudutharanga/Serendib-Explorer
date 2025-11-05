@@ -1,10 +1,9 @@
-// src/App.jsx - Premium Light Blue & White Theme
+// src/App.jsx - Light Blue & White Theme
 import React, { Suspense, lazy } from 'react'
 import { Routes, Route } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { MapPin, Heart, Star, Compass, Navigation } from 'lucide-react'
 import { Link, useLocation } from 'react-router-dom'
-import GoogleAnalytics from './components/GoogleAnalytics'
 
 // Import components directly
 import EnhancedNavigation from './components/EnhancedNavigation'
@@ -17,7 +16,7 @@ const ModernHero = lazy(() => import('./components/ModernHero'))
 const FeaturedDestinations = lazy(() => import('./components/FeaturedDestinations'))
 const ExperienceCategories = lazy(() => import('./components/ExperienceCategories'))
 
-// Premium Loading component
+// Loading component
 function PremiumLoadingSpinner() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 via-sky-50 to-cyan-50">
@@ -66,10 +65,9 @@ function ScrollToTop() {
 export default function App() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-sky-50 to-cyan-50 text-slate-800">
-      <GoogleAnalytics />
       <ScrollToTop />
       
-      {/* Premium Enhanced Navigation */}
+      {/* Enhanced Navigation */}
       <EnhancedNavigation />
       
       <main>
@@ -146,7 +144,7 @@ export default function App() {
         </Routes>
       </main>
 
-      {/* Premium Glassmorphism Footer */}
+      {/* Glassmorphism Footer */}
       <footer className="relative overflow-hidden bg-white/80 backdrop-blur-xl border-t border-blue-100">
         <div className="relative z-10">
           <div className="container mx-auto px-4 py-16">
