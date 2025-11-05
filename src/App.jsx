@@ -4,7 +4,7 @@ import { Routes, Route } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { MapPin, Heart, Star, Compass, Navigation } from 'lucide-react'
 import { Link, useLocation } from 'react-router-dom'
-import GoogleAnalyticsTracker from './components/GoogleAnalyticsTracker'
+import GoogleAnalytics from './components/GoogleAnalytics'
 
 // Import components directly
 import EnhancedNavigation from './components/EnhancedNavigation'
@@ -66,7 +66,7 @@ function ScrollToTop() {
 export default function App() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-sky-50 to-cyan-50 text-slate-800">
-      <GoogleAnalyticsTracker />
+      <GoogleAnalytics />
       <ScrollToTop />
       
       {/* Premium Enhanced Navigation */}
@@ -151,37 +151,43 @@ export default function App() {
         <div className="relative z-10">
           <div className="container mx-auto px-4 py-16">
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 mb-12">
-              {/* Brand Section */}
+              {/* Brand Section - Replaced with 2:1 aspect ratio image */}
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6 }}
                 className="space-y-6"
               >
-                <div className="flex items-center gap-4">
-                  <div className="w-14 h-14 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-2xl flex items-center justify-center shadow-lg">
-                    <MapPin className="w-7 h-7 text-white" />
+                {/* 2:1 Aspect Ratio Image Container */}
+                <motion.div
+                  whileHover={{ scale: 1.02 }}
+                  transition={{ type: "spring", stiffness: 300 }}
+                  className="w-full aspect-[2/1] rounded-2xl overflow-hidden border-2 border-blue-200 shadow-lg hover:shadow-xl transition-all duration-300"
+                >
+                  <img 
+                    src="./assets/footer.jpg" 
+                    alt="Serendib Explorer"
+                    className="w-full h-full object-cover"
+                    onError={(e) => {
+                      // Fallback if image doesn't exist
+                      e.target.style.display = 'none'
+                      e.target.nextSibling.style.display = 'flex'
+                    }}
+                  />
+                  {/* Fallback placeholder */}
+                  <div className="hidden w-full h-full bg-gradient-to-br from-blue-500 to-cyan-500 flex items-center justify-center">
+                    <div className="text-center text-white p-4">
+                      <MapPin className="w-8 h-8 mx-auto mb-2" />
+                      <p className="font-semibold text-lg">Serendib Explorer</p>
+                      <p className="text-sm opacity-90">Discover Sri Lanka</p>
+                    </div>
                   </div>
-                  <div>
-                    <h3 className="font-bold text-2xl text-gradient-blue">
-                      Serendib Explorer
-                    </h3>
-                    <p className="text-slate-600 text-sm">Discover Sri Lanka's Wonders</p>
-                  </div>
-                </div>
-                <p className="text-slate-600 leading-relaxed">
-                  Your gateway to exploring the beautiful island of Sri Lanka with curated experiences and local insights.
+                </motion.div>
+                
+                {/* Optional description below the image */}
+                <p className="text-slate-600 leading-relaxed text-center">
+                  Experience the warm smiles of island hospitality, savor aromatic spices that changed world history, and journey through eight UNESCO World Heritage sites in one extraordinary destination.
                 </p>
-                <div className="flex items-center gap-3">
-                  <div className="flex items-center gap-1 text-amber-400">
-                    <Star className="w-4 h-4 fill-amber-400" />
-                    <Star className="w-4 h-4 fill-amber-400" />
-                    <Star className="w-4 h-4 fill-amber-400" />
-                    <Star className="w-4 h-4 fill-amber-400" />
-                    <Star className="w-4 h-4 fill-amber-400" />
-                  </div>
-                  <span className="text-slate-600 text-sm">4.9/5 Rating</span>
-                </div>
               </motion.div>
 
               {/* Explore Section */}

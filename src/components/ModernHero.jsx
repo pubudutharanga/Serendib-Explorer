@@ -10,13 +10,16 @@ const bgPaths = [
   'assets/images/hero-backgrounds/colombo.jpg',
   'assets/images/hero-backgrounds/ella.jpg',
   'assets/images/hero-backgrounds/sigiriya.jpg',
+  'assets/images/hero-backgrounds/ambuluwawa.jpg',
   'assets/images/hero-backgrounds/ruwanwalimahasaya.jpg',
+  'assets/images/hero-backgrounds/palace.jpg',
   'assets/images/hero-backgrounds/elephants.jpg',
   'assets/images/hero-backgrounds/galle.jpg',
   'assets/images/hero-backgrounds/polhena.jpg',
   'assets/images/hero-backgrounds/mirissa.jpg',
-  'assets/images/hero-backgrounds/mask.jpg',
-  'assets/images/hero-backgrounds/beach.jpg'
+  'assets/images/hero-backgrounds/beach.jpg',
+  'assets/images/hero-backgrounds/mask.jpg'
+  
 ]
 
 // Fallback URLs
@@ -87,7 +90,7 @@ export default function ModernHero() {
 
     const interval = setInterval(() => {
       setCurrentBgIndex(prev => (prev + 1) % activeBackgrounds.length)
-    }, 6000)
+    }, 5000)
 
     return () => clearInterval(interval)
   }, [imagesLoaded, activeBackgrounds.length])
