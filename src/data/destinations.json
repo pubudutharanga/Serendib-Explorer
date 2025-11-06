@@ -8,7 +8,8 @@
       "category": [
         "cultural",
         "historical",
-        "archaeological"
+        "archaeological",
+        "photography"
       ],
       "description": "Ancient rock fortress and palace ruins set on a massive column of rock. A UNESCO World Heritage site known for its frescoes, mirror wall, and panoramic views of the surrounding jungle. The site features remarkable water gardens and the famous Lion's Paw entrance.",
       "highlights": [
@@ -164,7 +165,8 @@
         "mountains",
         "nature",
         "hiking",
-        "scenic"
+        "scenic",
+        "photography"
       ],
       "description": "Scenic mountain town surrounded by tea plantations, waterfalls, and panoramic viewpoints. Famous for the Nine Arch Bridge, Little Adam's Peak hike, and stunning train journeys through the hills. A paradise for nature lovers and photographers.",
       "highlights": [
@@ -320,7 +322,9 @@
         "cultural",
         "historical",
         "coastal",
-        "shopping"
+        "shopping",
+        "photography",
+        "culinary"
       ],
       "description": "A UNESCO World Heritage site, Galle Fort is a historic fortified city built by the Portuguese and later fortified by the Dutch. This living monument features cobblestone streets, colonial architecture, boutique shops, and stunning ocean views.",
       "highlights": [
@@ -1293,7 +1297,8 @@
 "category": [
 "wildlife",
 "nature",
-"safari"
+"safari",
+"photography"
 ],
 "description": "Yala National Park is Sri Lanka's second-largest and most visited national park, famous for its high density of leopards. Covering 979 square kilometers in the southeast, it encompasses diverse ecosystems from dense jungles and grasslands to lagoons and beaches. Home to Sri Lankan leopards, elephants, sloth bears, crocodiles, and over 215 bird species, Yala offers thrilling safari experiences combined with ancient ruins and coastal scenery.",
 "highlights": [
@@ -1449,7 +1454,8 @@
 "urban",
 "cultural",
 "coastal",
-"shopping"
+"shopping",
+"culinary"
 ],
 "description": "The commercial capital and largest city of Sri Lanka, Colombo is a vibrant metropolis blending modern skyscrapers with colonial buildings and ancient temples. Known for its harbor, bustling markets, and diverse cuisine, it's a perfect starting point for exploring the island.",
 "highlights": [
@@ -1609,7 +1615,8 @@
       "category": [
         "cultural",
         "historical",
-        "archaeological"
+        "archaeological",
+        "photography"
       ],
       "description": "The ancient city of Polonnaruwa was the second capital of Sri Lanka after the destruction of Anuradhapura in 993. It comprises, besides the Brahmanic monuments built by the Cholas, the monumental ruins of the fabulous garden-city created by Parakramabahu I in the 12th century. A UNESCO World Heritage site featuring well-preserved ruins, temples, and statues.",
       "highlights": [
@@ -1927,7 +1934,9 @@
 "beaches",
 "coastal",
 "water sports",
-"nature"
+"nature",
+"photography",
+"culinary"
 ],
 "description": "Hikkaduwa is a vibrant coastal town in southern Sri Lanka, renowned for its long golden sandy beach, vibrant coral reefs, and abundant marine life including sea turtles. It's a popular spot for surfing, snorkeling, and diving, with a lively atmosphere featuring beachside restaurants, bars, and shops. The area also holds historical significance with tsunami memorials and turtle hatcheries.",
 "highlights": [
@@ -2097,7 +2106,8 @@
         "beaches",
         "coastal",
         "water sports",
-        "gardens"
+        "gardens",
+        "culinary"
       ],
       "description": "Bentota is a serene coastal resort town in southern Sri Lanka, famous for its pristine golden beaches, lush river landscapes, and water sports. It's home to turtle hatcheries, Geoffrey Bawa's architectural gardens, and offers opportunities for river safaris, Ayurveda spas, and beach relaxation.",
       "highlights": [
@@ -2274,7 +2284,8 @@
 "Observe feeding sessions",
 "See baby elephants",
 "Learn about elephant conservation",
-"Photo opportunities with herds"
+"Photo opportunities with herds",
+"photography"
 ],
 "images": [
 "https://upload.wikimedia.org/wikipedia/commons/5/50/Pinnawala_01.jpg",
@@ -2607,7 +2618,8 @@
       "category": [
         "wildlife",
         "nature",
-        "safari"
+        "safari",
+        "photography"
       ],
       "description": "Wilpattu National Park is a national park in Sri Lanka, renowned for its unique 'Willus' – natural, sand-rimmed water basins or depressions that fill with rainwater. Located in the northwest coast lowland dry zone, it spans 1,317 km² across North Western and North Central provinces, making it the largest and one of the oldest national parks in the country. Established as a wildlife sanctuary in 1905 and upgraded to national park status on 25 December 1938, the park's history traces back to ancient times, with the Mahavansa recording that Prince Vijaya landed at Tambapanni (now Kudrimalai Point) in 543 BC, founding the Sinhalese kingdom. In 47 AD, a subject of Emperor Claudius visited Kudrimalai, and local envoys were sent to Rome during Pliny's time. The park was closed from December 1988 to 16 March 2003 due to security concerns from the Sri Lankan Civil War and reopened after sixteen years. Visitor access is limited to about 25% of the park, with the rest being dense forest or scrub. Wilpattu is world-renowned for its leopard population, with a 2015 camera survey capturing 49 individuals and a 2018 survey identifying 133 leopards, estimating a density of 18 per 100 km² and a healthy sex ratio of 1:2.03. The park hosts 31 mammal species, including threatened ones like Sri Lankan elephants, sloth bears, leopards, and water buffaloes, as well as sambar, spotted deer, mongoose, mouse, and shrew. Birdlife includes painted storks, open bills, open bills, little cormorants, Sri Lankan junglefowl, owls, terns, gulls, eagles, kites, buzzards, garganeys, pintails, whistling teals, spoonbills, black-headed ibises, large white egrets, cattle egrets, and purple herons. Reptiles such as Sri Lankan land monitors, mugger crocodiles, Sri Lankan cobras, rat snakes, Sri Lankan pythons, Sri Lankan black turtles, and Sri Lankan flapshell turtles inhabit the area. Vegetation comprises littoral types like salt grass, low scrub monsoon forest with emergents including palu, satin, milla, weera, ebony, and wewarna. The park's boundary was expanded in 2012 to include northern province regions, and it was designated as the Wilpattu Ramsar Wetland Cluster in 2013. Its significance lies in biodiversity conservation, particularly for leopards, and as a Ramsar site.",
       "highlights": [
@@ -2777,7 +2789,8 @@
       "category": [
         "cultural",
         "historical",
-        "coastal"
+        "coastal",
+        "culinary"
       ],
       "description": "Jaffna is the capital city of Sri Lanka's Northern Province and the administrative headquarters of Jaffna District, located on the Jaffna Peninsula. With a population of 88,138 in 2012, it ranks as Sri Lanka's 12th most populous city. Historically, the region features megalithic settlements and Iron Age artifacts, including Tamil-Brahmi inscribed potsherds from sites like Kandarodai and Anaikoddai, indicating early clan-based communities and maritime trade links with South Asia, the Arabian Peninsula, and the Far East. During the medieval period, the Jaffna Kingdom, ruled by the Aryacakravarti dynasty from the 13th century, emerged as a regional power allied with the Pandyan Empire, with Nallur as its capital. The kingdom expanded politically and culturally, fostering Hindu temples and Tamil-Sanskrit literature, though it faced conflicts with the Vijayanagara Empire and Kotte Kingdom. Colonial history began with Portuguese conquest in 1619, establishing Jaffna as a fortified port town; they were succeeded by the Dutch in 1658, who rebuilt temples and expanded trade, followed by British rule from 1796, which introduced railways, roads, and missionary education, leading to high literacy rates. Post-independence in 1948, ethnic tensions escalated, culminating in the Sri Lankan Civil War (1983-2009), marked by LTTE occupation, Indian Peace Keeping Force interventions, and events like the burning of the Jaffna Library in 1981. The war caused extensive damage, population displacement, and economic decline, but post-2009 reconstruction has seen refugee returns and investments. Culturally, Jaffna is predominantly Sri Lankan Tamil with Hindu Shaivite traditions, alongside Christian, Muslim, and small Buddhist communities. Attractions include the rebuilt Jaffna Fort, Nallur Kandaswamy Temple, and historical sites like the clock tower and public library. The city features a tropical savanna climate with a dry season from February to August and wet season from September to January, supporting palmyrah groves and flat limestone terrain.",
       "highlights": [
@@ -2949,7 +2962,9 @@
 "beaches",
 "surfing",
 "coastal",
-"nature"
+"nature",
+"photography",
+"culinary"
 ],
 "description": "Arugam Bay is a vibrant coastal town on Sri Lanka's southeast coast, renowned for its world-class surfing spots, golden sandy beaches, and laid-back atmosphere. This surfer's paradise offers pristine lagoons, historic temples, and serves as a gateway to nearby national parks teeming with wildlife. It's a perfect blend of adventure, relaxation, and cultural experiences.",
 "highlights": [
@@ -3462,7 +3477,8 @@
 "nature",
 "wildlife",
 "rainforest",
-"hiking"
+"hiking",
+"photography"
 ],
 "description": "Sinharaja Forest Reserve is Sri Lanka's last viable area of primary tropical rainforest, a UNESCO World Heritage Site and biodiversity hotspot. Over 60% of its trees are endemic, and it harbors rare flora and fauna, making it a paradise for nature enthusiasts and eco-tourists. The reserve features dense vegetation, waterfalls, and diverse wildlife including birds, reptiles, and insects.",
 "highlights": [
@@ -3632,7 +3648,8 @@
 "beaches",
 "coastal",
 "nature",
-"relaxation"
+"relaxation",
+"photography"
 ],
 "description": "Tangalle is a coastal town in southern Sri Lanka known for its pristine golden beaches, turquoise waters, and laid-back atmosphere. It's a hidden gem offering uncrowded shores, turtle watching opportunities, and proximity to national parks. The town blends natural beauty with local culture, featuring palm-fringed bays and fresh seafood.",
 "highlights": [
@@ -3971,7 +3988,8 @@
 "category": [
 "nature",
 "wildlife",
-"birdwatching"
+"birdwatching",
+"photography"
 ],
 "description": "Bundala National Park is an internationally important wintering ground for migratory water birds in Sri Lanka. It harbors 197 species of birds, including the greater flamingo. It's a UNESCO biosphere reserve and Ramsar wetland, featuring lagoons, dunes, and wildlife like elephants, crocodiles, and turtles.",
 "highlights": [
@@ -6848,7 +6866,8 @@
 "category": [
 "nature",
 "waterfall",
-"historical"
+"historical",
+"photography"
 ],
 "description": "Ravana Falls, also known as Ravana Ella, is one of Sri Lanka's most popular waterfalls, cascading 25 meters down rocky tiers surrounded by lush forest. Named after the legendary king Ravana from the Ramayana epic, it's a stunning natural attraction with crystal-clear pools for bathing.",
 "highlights": [
@@ -7017,7 +7036,8 @@
 "category": [
 "nature",
 "scenic",
-"historical"
+"historical",
+"photography"
 ],
 "description": "Perched high in Sri Lanka's Haputale region, this iconic viewpoint offers breathtaking panoramic views of rolling tea plantations, misty valleys, and distant mountains. Named after Sir Thomas Lipton who used it to survey his tea empire, it's a must-visit for tea enthusiasts and nature lovers.",
 "highlights": [
@@ -7353,7 +7373,8 @@
 "category": [
 "nature",
 "gardens",
-"family"
+"family",
+"photography"
 ],
 "description": "Victoria Park is a beautifully maintained 27-acre public park in the heart of Nuwara Eliya, featuring vibrant flower gardens, rare trees, and excellent birdwatching opportunities. Originally a research field for Hakgala Gardens, it was renamed in 1897 to commemorate Queen Victoria's diamond jubilee.",
 "highlights": [
@@ -7521,7 +7542,8 @@
 "category": [
 "nature",
 "botanical",
-"historical"
+"historical",
+"photography"
 ],
 "description": "The Royal Botanic Gardens in Peradeniya, near Kandy, Sri Lanka, are a breathtaking paradise showcasing over 4,000 plant species from around the world, including orchids, spices, medicinal plants, and palm trees. Originally established as a king's court in 1371 and transformed into a botanical garden in 1780, it spans 147 acres of lush greenery and is renowned for its Orchid House and Fernery.",
 "highlights": [
@@ -7692,7 +7714,8 @@
 "category": [
 "nature",
 "waterfall",
-"hiking"
+"hiking",
+"photography"
 ],
 "description": "Baker’s Falls is a stunning 20-meter waterfall located in Horton Plains National Park, Sri Lanka. Named after British explorer Samuel Baker, it is surrounded by misty grasslands, cloud forests, and diverse wildlife, making it a highlight of the park's scenic trekking trails.",
 "highlights": [
@@ -8030,7 +8053,8 @@
 "category": [
 "nature",
 "rainforest",
-"biodiversity"
+"biodiversity",
+"photography"
 ],
 "description": "Kanneliya Rainforest is one of the most biologically diverse areas in Sri Lanka, part of the Kanneliya-Dediyagala-Nakiyadeniya (KDN) biosphere reserve. Located in the Galle District, this lush tropical rainforest features cascading waterfalls, crystal-clear streams, and a rich array of endemic flora and fauna, making it a paradise for nature lovers and eco-tourists.",
 "highlights": [
@@ -8199,7 +8223,8 @@
 "category": [
 "nature",
 "waterfall",
-"adventure"
+"adventure",
+"photography"
 ],
 "description": "Diyaluma Falls is the second tallest waterfall in Sri Lanka, cascading 220 meters down a rocky cliff into natural pools below. Located in the scenic hill country, it offers stunning views, swimming opportunities in infinity-like pools at the top, and is a popular spot for adventure seekers near Ella.",
 "highlights": [
@@ -9551,7 +9576,8 @@
 "category": [
 "cultural",
 "historical",
-"religious"
+"religious",
+"photography"
 ],
 "description": "Wewurukannala Vihara is a unique Buddhist temple in southern Sri Lanka, renowned for its 50-meter-high seated Buddha statue, the largest in the country, and the infamous 'Tunnel of Hell' featuring graphic life-sized models of demons and sinners depicting Buddhist concepts of hell and punishment. The temple complex includes vivid murals of Buddha's life, a historical museum, and a large clock from 1926, offering a blend of spirituality, art, and moral teachings.",
 "highlights": [

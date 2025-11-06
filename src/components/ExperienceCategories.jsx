@@ -1,9 +1,9 @@
-// src/components/ExperienceCategories.jsx - Light Blue Theme
-import React from 'react'
-import { Link } from 'react-router-dom'
-import { ModernCard } from './ui/ModernCard'
-import { motion } from 'framer-motion'
-import { Mountain, Castle, Trees, Waves, Utensils, Camera } from 'lucide-react'
+// src/components/ExperienceCategories.jsx - UPDATE the paths
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { ModernCard } from './ui/ModernCard';
+import { motion } from 'framer-motion';
+import { Mountain, Castle, Trees, Waves, Utensils, Camera } from 'lucide-react';
 
 export default function ExperienceCategories() {
   const categories = [
@@ -11,17 +11,17 @@ export default function ExperienceCategories() {
       icon: Mountain,
       title: 'Adventure',
       description: 'Hiking, climbing, and outdoor adventures',
-      count: '15+ destinations',
+      count: '10+ destinations',
       color: 'from-blue-500 to-cyan-500',
-      path: '/trending?category=adventure'
+      path: '/category/adventure'  // CHANGED from '/trending?category=adventure'
     },
     {
       icon: Castle,
       title: 'Cultural',
       description: 'Ancient sites and heritage locations',
-      count: '12+ destinations',
+      count: '15+ destinations',
       color: 'from-amber-500 to-orange-500',
-      path: '/trending?category=cultural'
+      path: '/category/cultural'  // CHANGED
     },
     {
       icon: Trees,
@@ -29,15 +29,15 @@ export default function ExperienceCategories() {
       description: 'Forests, wildlife, and natural wonders',
       count: '20+ destinations',
       color: 'from-green-500 to-emerald-500',
-      path: '/trending?category=nature'
+      path: '/category/nature'  // CHANGED
     },
     {
       icon: Waves,
       title: 'Beaches',
       description: 'Coastal escapes and water activities',
-      count: '8+ destinations',
+      count: '6+ destinations',
       color: 'from-cyan-500 to-blue-500',
-      path: '/trending?category=beaches'
+      path: '/category/beaches'  // CHANGED
     },
     {
       icon: Utensils,
@@ -45,7 +45,7 @@ export default function ExperienceCategories() {
       description: 'Food tours and local cuisine experiences',
       count: '6+ destinations',
       color: 'from-red-500 to-pink-500',
-      path: '/trending?category=culinary'
+      path: '/category/culinary'  // CHANGED
     },
     {
       icon: Camera,
@@ -53,9 +53,9 @@ export default function ExperienceCategories() {
       description: 'Picture-perfect spots and scenic views',
       count: '18+ destinations',
       color: 'from-purple-500 to-indigo-500',
-      path: '/trending?category=photography'
+      path: '/category/photography'  // CHANGED
     }
-  ]
+  ];
 
   const container = {
     hidden: { opacity: 0 },
@@ -65,12 +65,12 @@ export default function ExperienceCategories() {
         staggerChildren: 0.1
       }
     }
-  }
+  };
 
   const item = {
     hidden: { opacity: 0, scale: 0.9 },
     show: { opacity: 1, scale: 1 }
-  }
+  };
 
   return (
     <section className="py-20 bg-white">
@@ -136,5 +136,5 @@ export default function ExperienceCategories() {
         </motion.div>
       </div>
     </section>
-  )
+  );
 }

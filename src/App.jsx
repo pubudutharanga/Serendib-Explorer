@@ -16,6 +16,7 @@ const ModernHero = lazy(() => import('./components/ModernHero'))
 const FeaturedDestinations = lazy(() => import('./components/FeaturedDestinations'))
 const ExperienceCategories = lazy(() => import('./components/ExperienceCategories'))
 const TrendingDestinations = lazy(() => import('./pages/TrendingDestinations'));
+const CategoryPage = lazy(() => import('./pages/CategoryPage'));
 
 // Loading component
 function PremiumLoadingSpinner() {
@@ -129,6 +130,15 @@ export default function App() {
               </Suspense>
             } 
           />
+
+          <Route 
+  path="/category/:categoryName" 
+  element={
+    <Suspense fallback={<PremiumLoadingSpinner />}>
+      <CategoryPage />
+    </Suspense>
+  } 
+/>
 
           {/* Trending Route */}
           <Route 
