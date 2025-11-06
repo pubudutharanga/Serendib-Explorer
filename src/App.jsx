@@ -15,6 +15,7 @@ const Favorites = lazy(() => import('./pages/Favorites'))
 const ModernHero = lazy(() => import('./components/ModernHero'))
 const FeaturedDestinations = lazy(() => import('./components/FeaturedDestinations'))
 const ExperienceCategories = lazy(() => import('./components/ExperienceCategories'))
+const TrendingDestinations = lazy(() => import('./pages/TrendingDestinations'));
 
 // Loading component
 function PremiumLoadingSpinner() {
@@ -131,16 +132,13 @@ export default function App() {
 
           {/* Trending Route */}
           <Route 
-            path="/trending" 
-            element={
-              <Suspense fallback={<PremiumLoadingSpinner />}>
-                <SimpleDestinationGrid 
-                  title="Trending Destinations" 
-                  subtitle="Most popular places in Sri Lanka right now"
-                />
-              </Suspense>
-            } 
-          />
+  path="/trending" 
+  element={
+    <Suspense fallback={<PremiumLoadingSpinner />}>
+      <TrendingDestinations />
+    </Suspense>
+  } 
+/>
         </Routes>
       </main>
 

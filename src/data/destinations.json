@@ -9542,6 +9542,510 @@
 "familyFriendly": true,
 "accessibility": "Boat and jeep accessible",
 "tags": ["Boat Safari", "Elephants", "Birds", "Reservoir", "Untouched"]
+},
+{
+"id": "wewrukannala-temple",
+"name": "Wewurukannala Vihara Temple",
+"region": "Southern",
+"city": "Dikwella",
+"category": [
+"cultural",
+"historical",
+"religious"
+],
+"description": "Wewurukannala Vihara is a unique Buddhist temple in southern Sri Lanka, renowned for its 50-meter-high seated Buddha statue, the largest in the country, and the infamous 'Tunnel of Hell' featuring graphic life-sized models of demons and sinners depicting Buddhist concepts of hell and punishment. The temple complex includes vivid murals of Buddha's life, a historical museum, and a large clock from 1926, offering a blend of spirituality, art, and moral teachings.",
+"highlights": [
+"50m-high seated Buddha statue",
+"Tunnel of Hell with demon and sinner models",
+"Vivid depictions of hell's punishments",
+"Murals of Buddha's life stories",
+"Temple museum with artifacts",
+"Historic 1926 clock"
+],
+"images": [
+"https://rtb.sgp1.cdn.digitaloceanspaces.com/media/TZ73DmCay4yaltberG67nSlMdoyD9qnHQS5yFAgx.jpg",
+"https://rtb.sgp1.cdn.digitaloceanspaces.com/media/hQzeLkJMTdRoCTfhsiWEnmLuj64rPJzFNnN049kh.jpg",
+"https://rtb.sgp1.cdn.digitaloceanspaces.com/media/MTge6DEtDan2a4x0djREnvG9UwfNI968UA6RGuno.jpg",
+"https://img.atlasobscura.com/d8p2_BEyYEGuxcp3AI37Mna-hyU--jnhdVWopa7qFd0/rt:fit/w:1200/q:80/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy83d3Bp/a3lnbHgxN2YyZGRi/OTAwMmY2MWQ5ZTc5/ZF9EU0MwNDkwNS5q/cGc.webp"
+
+],
+"videos": [
+"https://www.youtube.com/watch?v=_kYB_E3Zeec",
+"https://www.youtube.com/watch?v=ABjtYHifzU8",
+"https://www.youtube.com/watch?v=mcTcwBkcjEs",
+"https://www.youtube.com/watch?v=KUhY2b5bapc",
+"https://www.youtube.com/watch?v=beAYsKWfiSc"
+],
+"location": {
+"lat": 5.9768,
+"lng": 80.6991
+},
+"hotels": [
+{
+"name": "Dickwella Beach Hotel",
+"rating": 4.5,
+"priceRange": " ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Beach Hotel",
+          "distance": "Near temple",
+          "amenities": ["Pool", "Restaurant", "Free WiFi"]
+        },
+        {
+          "name": "Beach House Hiriketiya",
+          "rating": 4.7,
+          "priceRange": " $$$",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Boutique",
+          "distance": "Not specified",
+          "amenities": ["Beach Access", "Restaurant"]
+        },
+        {
+          "name": "Casa Vana",
+          "rating": 4.8,
+          "priceRange": " ",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Villa",
+"distance": "Not specified",
+"amenities": ["Pool", "Garden"]
+},
+{
+"name": "Smeralda Beach Hotel Dikwella",
+"rating": 4.3,
+"priceRange": " ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Beach Hotel",
+          "distance": "Not specified",
+          "amenities": ["Pool", "Spa", "Restaurant"]
+        },
+        {
+          "name": "Ivory Resort Dikwella",
+          "rating": 4.0,
+          "priceRange": " ",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Resort",
+"distance": "0.88 mi",
+"amenities": ["Pool", "Free WiFi"]
+},
+{
+"name": "Dickwella Resort",
+"rating": 4.2,
+"priceRange": " ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Resort",
+          "distance": "Not specified",
+          "amenities": ["Beach Access", "Spa"]
+        },
+        {
+          "name": "Mangrove Lodge Dickwella",
+          "rating": 4.5,
+          "priceRange": "$$ ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Lodge",
+          "distance": "Not specified",
+          "amenities": ["Garden", "Free WiFi"]
+        },
+        {
+          "name": "Ocean Nature Resort",
+          "rating": 4.1,
+          "priceRange": " $$",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Resort",
+          "distance": "Not specified",
+          "amenities": ["Pool", "Restaurant"]
+        },
+        {
+          "name": "Sawandara Garden Ayurveda Resort & Spa",
+          "rating": 4.6,
+          "priceRange": "$$ $",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Ayurveda Resort",
+          "distance": "Not specified",
+          "amenities": ["Spa", "Garden"]
+        }
+      ],
+      "activities": [
+        {
+          "name": "Admire the Giant Buddha Statue",
+          "duration": "30-45 minutes",
+          "difficulty": "Easy",
+          "price": "Entry $2-5",
+          "description": "Marvel at the 50m-tall seated Buddha, the largest statue in Sri Lanka"
+        },
+        {
+          "name": "Explore the Tunnel of Hell",
+          "duration": "20-30 minutes",
+          "difficulty": "Easy",
+          "price": "Included in entry",
+          "description": "Walk through the hall of horrors with life-sized models of demons and sinners"
+        },
+        {
+          "name": "Visit Temple Museum and Murals",
+          "duration": "30-45 minutes",
+          "difficulty": "Easy",
+          "price": "Included in entry",
+          "description": "View historical artifacts, the 1926 clock, and vivid murals depicting Buddha's life"
+        }
+      ],
+      "bestTime": "January - April",
+      "avoidTime": "May - September",
+      "weather": "Dry and pleasant",
+      "rating": 4.2,
+      "visitors": 50000,
+      "entryFee": "$2-5 for foreigners",
+      "duration": "1-2 hours",
+      "difficulty": "Easy",
+      "familyFriendly": true,
+      "accessibility": "Limited, some steps and uneven paths",
+      "tags": ["Buddha Statue", "Temple", "Hell Depictions", "Buddhist", "Museum"]
+    },
+    {
+      "id": "belihul-oya",
+      "name": "Belihuloya Nature Reserve",
+      "region": "Sabaragamuwa",
+      "city": "Belihuloya",
+      "category": [
+        "nature",
+        "adventure",
+        "scenic"
+      ],
+      "description": "Belihuloya is a picturesque village in Sri Lanka's hill country, nestled at the foothills of Horton Plains, offering a perfect blend of nature, adventure, and tranquility. Surrounded by lush forests, rivers, and waterfalls, it's an ideal spot for eco-tourism with opportunities for hiking, bird watching, water sports, and exploring scenic reservoirs and cascades.",
+      "highlights": [
+        "Pahanthudawa Waterfall",
+        "Surathali Ella Waterfall",
+        "Samanalawewa Reservoir",
+        "Hiking and trekking trails",
+        "Bird watching spots",
+        "Bambarakanda Falls nearby"
+      ],
+      "images": [
+        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/04/66/1a/belihuloya.jpg?w=1200&h=700&s=1",
+        "https://www.ecowildglamping.com/wp-content/uploads/2025/05/shutterstock_160864763.jpg",
+        "https://img.traveltriangle.com/blog/wp-content/uploads/2024/10/belihuloya-sri-lanka-og.jpg",
+        "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0b/16/9c/d6.jpg",
+        "https://srilankatravelpages.com/my_content/uploads/2023/05/Samanala-wewa-Reservoir-Belihuloya.jpg",
+        "https://www.bluelankatours.com/wp-content/uploads/2019/11/Belihuloya_Village_in_Sri_Lanka.jpg",
+        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/da/ec/a5/caption.jpg?w=500&h=-1&s=1",
+        "https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3463283777563033813",
+        "https://tourmylanka.com/wp-content/uploads/2025/10/belihuloya-sri-lanka-a-hidden-paradise-of-nature.jpg",
+        "https://srilankatravelpages.com/my_content/uploads/2023/05/Hirikatuwa-Oya-Belihuloya.jpg",
+        "https://www.shutterstock.com/image-photo/scenic-tea-state-nonpareil-belihuloya-600nw-1211849317.jpg"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=1bqcNb1QXOw",
+        "https://www.youtube.com/watch?v=4H_ut0wV2Fo",
+        "https://www.youtube.com/watch?v=f8NMQhevszQ",
+        "https://www.youtube.com/watch?v=trGB2shALt0",
+        "https://www.youtube.com/watch?v=_vt7_Yc8DRI"
+      ],
+      "location": {
+        "lat": 6.7184,
+        "lng": 80.7741
+      },
+      "hotels": [
+        {
+          "name": "TreeHouse Chalets",
+          "rating": 4.8,
+          "priceRange": " ",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Chalet",
+"distance": "Central",
+"amenities": ["Nature Views", "Restaurant", "Free WiFi"]
+},
+{
+"name": "Sennya Resorts",
+"rating": 4.5,
+"priceRange": "",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Resort",
+          "distance": "Not specified",
+          "amenities": ["Pool", "Spa"]
+        },
+        {
+          "name": "The Forestry Camps",
+          "rating": 4.3,
+          "priceRange": "",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Camp",
+"distance": "Not specified",
+"amenities": ["Camping", "Nature Activities"]
+},
+{
+"name": "River Garden Belihuloya",
+"rating": 4.4,
+"priceRange": " ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Resort",
+          "distance": "Not specified",
+          "amenities": ["River View", "Garden"]
+        },
+        {
+          "name": "The Glenrock Wellness Nature Resort",
+          "rating": 4.7,
+          "priceRange": " $$$",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Wellness Resort",
+          "distance": "Not specified",
+          "amenities": ["Spa", "Pool", "Restaurant"]
+        },
+        {
+          "name": "World's End Base Eco-Village",
+          "rating": 4.2,
+          "priceRange": " ",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Eco-Village",
+"distance": "Not specified",
+"amenities": ["Eco Activities", "Free WiFi"]
+},
+{
+"name": "Landa Holiday House",
+"rating": 4.0,
+"priceRange": "$",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Holiday House",
+"distance": "Not specified",
+"amenities": ["Garden"]
+},
+{
+"name": "Citrine Belihuloya",
+"rating": 4.5,
+"priceRange": " ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Hotel",
+          "distance": "Not specified",
+          "amenities": ["Pool", "Restaurant"]
+        },
+        {
+          "name": "Ahaspokuna Glamping Retreat",
+          "rating": 4.9,
+          "priceRange": "  ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Glamping",
+          "distance": "Not specified",
+          "amenities": ["Luxury Tents", "Nature Walks"]
+        }
+      ],
+      "activities": [
+        {
+          "name": "Hiking and Trekking Trails",
+          "duration": "2-4 hours",
+          "difficulty": "Moderate",
+          "price": "Free or guided $10-20",
+          "description": "Explore natural trails through forests and hills with scenic views"
+        },
+        {
+          "name": "Visit Waterfalls",
+          "duration": "1-2 hours",
+          "difficulty": "Easy to Moderate",
+          "price": "Free",
+          "description": "Discover cascading waterfalls like Pahanthudawa and Surathali Ella"
+        },
+        {
+          "name": "Bird Watching at Reservoir",
+          "duration": "1-3 hours",
+          "difficulty": "Easy",
+          "price": "Free",
+          "description": "Observe diverse bird species around Samanalawewa Reservoir"
+        }
+      ],
+      "bestTime": "December - April",
+      "avoidTime": "May - October",
+      "weather": "Pleasant with cool mornings and clear skies",
+      "rating": 4.5,
+      "visitors": 50000,
+      "entryFee": "Varies by activity",
+      "duration": "1-2 days",
+      "difficulty": "Moderate",
+      "familyFriendly": true,
+      "accessibility": "Varies, some trails challenging",
+      "tags": ["Waterfalls", "Hiking", "Nature", "Adventure", "Reservoir", "Eco-Tourism"]
+    },
+    {
+      "id": "mahiyanganaya",
+      "name": "Mahiyanganaya Ancient Temple",
+      "region": "Uva",
+      "city": "Mahiyanganaya",
+      "category": [
+        "historical",
+        "cultural",
+        "religious"
+      ],
+      "description": "Mahiyanganaya is a historic town on the banks of the Mahaweli River, known as a major Buddhist pilgrimage site featuring the ancient Mahiyangana Raja Maha Viharaya, believed to be the first stupa built in Sri Lanka. The area offers a mix of spiritual significance, indigenous Vedda culture, scenic lakes, and waterfalls, surrounded by lush greenery and mountains.",
+      "highlights": [
+        "Mahiyangana Raja Maha Viharaya stupa",
+        "Dambana Vedda Village",
+        "Sorabora Lake",
+        "Mapakada Lake",
+        "Rathna Ella Waterfall",
+        "Nagadeepa Temple"
+      ],
+      "images": [
+        "https://amazinglanka.com/wp/wp-content/uploads/2013/12/DSCF6056.jpg",
+        "https://images.squarespace-cdn.com/content/v1/5b735348266c075124b0ffb3/1709147803050-FVQ02S3H1PG8J2YN1T3N/Mahiyangana.jpg?format=1500w",
+        "https://www.shutterstock.com/image-photo/mahiyangana-stupa-sri-lanka-august-260nw-2023183109.jpg",
+        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/c7/6d/69/stupa-agains-the-hills.jpg?w=700&h=400&s=1",
+        "https://www.attractionsinsrilanka.com/wp-content/uploads/2021/01/Mahiyangana-Rajamaha-Viharaya-.jpg",
+        "https://viewslanka.com/wp-content/uploads/2024/09/Mahiyanganaya-10.png",
+        "https://mahiyangana.com/wp-content/uploads/2024/10/19942875715_34011fd01e_b.jpg",
+        "https://www.tourslanka.com/wp-content/uploads/2018/06/Mahiyangana-Raja-Maha-Vihara-Banner-1.jpg",
+        "https://as2.ftcdn.net/jpg/05/03/08/19/1000_F_503081913_IxqBE7gPwr8oSK5cb18aNkOWc6JYAl97.jpg",
+        "https://www.greenholidaytravels.com/wp-content/uploads/2019/09/Mahiyangana-Temple-2.jpg",
+        "https://www.lanka-excursions-holidays.com/uploads/4/0/2/1/40216937/mahiyangana-940_orig.jpg"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=HUflBtCflJc",
+        "https://www.youtube.com/watch?v=u39oBcG8_nI",
+        "https://www.youtube.com/watch?v=JI0UZMEWN-0",
+        "https://www.youtube.com/watch?v=DBLHPsH6eAo",
+        "https://www.youtube.com/watch?v=k3QIMlcxIC8"
+      ],
+      "location": {
+        "lat": 7.3167,
+        "lng": 80.9833
+      },
+      "hotels": [
+        {
+          "name": "GMT Sorabora Village Hotel",
+          "rating": 4.5,
+          "priceRange": " ",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Village Hotel",
+"distance": "Near temple",
+"amenities": ["Pool", "Restaurant", "Free WiFi"]
+},
+{
+"name": "New Rest House",
+"rating": 4.0,
+"priceRange": "$",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Rest House",
+"distance": "Not specified",
+"amenities": ["Free WiFi"]
+},
+{
+"name": "Hotel Benjamina",
+"rating": 4.2,
+"priceRange": " ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Hotel",
+          "distance": "Not specified",
+          "amenities": ["Restaurant"]
+        },
+        {
+          "name": "National Holiday Resort",
+          "rating": 4.0,
+          "priceRange": " ",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Resort",
+"distance": "Not specified",
+"amenities": ["Pool", "Garden"]
+},
+{
+"name": "The Heaven Sorabora",
+"rating": 4.6,
+"priceRange": " ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Hotel",
+          "distance": "Not specified",
+          "amenities": ["Lake View", "Restaurant"]
+        },
+        {
+          "name": "Kevans Casa",
+          "rating": 4.3,
+          "priceRange": "$$ ",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Casa",
+          "distance": "Not specified",
+          "amenities": ["Free WiFi", "Garden"]
+        },
+        {
+          "name": "Hotel White House Mahiyanganaya",
+          "rating": 4.1,
+          "priceRange": " $$",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Hotel",
+          "distance": "Not specified",
+          "amenities": ["Pool"]
+        },
+        {
+          "name": "Rainbow Budget Villa & Rooms",
+          "rating": 4.0,
+          "priceRange": "$",
+          "contact": "Not specified",
+          "website": "Not specified",
+          "type": "Villa",
+          "distance": "Not specified",
+          "amenities": ["Free WiFi"]
+        },
+        {
+          "name": "Elephyard Retreat",
+          "rating": 4.7,
+          "priceRange": "",
+"contact": "Not specified",
+"website": "Not specified",
+"type": "Retreat",
+"distance": "Not specified",
+"amenities": ["Nature Views", "Spa"]
+}
+],
+"activities": [
+{
+"name": "Visit Mahiyangana Raja Maha Viharaya",
+"duration": "1-2 hours",
+"difficulty": "Easy",
+"price": "Free",
+"description": "Explore the ancient stupa and pay respects at this historic Buddhist site"
+},
+{
+"name": "Experience Vedda Village",
+"duration": "2-3 hours",
+"difficulty": "Easy",
+"price": "$5-10",
+"description": "Learn about indigenous Vedda culture and traditions"
+},
+{
+"name": "Boat Ride on Sorabora Lake",
+"duration": "1 hour",
+"difficulty": "Easy",
+"price": "$5-10",
+"description": "Enjoy scenic views and bird watching on the ancient reservoir"
+}
+],
+"bestTime": "May - September",
+"avoidTime": "October - April",
+"weather": "Dry and pleasant for exploration",
+"rating": 4.5,
+"visitors": 100000,
+"entryFee": "Free for most sites",
+"duration": "Half to full day",
+"difficulty": "Easy",
+"familyFriendly": true,
+"accessibility": "Good for most abilities",
+"tags": ["Stupa", "Buddhist", "Veddha Village", "Historical", "Lake", "Pilgrimage"]
 }
  
 ] 

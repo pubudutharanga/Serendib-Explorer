@@ -7,6 +7,10 @@ export default defineConfig({
   base: '/Serendib-Explorer/',   // ✅ important for GitHub Pages
   plugins: [react(), imagetools()],
   server: { port: 5173 },
+
+  optimizeDeps: {
+    include: ['leaflet', 'react-leaflet']
+  }
 })
 
 
