@@ -38,7 +38,7 @@ export default function FeaturedDestinations() {
         >
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-50 text-blue-600 text-sm font-semibold mb-4 border border-blue-200">
             <Award className="w-4 h-4" />
-            Featured Destinations
+            Iconic Destinations
           </div>
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             Must-Visit <span className="text-gradient-blue">Places</span>
@@ -81,7 +81,7 @@ export default function FeaturedDestinations() {
                     <div className="absolute top-4 left-4">
                       <div className="px-3 py-1 bg-gradient-to-r from-amber-500 to-orange-500 rounded-full text-white text-xs font-bold flex items-center gap-1">
                         <Star className="w-3 h-3 fill-white" />
-                        Featured
+                        Iconic
                       </div>
                     </div>
 
@@ -145,7 +145,7 @@ export default function FeaturedDestinations() {
         >
           <Link to="/trending">
             <ModernButton size="lg" className="min-w-[200px]">
-              View All Destinations
+              View All Trending Places
               <ArrowRight className="w-5 h-5 ml-2" />
             </ModernButton>
           </Link>
