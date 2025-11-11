@@ -5,21 +5,15 @@ import { ModernButton } from '../components/ui/ModernButton';
 import { motion, AnimatePresence } from 'framer-motion';
 import { 
   Send, 
-  Bot,
   User,
   Volume2,
   VolumeX,
-  MapPin,
-  Globe,
-  Clock,
   RefreshCw,
   Mic,
   MicOff,
   Sparkles,
-  Palette,
   Zap,
   Crown,
-  Sun,
   Moon,
   Cloud,
   Droplets,
@@ -37,7 +31,7 @@ export default function AITravelAssistant() {
   const messagesContainerRef = useRef(null);
   const recognitionRef = useRef(null);
 
-  // Use Vite environment variable for API key
+  // ✅ SECURE: Only use environment variable (will be set from GitHub Secrets during build)
   const OPENROUTER_API_KEY = import.meta.env.VITE_OPENROUTER_API_KEY;
   const OPENROUTER_API_URL = 'https://openrouter.ai/api/v1/chat/completions';
   
@@ -167,7 +161,7 @@ export default function AITravelAssistant() {
   // Enhanced AI API Integration
   const getAIResponse = async (userQuery) => {
     // Enhanced API key check for deployment
-    if (!OPENROUTER_API_KEY || OPENROUTER_API_KEY === 'your_api_key_here') {
+    if (!OPENROUTER_API_KEY) {
       const errorMsg = isProduction 
         ? '🚫 **Deployment Configuration Required**\n\nPlease ensure your OpenRouter API key is properly configured in GitHub Secrets.\n\n**Setup Steps:**\n1. Go to Repository Settings → Secrets and variables → Actions\n2. Add VITE_OPENROUTER_API_KEY as a repository secret\n3. The workflow will automatically redeploy'
         : '🚫 **API Configuration Required**\n\nPlease ensure your OpenRouter API key is properly configured in the environment variables.\n\nCreate a .env file with:\nVITE_OPENROUTER_API_KEY=your_api_key_here';
@@ -404,12 +398,12 @@ Always maintain an elegant, professional tone while being exceptionally helpful.
               <p className="text-gray-600 sm:text-slate-600 text-sm sm:text-lg">Your Travelling Partner</p>
               <div className="flex items-center justify-center gap-2 mt-1 sm:mt-2">
                 <div className={`w-2 h-2 rounded-full animate-pulse ${
-                  OPENROUTER_API_KEY && OPENROUTER_API_KEY !== 'your_api_key_here' ? 'bg-emerald-400' : 'bg-red-400'
+                  OPENROUTER_API_KEY ? 'bg-emerald-400' : 'bg-red-400'
                 }`}></div>
                 <span className={`text-xs sm:text-sm ${
-                  OPENROUTER_API_KEY && OPENROUTER_API_KEY !== 'your_api_key_here' ? 'text-gray-500 sm:text-slate-500' : 'text-red-500'
+                  OPENROUTER_API_KEY ? 'text-gray-500 sm:text-slate-500' : 'text-red-500'
                 }`}>
-                  {OPENROUTER_API_KEY && OPENROUTER_API_KEY !== 'your_api_key_here' ? 'Online' : 'API Key Required'}
+                  {OPENROUTER_API_KEY ? 'Online' : 'API Key Required'}
                 </span>
               </div>
             </div>
@@ -615,7 +609,7 @@ Always maintain an elegant, professional tone while being exceptionally helpful.
                       handleSubmit();
                     }
                   }}
-                  disabled={isLoading || !OPENROUTER_API_KEY || OPENROUTER_API_KEY === 'your_api_key_here'}
+                  disabled={isLoading || !OPENROUTER_API_KEY}
                 />
                 
                 {isListening && (
@@ -628,7 +622,7 @@ Always maintain an elegant, professional tone while being exceptionally helpful.
                   </motion.div>
                 )}
 
-                {(!OPENROUTER_API_KEY || OPENROUTER_API_KEY === 'your_api_key_here') && (
+                {!OPENROUTER_API_KEY && (
                   <motion.div
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
@@ -644,9 +638,9 @@ Always maintain an elegant, professional tone while being exceptionally helpful.
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() => handleSubmit()}
-                disabled={!query.trim() || isLoading || !OPENROUTER_API_KEY || OPENROUTER_API_KEY === 'your_api_key_here'}
+                disabled={!query.trim() || isLoading || !OPENROUTER_API_KEY}
                 className={`p-3 sm:p-4 rounded-xl sm:rounded-2xl font-semibold transition-all duration-200 flex items-center gap-2 sm:gap-3 flex-shrink-0 text-sm sm:text-base ${
-                  !query.trim() || isLoading || !OPENROUTER_API_KEY || OPENROUTER_API_KEY === 'your_api_key_here'
+                  !query.trim() || isLoading || !OPENROUTER_API_KEY
                     ? 'bg-gray-300 text-gray-500 cursor-not-allowed'
                     : `bg-gradient-to-r ${currentTheme.accent} text-white shadow-lg shadow-blue-500/30 hover:shadow-xl hover:shadow-blue-500/40`
                 }`}
@@ -658,7 +652,7 @@ Always maintain an elegant, professional tone while being exceptionally helpful.
 
             {/* Helper Text */}
             <p className={`${currentTheme === themes.sky ? 'text-gray-500' : 'text-slate-400'} text-xs mt-3 text-center`}>
-              © 2025 Serendib Explorer {(!OPENROUTER_API_KEY || OPENROUTER_API_KEY === 'your_api_key_here') && '| API Configuration Required'}
+              © 2025 Serendib Explorer {!OPENROUTER_API_KEY && '| API Configuration Required'}
             </p>
           </div>
         </div>
