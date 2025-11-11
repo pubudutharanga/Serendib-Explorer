@@ -10,6 +10,7 @@ import {
   TrendingUp,
   Compass
 } from 'lucide-react'
+import { Brain } from 'lucide-react';
 
 export default function EnhancedNavigation() {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -40,6 +41,12 @@ export default function EnhancedNavigation() {
     { name: 'Trending', path: '/trending', icon: TrendingUp },
     { name: 'Explore', path: '/#explore-sri-lanka', icon: Compass, scroll: true },
     { name: 'Favorites', path: '/favorites', icon: Heart },
+     {
+  name: 'AI Assistant', 
+  path: '/ai-assistant', 
+  icon: Brain,
+  description: 'Smart travel guidance'
+},
   ]
 
   const scrollToExplore = () => {

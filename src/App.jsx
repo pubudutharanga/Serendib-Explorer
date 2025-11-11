@@ -17,6 +17,7 @@ const FeaturedDestinations = lazy(() => import('./components/FeaturedDestination
 const ExperienceCategories = lazy(() => import('./components/ExperienceCategories'))
 const TrendingDestinations = lazy(() => import('./pages/TrendingDestinations'));
 const CategoryPage = lazy(() => import('./pages/CategoryPage'));
+const AITravelAssistant = lazy(() => import('./pages/AITravelAssistant'));
 
 // Loading component
 function PremiumLoadingSpinner() {
@@ -149,6 +150,15 @@ export default function App() {
     </Suspense>
   } 
 />
+<Route 
+  path="/ai-assistant" 
+  element={
+    <Suspense fallback={<PremiumLoadingSpinner />}>
+      <AITravelAssistant />
+    </Suspense>
+  } 
+/>
+
         </Routes>
       </main>
 
