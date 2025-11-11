@@ -37,8 +37,8 @@ export default function AITravelAssistant() {
   const messagesContainerRef = useRef(null);
   const recognitionRef = useRef(null);
 
-  // Hardcoded API Key for premium access
-  const OPENROUTER_API_KEY = "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";
+  // Use Vite environment variable for API key
+  const OPENROUTER_API_KEY = import.meta.env.VITE_OPENROUTER_API_KEY;
   const OPENROUTER_API_URL = 'https://openrouter.ai/api/v1/chat/completions';
 
   // Enhanced Theme configurations with blue-white as default
@@ -164,6 +164,14 @@ export default function AITravelAssistant() {
 
   // Enhanced AI API Integration
   const getAIResponse = async (userQuery) => {
+    // Check if API key is available
+    if (!OPENROUTER_API_KEY) {
+      const errorMsg = 'API configuration error. Please check your environment variables.';
+      setError(errorMsg);
+      setIsLoading(false);
+      return { content: '🚫 **API Configuration Required**\n\nPlease ensure your OpenRouter API key is properly configured in the environment variables.\n\nFor immediate assistance, please contact support.' };
+    }
+
     setIsLoading(true);
     setError('');
 
@@ -206,6 +214,9 @@ Always maintain an elegant, professional tone while being exceptionally helpful.
       });
 
       if (!response.ok) {
+        if (response.status === 401) {
+          throw new Error('API authentication failed. Please check your API key.');
+        }
         throw new Error(`API error: ${response.status}`);
       }
 
@@ -217,11 +228,25 @@ Always maintain an elegant, professional tone while being exceptionally helpful.
     } catch (error) {
       console.error('AI API Error:', error);
       
+      // Enhanced error handling with specific messages
+      let errorMessage = 'Unable to connect to travel network. ';
+      if (error.message.includes('401')) {
+        errorMessage += 'API authentication failed. The API key may be invalid or revoked.';
+      } else if (error.message.includes('network') || error.message.includes('fetch')) {
+        errorMessage += 'Network connection issue detected.';
+      } else {
+        errorMessage += 'Please try again shortly.';
+      }
+      
+      setError(errorMessage);
+      
       // Enhanced fallback responses
       const fallbackResponses = {
         'luxury': `✨ **Exclusive Sri Lankan Retreats** ✨\n\nWhile I reconnect to our network, here are some exceptional luxury experiences:\n\n🏨 **Ceylon Tea Trails** - Luxury bungalows in tea country\n🏨 **Wild Coast Tented Lodge** - Safari luxury in Yala\n🏨 **Cape Weligama** - Cliffside resort with private pools\n🏨 **Uga Jungle Beach** - Secluded coastal sanctuary\n\n*Private transfers and personalized butler service available.*`,
         'beach': `🏝️ **Beach Escapes** 🏝️\n\n**Mirissa Bay** - Private yacht charters & whale watching\n**Tangalle** - Secluded luxury resorts & spa treatments\n**Pasikuda** - Crystal waters with private beach access\n**Arugam Bay** - Surf luxury with professional instructors\n\n*Best visited December-April for optimal conditions.*`,
-        'culture': `🏛️ **Cultural Excellence** 🛃\n\n**Sigiriya Rock Fortress** - Private early access tours available\n**Temple of the Sacred Tooth** - VIP cultural experiences\n**Anuradhapura** - Guided archaeological tours\n**Galle Fort** - Luxury stays within historic walls\n\n*Expert guides and private transportation recommended.*`
+        'culture': `🏛️ **Cultural Excellence** 🛃\n\n**Sigiriya Rock Fortress** - Private early access tours available\n**Temple of the Sacred Tooth** - VIP cultural experiences\n**Anuradhapura** - Guided archaeological tours\n**Galle Fort** - Luxury stays within historic walls\n\n*Expert guides and private transportation recommended.*`,
+        'hotel': `🏨 **Luxury Accommodations** 🏨\n\n**Colombo**: Kingsbury, Cinnamon Lakeside, Marino Beach\n**South Coast**: Cape Weligama, Anantara Peace Haven\n**Cultural Triangle**: Heritance Kandalama, Jetwing Vil Uyana\n**Hill Country**: Ceylon Tea Trails, 98 Acres Resort\n\n*All properties offer premium amenities and personalized service.*`,
+        'food': `🍽️ **Culinary Experiences** 🍛\n\n**Ministry of Crab** - World-renowned crab specialties\n**Nuga Gama** - Authentic Sri Lankan village cuisine\n**The Gallery Café** - Contemporary dining in colonial setting\n**Lagoon** - Fresh seafood at Cinnamon Lakeside\n\n*Dietary preferences and private chefs available.*`
       };
 
       const lowerQuery = userQuery.toLowerCase();
@@ -351,10 +376,10 @@ Always maintain an elegant, professional tone while being exceptionally helpful.
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              {/*JPG logo */}
+              {/* JPG logo */}
               <div className="w-16 h-16 sm:w-24 sm:h-24 rounded-2xl sm:rounded-3xl flex items-center justify-center shadow-2xl shadow-blue-500/30 overflow-hidden">
                 <img 
-                  src="assets\Sri-Lanka-logo.jpg" 
+                  src="assets/Sri-Lanka-logo.jpg" 
                   alt="Logo" 
                   className="w-full h-full object-cover"
                 />
@@ -371,10 +396,16 @@ Always maintain an elegant, professional tone while being exceptionally helpful.
               <h1 className="text-3xl sm:text-5xl font-bold bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent mb-2">
                 AI Assistant
               </h1>
-              <p className="text-gray-600 sm:text-slate-600 text-sm sm:text-lg">Your Traveling Partner</p>
+              <p className="text-gray-600 sm:text-slate-600 text-sm sm:text-lg">Your Travelling Partner</p>
               <div className="flex items-center justify-center gap-2 mt-1 sm:mt-2">
-                <div className="w-2 h-2 bg-emerald-400 rounded-full animate-pulse"></div>
-                <span className="text-gray-500 sm:text-slate-500 text-xs sm:text-sm">Online</span>
+                <div className={`w-2 h-2 rounded-full animate-pulse ${
+                  OPENROUTER_API_KEY ? 'bg-emerald-400' : 'bg-red-400'
+                }`}></div>
+                <span className={`text-xs sm:text-sm ${
+                  OPENROUTER_API_KEY ? 'text-gray-500 sm:text-slate-500' : 'text-red-500'
+                }`}>
+                  {OPENROUTER_API_KEY ? 'Online' : 'API Key Missing'}
+                </span>
               </div>
             </div>
           </div>
@@ -579,7 +610,7 @@ Always maintain an elegant, professional tone while being exceptionally helpful.
                       handleSubmit();
                     }
                   }}
-                  disabled={isLoading}
+                  disabled={isLoading || !OPENROUTER_API_KEY}
                 />
                 
                 {isListening && (
@@ -591,6 +622,16 @@ Always maintain an elegant, professional tone while being exceptionally helpful.
                     🎤 Listening... Speak now
                   </motion.div>
                 )}
+
+                {!OPENROUTER_API_KEY && (
+                  <motion.div
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 bg-red-500 text-white px-3 py-1 rounded-full text-xs font-medium shadow-lg"
+                  >
+                    ⚠️ API Key Required
+                  </motion.div>
+                )}
               </div>
 
               {/* Send Button */}
@@ -598,9 +639,9 @@ Always maintain an elegant, professional tone while being exceptionally helpful.
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() => handleSubmit()}
-                disabled={!query.trim() || isLoading}
+                disabled={!query.trim() || isLoading || !OPENROUTER_API_KEY}
                 className={`p-3 sm:p-4 rounded-xl sm:rounded-2xl font-semibold transition-all duration-200 flex items-center gap-2 sm:gap-3 flex-shrink-0 text-sm sm:text-base ${
-                  !query.trim() || isLoading
+                  !query.trim() || isLoading || !OPENROUTER_API_KEY
                     ? 'bg-gray-300 text-gray-500 cursor-not-allowed'
                     : `bg-gradient-to-r ${currentTheme.accent} text-white shadow-lg shadow-blue-500/30 hover:shadow-xl hover:shadow-blue-500/40`
                 }`}
@@ -612,7 +653,7 @@ Always maintain an elegant, professional tone while being exceptionally helpful.
 
             {/* Helper Text */}
             <p className={`${currentTheme === themes.sky ? 'text-gray-500' : 'text-slate-400'} text-xs mt-3 text-center`}>
-              © 2025 Serendib Explorer
+              © 2025 Serendib Explorer {!OPENROUTER_API_KEY && '| API Configuration Required'}
             </p>
           </div>
         </div>
