@@ -4,94 +4,33 @@ on:
   push:
     branches: [ main ]
 
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
-
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
-    
     steps:
-    - name: Checkout
-      uses: actions/checkout@v4
-      
-    - name: Clean workspace
-      run: |
-        # Remove any existing .env files
-        find . -name ".env*" -type f -delete
-        echo "Workspace cleaned"
-    
-    - name: Setup Node.js
-      uses: actions/setup-node@v4
-      with:
-        node-version: '18'
-        cache: 'npm'
-        cache-dependency-path: '**/package-lock.json'
-    
-    - name: Install dependencies
-      run: |
-        npm ci --no-audit --prefer-offline
-        echo "Dependencies installed without caching sensitive files"
-    
-    - name: Create secure environment file
-      run: |
-        # Create .env file from GitHub Secrets
-        echo "VITE_OPENROUTER_API_KEY=${{ secrets.VITE_OPENROUTER_API_KEY }}" > .env
-        
-        # Verify file creation (security check)
-        if [ -f .env ]; then
-          FILESIZE=$(wc -c < .env)
-          echo "✅ .env file created successfully"
-          echo "📊 File size: $FILESIZE bytes"
-          
-          # Check if file contains expected content (without exposing secret)
-          if grep -q "VITE_OPENROUTER_API_KEY" .env; then
-            echo "✅ Environment variable set correctly"
-          else
-            echo "❌ Environment variable not set"
-            exit 1
-          fi
-        else
-          echo "❌ Failed to create .env file"
-          exit 1
-        fi
-    
-    - name: Build project
-      run: |
-        # Build with clean environment
-        npm run build
-        
-        # Security check: Verify no API keys in built files
-        if find dist -name "*.js" -exec grep -l "sk-or-v1-" {} \; | grep -q .; then
-          echo "❌ SECURITY ALERT: API key found in built files!"
-          exit 1
-        else
-          echo "✅ Security check passed: No API keys in built files"
-        fi
-    
-    - name: Setup Pages
-      uses: actions/configure-pages@v4
-    
-    - name: Upload artifact
-      uses: actions/upload-pages-artifact@v3
-      with:
-        path: ./dist
-        # Don't cache sensitive files
-        retention-days: 1
+      - name: Checkout
+        uses: actions/checkout@v4
 
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build
+        run: npm run build
+        env:
+          VITE_OPENROUTER_API_KEY: ${{ secrets.VITE_OPENROUTER_API_KEY }}
+
       - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          # Use the GITHUB_TOKEN, not a personal access token
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          # Add these settings to fix permission issues
+          force_orphan: true
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
