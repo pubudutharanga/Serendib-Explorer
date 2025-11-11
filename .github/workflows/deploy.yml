@@ -1,4 +1,4 @@
-name: Deploy React App
+name: Deploy to GitHub Pages
 
 on:
   push:
@@ -8,15 +8,24 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
           node-version: '18'
-      - run: npm install
-      - run: npm run build
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build project
+        run: npm run build
         env:
           VITE_OPENROUTER_API_KEY: ${{ secrets.VITE_OPENROUTER_API_KEY }}
-      - uses: peaceiris/actions-gh-pages@v4
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
