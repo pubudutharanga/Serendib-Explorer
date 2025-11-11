@@ -14,9 +14,7 @@ import {
   Sparkles,
   Zap,
   Crown,
-  Moon,
   Cloud,
-  Droplets,
   Compass,
   AlertCircle
 } from 'lucide-react';
@@ -32,13 +30,12 @@ export default function AITravelAssistant() {
   const messagesContainerRef = useRef(null);
   const recognitionRef = useRef(null);
 
-  // SECURE: Environment variable only
+  // ✅ SECURE: Environment variable ONLY - NO HARDCODED KEY
   const OPENROUTER_API_KEY = import.meta.env.VITE_OPENROUTER_API_KEY;
   const OPENROUTER_API_URL = 'https://openrouter.ai/api/v1/chat/completions';
   
   const isProduction = import.meta.env.PROD;
 
-  // Enhanced Theme configurations
   const themes = {
     sky: {
       bg: 'from-blue-50 via-sky-50 to-cyan-50',
@@ -132,9 +129,9 @@ export default function AITravelAssistant() {
     return () => clearTimeout(timeoutId);
   }, [conversation, isLoading]);
 
-  // Enhanced AI API Integration with better error handling
+  // Enhanced AI API Integration
   const getAIResponse = async (userQuery) => {
-    // Enhanced API key check
+    // ✅ SECURE: Check environment variable only
     if (!OPENROUTER_API_KEY) {
       const errorMsg = isProduction 
         ? '🚫 **Deployment Configuration Required**\n\nPlease ensure your OpenRouter API key is properly configured in GitHub Secrets.\n\n**Setup Steps:**\n1. Go to Repository Settings → Secrets and variables → Actions\n2. Add VITE_OPENROUTER_API_KEY as a repository secret\n3. The workflow will automatically redeploy'
@@ -182,22 +179,15 @@ export default function AITravelAssistant() {
       if (!response.ok) {
         let errorDetails = '';
         
-        // Enhanced error handling for different status codes
         switch (response.status) {
           case 401:
-            errorDetails = 'API authentication failed. The API key may be invalid, revoked, or expired. Please check your OpenRouter API key.';
+            errorDetails = 'API authentication failed. The API key may be invalid, revoked, or expired. Please generate a NEW API key at OpenRouter and update GitHub Secrets.';
             break;
           case 403:
             errorDetails = 'API access forbidden. Please check your API key permissions.';
             break;
           case 429:
             errorDetails = 'Rate limit exceeded. Please try again in a few moments.';
-            break;
-          case 500:
-            errorDetails = 'OpenRouter server error. Please try again later.';
-            break;
-          case 503:
-            errorDetails = 'OpenRouter service unavailable. Please try again later.';
             break;
           default:
             errorDetails = `API error: ${response.status} - ${response.statusText}`;
@@ -218,26 +208,23 @@ export default function AITravelAssistant() {
     } catch (error) {
       console.error('AI API Error:', error);
       
-      // Enhanced error messages with specific guidance
       let errorMessage = 'Unable to connect to travel network. ';
       
       if (error.message.includes('401') || error.message.includes('authentication')) {
-        errorMessage += '**API Key Issue Detected:**\n\n• Your API key may be invalid or revoked\n• Please generate a new key at OpenRouter\n• Update the GitHub Secret with the new key\n• The deployment will automatically rebuild';
+        errorMessage += '**API Key Issue Detected:**\n\n• Your current API key is invalid or revoked\n• Please generate a NEW key at OpenRouter\n• Update the GitHub Secret with the new key\n• The deployment will automatically rebuild';
       } else if (error.message.includes('network') || error.message.includes('fetch')) {
         errorMessage += 'Network connection issue detected. Please check your internet connection.';
-      } else if (error.message.includes('rate limit')) {
-        errorMessage += 'Too many requests. Please wait a moment and try again.';
       } else {
         errorMessage += error.message;
       }
       
       setError(errorMessage);
       
-      // Enhanced fallback responses
+      // Fallback responses
       const fallbackResponses = {
-        'luxury': `✨ **Exclusive Sri Lankan Retreats** ✨\n\nWhile I reconnect to our network, here are some exceptional luxury experiences:\n\n🏨 **Ceylon Tea Trails** - Luxury bungalows in tea country\n🏨 **Wild Coast Tented Lodge** - Safari luxury in Yala\n🏨 **Cape Weligama** - Cliffside resort with private pools\n🏨 **Uga Jungle Beach** - Secluded coastal sanctuary\n\n*Private transfers and personalized butler service available.*`,
-        'beach': `🏝️ **Beach Escapes** 🏝️\n\n**Mirissa Bay** - Private yacht charters & whale watching\n**Tangalle** - Secluded luxury resorts & spa treatments\n**Pasikuda** - Crystal waters with private beach access\n**Arugam Bay** - Surf luxury with professional instructors\n\n*Best visited December-April for optimal conditions.*`,
-        'culture': `🏛️ **Cultural Excellence** 🛃\n\n**Sigiriya Rock Fortress** - Private early access tours available\n**Temple of the Sacred Tooth** - VIP cultural experiences\n**Anuradhapura** - Guided archaeological tours\n**Galle Fort** - Luxury stays within historic walls\n\n*Expert guides and private transportation recommended.*`
+        'luxury': `✨ **Exclusive Sri Lankan Retreats** ✨\n\nWhile I reconnect to our network, here are some exceptional luxury experiences:\n\n🏨 **Ceylon Tea Trails** - Luxury bungalows in tea country\n🏨 **Wild Coast Tented Lodge** - Safari luxury in Yala\n🏨 **Cape Weligama** - Cliffside resort with private pools\n\n*Private transfers and personalized butler service available.*`,
+        'beach': `🏝️ **Beach Escapes** 🏝️\n\n**Mirissa Bay** - Private yacht charters & whale watching\n**Tangalle** - Secluded luxury resorts & spa treatments\n**Pasikuda** - Crystal waters with private beach access\n\n*Best visited December-April for optimal conditions.*`,
+        'culture': `🏛️ **Cultural Excellence** 🛃\n\n**Sigiriya Rock Fortress** - Private early access tours\n**Temple of the Sacred Tooth** - VIP cultural experiences\n**Galle Fort** - Luxury stays within historic walls\n\n*Expert guides and private transportation recommended.*`
       };
 
       const lowerQuery = userQuery.toLowerCase();
@@ -336,7 +323,6 @@ export default function AITravelAssistant() {
     setTheme(themeKeys[nextIndex]);
   };
 
-  // Theme icons
   const themeIcons = {
     sky: <Cloud className="w-4 h-4" />,
     luxury: <Crown className="w-4 h-4" />
@@ -344,14 +330,12 @@ export default function AITravelAssistant() {
 
   return (
     <div className={`min-h-screen bg-gradient-to-br ${currentTheme.bg} backdrop-blur-2xl transition-all duration-500`}>
-      {/* Animated Background Elements */}
       <div className="fixed inset-0 overflow-hidden pointer-events-none">
         <div className="absolute -top-40 -right-40 w-80 h-80 bg-blue-500/10 rounded-full blur-3xl"></div>
         <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-cyan-500/10 rounded-full blur-3xl"></div>
       </div>
 
       <div className="container mx-auto px-3 sm:px-4 max-w-6xl py-4 sm:py-8 relative z-10">
-        {/* Header */}
         <motion.div
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -397,9 +381,7 @@ export default function AITravelAssistant() {
           </div>
         </motion.div>
 
-        {/* Chat Container */}
         <div className={`rounded-2xl sm:rounded-3xl ${currentTheme.card} border shadow-2xl shadow-black/20 sm:shadow-black/30 backdrop-blur-2xl overflow-hidden`}>
-          {/* Chat Header */}
           <div className={`border-b ${currentTheme.header} p-4 sm:p-6 md:p-8`}>
             <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
               <div className="flex items-center gap-4">
@@ -439,7 +421,6 @@ export default function AITravelAssistant() {
             </div>
           </div>
 
-          {/* Messages Area */}
           <div 
             ref={messagesContainerRef}
             className="h-[400px] sm:h-[500px] md:h-[600px] overflow-y-auto p-4 sm:p-6 md:p-8 space-y-4 sm:space-y-6 bg-gradient-to-b from-transparent to-black/5"
@@ -513,7 +494,6 @@ export default function AITravelAssistant() {
               ))}
             </AnimatePresence>
 
-            {/* Loading Indicator */}
             {isLoading && (
               <motion.div
                 initial={{ opacity: 0 }}
@@ -548,7 +528,6 @@ export default function AITravelAssistant() {
               </motion.div>
             )}
 
-            {/* Enhanced Error Display */}
             {error && (
               <motion.div
                 initial={{ opacity: 0, scale: 0.9 }}
@@ -573,7 +552,6 @@ export default function AITravelAssistant() {
             )}
           </div>
 
-          {/* Input Area */}
           <div className={`border-t ${currentTheme === themes.sky ? 'border-blue-200' : 'border-white/10'} bg-white/80 sm:bg-black/20 backdrop-blur-2xl p-4 sm:p-6 md:p-8`}>
             <div className="flex gap-3 sm:gap-4 items-end">
               <motion.button
