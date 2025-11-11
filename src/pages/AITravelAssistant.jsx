@@ -17,7 +17,8 @@ import {
   Moon,
   Cloud,
   Droplets,
-  Compass
+  Compass,
+  AlertCircle
 } from 'lucide-react';
 
 export default function AITravelAssistant() {
@@ -31,14 +32,13 @@ export default function AITravelAssistant() {
   const messagesContainerRef = useRef(null);
   const recognitionRef = useRef(null);
 
-  // ✅ SECURE: Only use environment variable (will be set from GitHub Secrets during build)
+  // SECURE: Environment variable only
   const OPENROUTER_API_KEY = import.meta.env.VITE_OPENROUTER_API_KEY;
   const OPENROUTER_API_URL = 'https://openrouter.ai/api/v1/chat/completions';
   
-  // Check if we're in production/deployment
   const isProduction = import.meta.env.PROD;
 
-  // Enhanced Theme configurations with blue-white as default
+  // Enhanced Theme configurations
   const themes = {
     sky: {
       bg: 'from-blue-50 via-sky-50 to-cyan-50',
@@ -63,32 +63,6 @@ export default function AITravelAssistant() {
       header: 'from-white/5 to-white/10 border-white/10',
       messageBot: 'bg-white/10 border-white/10 text-white',
       messageUser: 'from-purple-500 to-pink-500 text-white',
-      headerText: 'text-white',
-      subheaderText: 'text-slate-300'
-    },
-    ocean: {
-      bg: 'from-blue-900 via-cyan-900 to-teal-900',
-      card: 'bg-gradient-to-br from-blue-800/20 to-cyan-800/20 border-cyan-500/30',
-      text: 'text-white',
-      accent: 'from-cyan-400 to-blue-500',
-      secondary: 'bg-cyan-700/30 border-cyan-500/30',
-      input: 'bg-blue-900/30 border-cyan-500/30 text-white',
-      header: 'from-blue-800/20 to-cyan-800/20 border-cyan-500/30',
-      messageBot: 'bg-blue-800/20 border-cyan-500/30 text-white',
-      messageUser: 'from-cyan-400 to-blue-500 text-white',
-      headerText: 'text-white',
-      subheaderText: 'text-slate-300'
-    },
-    midnight: {
-      bg: 'from-indigo-950 via-purple-950 to-blue-950',
-      card: 'bg-gradient-to-br from-indigo-900/20 to-purple-900/20 border-indigo-500/30',
-      text: 'text-white',
-      accent: 'from-indigo-400 to-purple-500',
-      secondary: 'bg-indigo-900/30 border-indigo-500/30',
-      input: 'bg-indigo-900/30 border-indigo-500/30 text-white',
-      header: 'from-indigo-900/20 to-purple-900/20 border-indigo-500/30',
-      messageBot: 'bg-indigo-900/20 border-indigo-500/30 text-white',
-      messageUser: 'from-indigo-400 to-purple-500 text-white',
       headerText: 'text-white',
       subheaderText: 'text-slate-300'
     }
@@ -158,9 +132,9 @@ export default function AITravelAssistant() {
     return () => clearTimeout(timeoutId);
   }, [conversation, isLoading]);
 
-  // Enhanced AI API Integration
+  // Enhanced AI API Integration with better error handling
   const getAIResponse = async (userQuery) => {
-    // Enhanced API key check for deployment
+    // Enhanced API key check
     if (!OPENROUTER_API_KEY) {
       const errorMsg = isProduction 
         ? '🚫 **Deployment Configuration Required**\n\nPlease ensure your OpenRouter API key is properly configured in GitHub Secrets.\n\n**Setup Steps:**\n1. Go to Repository Settings → Secrets and variables → Actions\n2. Add VITE_OPENROUTER_API_KEY as a repository secret\n3. The workflow will automatically redeploy'
@@ -181,22 +155,15 @@ export default function AITravelAssistant() {
           'Content-Type': 'application/json',
           'Authorization': `Bearer ${OPENROUTER_API_KEY}`,
           'HTTP-Referer': window.location.origin,
-          'X-Title': 'Serendib Explorer'
+          'X-Title': 'Serendib Explorer',
+          'X-API-Version': '1.0'
         },
         body: JSON.stringify({
           model: 'mistralai/mistral-7b-instruct:free',
           messages: [
             {
               role: 'system',
-              content: `You are a Sri Lanka travel concierge with exclusive access to luxury experiences. Provide sophisticated, detailed insights about:
-
-🌴 **Luxury Accommodations** - 5-star resorts, boutique hotels, private villas
-🎯 **Exclusive Experiences** - Private tours, hidden gems, VIP access
-🍽️ **Gourmet Dining** - Michelin-style restaurants, local delicacies
-🚁 **Transport** - Private drivers, helicopter tours, luxury trains
-🏄 **Adventure Activities** - Curated experiences with safety assurance
-
-Always maintain an elegant, professional tone while being exceptionally helpful. Format with clear sections and use travel terminology.`
+              content: `You are a Sri Lanka travel concierge with exclusive access to luxury experiences. Provide sophisticated, detailed insights about travel in Sri Lanka.`
             },
             ...conversation.filter(msg => msg.type === 'user' || msg.type === 'bot').map(msg => ({
               role: msg.type === 'user' ? 'user' : 'assistant',
@@ -213,28 +180,55 @@ Always maintain an elegant, professional tone while being exceptionally helpful.
       });
 
       if (!response.ok) {
-        if (response.status === 401) {
-          throw new Error('API authentication failed. Please check your API key.');
+        let errorDetails = '';
+        
+        // Enhanced error handling for different status codes
+        switch (response.status) {
+          case 401:
+            errorDetails = 'API authentication failed. The API key may be invalid, revoked, or expired. Please check your OpenRouter API key.';
+            break;
+          case 403:
+            errorDetails = 'API access forbidden. Please check your API key permissions.';
+            break;
+          case 429:
+            errorDetails = 'Rate limit exceeded. Please try again in a few moments.';
+            break;
+          case 500:
+            errorDetails = 'OpenRouter server error. Please try again later.';
+            break;
+          case 503:
+            errorDetails = 'OpenRouter service unavailable. Please try again later.';
+            break;
+          default:
+            errorDetails = `API error: ${response.status} - ${response.statusText}`;
         }
-        throw new Error(`API error: ${response.status}`);
+        
+        throw new Error(errorDetails);
       }
 
       const data = await response.json();
-      const aiResponse = data.choices[0].message.content;
+      
+      if (!data.choices || !data.choices[0]) {
+        throw new Error('Invalid response format from AI service');
+      }
 
+      const aiResponse = data.choices[0].message.content;
       return { content: aiResponse };
 
     } catch (error) {
       console.error('AI API Error:', error);
       
-      // Enhanced error handling with specific messages
+      // Enhanced error messages with specific guidance
       let errorMessage = 'Unable to connect to travel network. ';
-      if (error.message.includes('401')) {
-        errorMessage += 'API authentication failed. The API key may be invalid or revoked.';
+      
+      if (error.message.includes('401') || error.message.includes('authentication')) {
+        errorMessage += '**API Key Issue Detected:**\n\n• Your API key may be invalid or revoked\n• Please generate a new key at OpenRouter\n• Update the GitHub Secret with the new key\n• The deployment will automatically rebuild';
       } else if (error.message.includes('network') || error.message.includes('fetch')) {
-        errorMessage += 'Network connection issue detected.';
+        errorMessage += 'Network connection issue detected. Please check your internet connection.';
+      } else if (error.message.includes('rate limit')) {
+        errorMessage += 'Too many requests. Please wait a moment and try again.';
       } else {
-        errorMessage += 'Please try again shortly.';
+        errorMessage += error.message;
       }
       
       setError(errorMessage);
@@ -243,9 +237,7 @@ Always maintain an elegant, professional tone while being exceptionally helpful.
       const fallbackResponses = {
         'luxury': `✨ **Exclusive Sri Lankan Retreats** ✨\n\nWhile I reconnect to our network, here are some exceptional luxury experiences:\n\n🏨 **Ceylon Tea Trails** - Luxury bungalows in tea country\n🏨 **Wild Coast Tented Lodge** - Safari luxury in Yala\n🏨 **Cape Weligama** - Cliffside resort with private pools\n🏨 **Uga Jungle Beach** - Secluded coastal sanctuary\n\n*Private transfers and personalized butler service available.*`,
         'beach': `🏝️ **Beach Escapes** 🏝️\n\n**Mirissa Bay** - Private yacht charters & whale watching\n**Tangalle** - Secluded luxury resorts & spa treatments\n**Pasikuda** - Crystal waters with private beach access\n**Arugam Bay** - Surf luxury with professional instructors\n\n*Best visited December-April for optimal conditions.*`,
-        'culture': `🏛️ **Cultural Excellence** 🛃\n\n**Sigiriya Rock Fortress** - Private early access tours available\n**Temple of the Sacred Tooth** - VIP cultural experiences\n**Anuradhapura** - Guided archaeological tours\n**Galle Fort** - Luxury stays within historic walls\n\n*Expert guides and private transportation recommended.*`,
-        'hotel': `🏨 **Luxury Accommodations** 🏨\n\n**Colombo**: Kingsbury, Cinnamon Lakeside, Marino Beach\n**South Coast**: Cape Weligama, Anantara Peace Haven\n**Cultural Triangle**: Heritance Kandalama, Jetwing Vil Uyana\n**Hill Country**: Ceylon Tea Trails, 98 Acres Resort\n\n*All properties offer premium amenities and personalized service.*`,
-        'food': `🍽️ **Culinary Experiences** 🍛\n\n**Ministry of Crab** - World-renowned crab specialties\n**Nuga Gama** - Authentic Sri Lankan village cuisine\n**The Gallery Café** - Contemporary dining in colonial setting\n**Lagoon** - Fresh seafood at Cinnamon Lakeside\n\n*Dietary preferences and private chefs available.*`
+        'culture': `🏛️ **Cultural Excellence** 🛃\n\n**Sigiriya Rock Fortress** - Private early access tours available\n**Temple of the Sacred Tooth** - VIP cultural experiences\n**Anuradhapura** - Guided archaeological tours\n**Galle Fort** - Luxury stays within historic walls\n\n*Expert guides and private transportation recommended.*`
       };
 
       const lowerQuery = userQuery.toLowerCase();
@@ -314,7 +306,6 @@ Always maintain an elegant, professional tone while being exceptionally helpful.
       const cleanText = text.replace(/\*\*(.*?)\*\*/g, '$1').replace(/\*/g, '');
       const utterance = new SpeechSynthesisUtterance(cleanText);
       
-      // Voice settings
       utterance.rate = 0.9;
       utterance.pitch = 1.1;
       utterance.volume = 1;
@@ -345,12 +336,10 @@ Always maintain an elegant, professional tone while being exceptionally helpful.
     setTheme(themeKeys[nextIndex]);
   };
 
-  // Theme icons for better visual representation
+  // Theme icons
   const themeIcons = {
     sky: <Cloud className="w-4 h-4" />,
-    luxury: <Crown className="w-4 h-4" />,
-    ocean: <Droplets className="w-4 h-4" />,
-    midnight: <Moon className="w-4 h-4" />
+    luxury: <Crown className="w-4 h-4" />
   };
 
   return (
@@ -359,11 +348,10 @@ Always maintain an elegant, professional tone while being exceptionally helpful.
       <div className="fixed inset-0 overflow-hidden pointer-events-none">
         <div className="absolute -top-40 -right-40 w-80 h-80 bg-blue-500/10 rounded-full blur-3xl"></div>
         <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-cyan-500/10 rounded-full blur-3xl"></div>
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-sky-500/5 rounded-full blur-3xl"></div>
       </div>
 
       <div className="container mx-auto px-3 sm:px-4 max-w-6xl py-4 sm:py-8 relative z-10">
-        {/* Header - Responsive */}
+        {/* Header */}
         <motion.div
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -375,7 +363,6 @@ Always maintain an elegant, professional tone while being exceptionally helpful.
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              {/* JPG logo */}
               <div className="w-16 h-16 sm:w-24 sm:h-24 rounded-2xl sm:rounded-3xl flex items-center justify-center shadow-2xl shadow-blue-500/30 overflow-hidden">
                 <img 
                   src="assets/Sri-Lanka-logo.jpg" 
@@ -410,9 +397,9 @@ Always maintain an elegant, professional tone while being exceptionally helpful.
           </div>
         </motion.div>
 
-        {/* Chat Container - Responsive */}
+        {/* Chat Container */}
         <div className={`rounded-2xl sm:rounded-3xl ${currentTheme.card} border shadow-2xl shadow-black/20 sm:shadow-black/30 backdrop-blur-2xl overflow-hidden`}>
-          {/* Enhanced Chat Header - Responsive */}
+          {/* Chat Header */}
           <div className={`border-b ${currentTheme.header} p-4 sm:p-6 md:p-8`}>
             <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
               <div className="flex items-center gap-4">
@@ -452,7 +439,7 @@ Always maintain an elegant, professional tone while being exceptionally helpful.
             </div>
           </div>
 
-          {/* Enhanced Messages Area - Responsive */}
+          {/* Messages Area */}
           <div 
             ref={messagesContainerRef}
             className="h-[400px] sm:h-[500px] md:h-[600px] overflow-y-auto p-4 sm:p-6 md:p-8 space-y-4 sm:space-y-6 bg-gradient-to-b from-transparent to-black/5"
@@ -484,7 +471,6 @@ Always maintain an elegant, professional tone while being exceptionally helpful.
                         {message.content}
                       </div>
                       
-                      {/* Enhanced Message Actions */}
                       <div className={`flex items-center justify-between mt-3 sm:mt-4 pt-3 sm:pt-4 ${
                         message.type === 'user' ? 'border-blue-400/30' : 'border-gray-200 sm:border-white/10'
                       } border-t`}>
@@ -527,7 +513,7 @@ Always maintain an elegant, professional tone while being exceptionally helpful.
               ))}
             </AnimatePresence>
 
-            {/* Loading Indicator - Responsive */}
+            {/* Loading Indicator */}
             {isLoading && (
               <motion.div
                 initial={{ opacity: 0 }}
@@ -562,23 +548,34 @@ Always maintain an elegant, professional tone while being exceptionally helpful.
               </motion.div>
             )}
 
+            {/* Enhanced Error Display */}
             {error && (
               <motion.div
                 initial={{ opacity: 0, scale: 0.9 }}
                 animate={{ opacity: 1, scale: 1 }}
                 className="flex justify-center"
               >
-                <div className="bg-red-500/20 border border-red-500/30 rounded-xl sm:rounded-2xl p-3 sm:p-4 max-w-md backdrop-blur-xl">
-                  <p className={`text-red-600 text-sm text-center`}>{error}</p>
+                <div className="bg-red-500/20 border border-red-500/30 rounded-xl sm:rounded-2xl p-4 sm:p-6 max-w-md backdrop-blur-xl">
+                  <div className="flex items-center gap-3 mb-3">
+                    <AlertCircle className="w-5 h-5 text-red-500" />
+                    <h4 className="font-semibold text-red-600">Connection Issue</h4>
+                  </div>
+                  <p className="text-red-600 text-sm whitespace-pre-wrap">{error}</p>
+                  {error.includes('API Key') && (
+                    <div className="mt-3 p-2 bg-red-500/10 rounded-lg">
+                      <p className="text-red-500 text-xs">
+                        💡 <strong>Solution:</strong> Generate a new API key at OpenRouter and update GitHub Secrets
+                      </p>
+                    </div>
+                  )}
                 </div>
               </motion.div>
             )}
           </div>
 
-          {/* Input Area - Responsive */}
+          {/* Input Area */}
           <div className={`border-t ${currentTheme === themes.sky ? 'border-blue-200' : 'border-white/10'} bg-white/80 sm:bg-black/20 backdrop-blur-2xl p-4 sm:p-6 md:p-8`}>
             <div className="flex gap-3 sm:gap-4 items-end">
-              {/* Enhanced Voice Input */}
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
@@ -594,7 +591,6 @@ Always maintain an elegant, professional tone while being exceptionally helpful.
                 {isListening ? <MicOff className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6" /> : <Mic className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6" />}
               </motion.button>
 
-              {/* Text Input */}
               <div className="flex-1 relative">
                 <textarea
                   value={query}
@@ -633,7 +629,6 @@ Always maintain an elegant, professional tone while being exceptionally helpful.
                 )}
               </div>
 
-              {/* Send Button */}
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
@@ -650,7 +645,6 @@ Always maintain an elegant, professional tone while being exceptionally helpful.
               </motion.button>
             </div>
 
-            {/* Helper Text */}
             <p className={`${currentTheme === themes.sky ? 'text-gray-500' : 'text-slate-400'} text-xs mt-3 text-center`}>
               © 2025 Serendib Explorer {!OPENROUTER_API_KEY && '| API Configuration Required'}
             </p>
