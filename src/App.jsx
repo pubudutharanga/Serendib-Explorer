@@ -133,32 +133,32 @@ export default function App() {
           />
 
           <Route 
-  path="/category/:categoryName" 
-  element={
-    <Suspense fallback={<PremiumLoadingSpinner />}>
-      <CategoryPage />
-    </Suspense>
-  } 
-/>
+            path="/category/:categoryName" 
+            element={
+              <Suspense fallback={<PremiumLoadingSpinner />}>
+                <CategoryPage />
+              </Suspense>
+            } 
+          />
 
           {/* Trending Route */}
           <Route 
-  path="/trending" 
-  element={
-    <Suspense fallback={<PremiumLoadingSpinner />}>
-      <TrendingDestinations />
-    </Suspense>
-  } 
-/>
-<Route 
-  path="/ai-assistant" 
-  element={
-    <Suspense fallback={<PremiumLoadingSpinner />}>
-      <AITravelAssistant />
-    </Suspense>
-  } 
-/>
-
+            path="/trending" 
+            element={
+              <Suspense fallback={<PremiumLoadingSpinner />}>
+                <TrendingDestinations />
+              </Suspense>
+            } 
+          />
+          
+          <Route 
+            path="/ai-assistant" 
+            element={
+              <Suspense fallback={<PremiumLoadingSpinner />}>
+                <AITravelAssistant />
+              </Suspense>
+            } 
+          />
         </Routes>
       </main>
 
