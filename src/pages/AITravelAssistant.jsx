@@ -26,6 +26,8 @@ import {
   Compass
 } from 'lucide-react';
 
+import { PROXY_URL, proxyOpenRouter } from '../openrouterProxy'; // <<-- proxy helper (ensure this file exists)
+
 export default function AITravelAssistant() {
   const [query, setQuery] = useState('');
   const [conversation, setConversation] = useState([]);
@@ -36,10 +38,6 @@ export default function AITravelAssistant() {
   const [theme, setTheme] = useState('sky');
   const messagesContainerRef = useRef(null);
   const recognitionRef = useRef(null);
-
-  // Use Vite environment variable for API key
-  const OPENROUTER_API_KEY = import.meta.env.VITE_OPENROUTER_API_KEY;
-  const OPENROUTER_API_URL = 'https://openrouter.ai/api/v1/chat/completions';
 
   // Enhanced Theme configurations with blue-white as default
   const themes = {
@@ -162,34 +160,27 @@ export default function AITravelAssistant() {
     return () => clearTimeout(timeoutId);
   }, [conversation, isLoading]);
 
-  // Enhanced AI API Integration
+  // Enhanced AI API Integration — using server-side proxy
   const getAIResponse = async (userQuery) => {
-    // Check if API key is available
-    if (!OPENROUTER_API_KEY) {
-      const errorMsg = 'API configuration error. Please check your environment variables.';
+    // Check proxy URL availability
+    if (!PROXY_URL) {
+      const errorMsg = 'Proxy configuration error. Please set VITE_OPENROUTER_PROXY_URL or update src/openrouterProxy.js.';
       setError(errorMsg);
       setIsLoading(false);
-      return { content: '🚫 **API Configuration Required**\n\nPlease ensure your OpenRouter API key is properly configured in the environment variables.\n\nFor immediate assistance, please contact support.' };
+      return { content: '🚫 **Proxy Configuration Required**\n\nPlease ensure the proxy URL is configured.' };
     }
 
     setIsLoading(true);
     setError('');
 
     try {
-      const response = await fetch(OPENROUTER_API_URL, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          'Authorization': `Bearer ${OPENROUTER_API_KEY}`,
-          'HTTP-Referer': window.location.origin,
-          'X-Title': 'Serendib Explorer'
-        },
-        body: JSON.stringify({
-          model: 'mistralai/mistral-7b-instruct:free',
-          messages: [
-            {
-              role: 'system',
-              content: `You are a Sri Lanka travel concierge with exclusive access to luxury experiences. Provide sophisticated, detailed insights about:
+      // Build the same payload you used previously
+      const payload = {
+        model: 'mistralai/mistral-7b-instruct:free',
+        messages: [
+          {
+            role: 'system',
+            content: `You are a Sri Lanka travel concierge with exclusive access to luxury experiences. Provide sophisticated, detailed insights about:
 
 🌴 **Luxury Accommodations** - 5-star resorts, boutique hotels, private villas
 🎯 **Exclusive Experiences** - Private tours, hidden gems, VIP access
@@ -198,48 +189,46 @@ export default function AITravelAssistant() {
 🏄 **Adventure Activities** - Curated experiences with safety assurance
 
 Always maintain an elegant, professional tone while being exceptionally helpful. Format with clear sections and use travel terminology.`
-            },
-            ...conversation.filter(msg => msg.type === 'user' || msg.type === 'bot').map(msg => ({
-              role: msg.type === 'user' ? 'user' : 'assistant',
-              content: msg.content
-            })),
-            {
-              role: 'user',
-              content: userQuery
-            }
-          ],
-          max_tokens: 1200,
-          temperature: 0.8
-        })
-      });
+          },
+          ...conversation.filter(msg => msg.type === 'user' || msg.type === 'bot').map(msg => ({
+            role: msg.type === 'user' ? 'user' : 'assistant',
+            content: msg.content
+          })),
+          {
+            role: 'user',
+            content: userQuery
+          }
+        ],
+        max_tokens: 1200,
+        temperature: 0.8
+      };
 
-      if (!response.ok) {
-        if (response.status === 401) {
-          throw new Error('API authentication failed. Please check your API key.');
-        }
-        throw new Error(`API error: ${response.status}`);
+      // Send to the proxy instead of OpenRouter directly
+      const data = await proxyOpenRouter(payload);
+
+      // If proxy returned a raw text string (error), handle accordingly
+      if (!data || typeof data !== 'object') {
+        throw new Error(typeof data === 'string' ? data : 'Invalid response from proxy');
       }
 
-      const data = await response.json();
-      const aiResponse = data.choices[0].message.content;
+      // The proxy forwards OpenRouter response; adapt if OpenRouter returns different shape
+      const aiResponse = data.choices?.[0]?.message?.content ?? (data.result ?? JSON.stringify(data));
 
       return { content: aiResponse };
-
     } catch (error) {
       console.error('AI API Error:', error);
-      
-      // Enhanced error handling with specific messages
+
       let errorMessage = 'Unable to connect to travel network. ';
-      if (error.message.includes('401')) {
+      if (error.message && error.message.toLowerCase().includes('401')) {
         errorMessage += 'API authentication failed. The API key may be invalid or revoked.';
-      } else if (error.message.includes('network') || error.message.includes('fetch')) {
+      } else if (error.message && (error.message.includes('network') || error.message.includes('fetch'))) {
         errorMessage += 'Network connection issue detected.';
       } else {
         errorMessage += 'Please try again shortly.';
       }
-      
+
       setError(errorMessage);
-      
+
       // Enhanced fallback responses
       const fallbackResponses = {
         'luxury': `✨ **Exclusive Sri Lankan Retreats** ✨\n\nWhile I reconnect to our network, here are some exceptional luxury experiences:\n\n🏨 **Ceylon Tea Trails** - Luxury bungalows in tea country\n🏨 **Wild Coast Tented Lodge** - Safari luxury in Yala\n🏨 **Cape Weligama** - Cliffside resort with private pools\n🏨 **Uga Jungle Beach** - Secluded coastal sanctuary\n\n*Private transfers and personalized butler service available.*`,
@@ -398,13 +387,9 @@ Always maintain an elegant, professional tone while being exceptionally helpful.
               </h1>
               <p className="text-gray-600 sm:text-slate-600 text-sm sm:text-lg">Your Travelling Partner</p>
               <div className="flex items-center justify-center gap-2 mt-1 sm:mt-2">
-                <div className={`w-2 h-2 rounded-full animate-pulse ${
-                  OPENROUTER_API_KEY ? 'bg-emerald-400' : 'bg-red-400'
-                }`}></div>
-                <span className={`text-xs sm:text-sm ${
-                  OPENROUTER_API_KEY ? 'text-gray-500 sm:text-slate-500' : 'text-red-500'
-                }`}>
-                  {OPENROUTER_API_KEY ? 'Online' : 'API Key Missing'}
+                <div className={`w-2 h-2 rounded-full animate-pulse ${PROXY_URL ? 'bg-emerald-400' : 'bg-red-400'}`}></div>
+                <span className={`text-xs sm:text-sm ${PROXY_URL ? 'text-gray-500 sm:text-slate-500' : 'text-red-500'}`}>
+                  {PROXY_URL ? 'Proxy Online' : 'Proxy URL Missing'}
                 </span>
               </div>
             </div>
@@ -610,7 +595,7 @@ Always maintain an elegant, professional tone while being exceptionally helpful.
                       handleSubmit();
                     }
                   }}
-                  disabled={isLoading || !OPENROUTER_API_KEY}
+                  disabled={isLoading || !PROXY_URL}
                 />
                 
                 {isListening && (
@@ -623,13 +608,13 @@ Always maintain an elegant, professional tone while being exceptionally helpful.
                   </motion.div>
                 )}
 
-                {!OPENROUTER_API_KEY && (
+                {!PROXY_URL && (
                   <motion.div
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 bg-red-500 text-white px-3 py-1 rounded-full text-xs font-medium shadow-lg"
                   >
-                    ⚠️ API Key Required
+                    ⚠️ Proxy URL Required
                   </motion.div>
                 )}
               </div>
@@ -639,9 +624,9 @@ Always maintain an elegant, professional tone while being exceptionally helpful.
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() => handleSubmit()}
-                disabled={!query.trim() || isLoading || !OPENROUTER_API_KEY}
+                disabled={!query.trim() || isLoading || !PROXY_URL}
                 className={`p-3 sm:p-4 rounded-xl sm:rounded-2xl font-semibold transition-all duration-200 flex items-center gap-2 sm:gap-3 flex-shrink-0 text-sm sm:text-base ${
-                  !query.trim() || isLoading || !OPENROUTER_API_KEY
+                  !query.trim() || isLoading || !PROXY_URL
                     ? 'bg-gray-300 text-gray-500 cursor-not-allowed'
                     : `bg-gradient-to-r ${currentTheme.accent} text-white shadow-lg shadow-blue-500/30 hover:shadow-xl hover:shadow-blue-500/40`
                 }`}
@@ -653,7 +638,7 @@ Always maintain an elegant, professional tone while being exceptionally helpful.
 
             {/* Helper Text */}
             <p className={`${currentTheme === themes.sky ? 'text-gray-500' : 'text-slate-400'} text-xs mt-3 text-center`}>
-              © 2025 Serendib Explorer {!OPENROUTER_API_KEY && '| API Configuration Required'}
+              © 2025 Serendib Explorer {!PROXY_URL && '| Proxy Configuration Required'}
             </p>
           </div>
         </div>
