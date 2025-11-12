@@ -220,7 +220,7 @@ export default function App() {
                   {[
                     { 
                       name: 'Destinations', 
-                      path: '/#explore-sri-lanka',
+                      path: '#explore-sri-lanka',
                       scroll: true 
                     },
                     { name: 'Trending', path: '/trending' },
@@ -254,24 +254,10 @@ export default function App() {
                         <a
                           href={item.path}
                           onClick={(e) => {
-  e.preventDefault();
-  const base = import.meta.env.BASE_URL || '/';
-  // Normalize both sides for comparison (ensure trailing slash)
-  const currentPath = window.location.pathname.endsWith('/') ? window.location.pathname : window.location.pathname + '/';
-  const baseNormalized = base.endsWith('/') ? base : base + '/';
-
-  if (currentPath === baseNormalized) {
-    // We're already on the home route (respecting basename)
-    const element = document.getElementById('explore-sri-lanka');
-    if (element) element.scrollIntoView({ behavior: 'smooth' });
-  } else {
-    // navigate to home with hash so the page opens and scrolls
-    // Use BASE_URL to build correct path on GitHub Pages
-    const target = (base === '/' ? '/' : base) + '#explore-sri-lanka';
-    window.location.href = target;
-  }
-}}
-
+                            e.preventDefault();
+                            const element = document.getElementById('explore-sri-lanka');
+                            if (element) element.scrollIntoView({ behavior: 'smooth' });
+                          }}
                           className="text-slate-600 hover:text-blue-600 transition-all duration-300 flex items-center gap-2 group cursor-pointer"
                         >
                           <span className="w-2 h-2 bg-blue-500 rounded-full opacity-0 group-hover:opacity-100 transition-opacity" />
