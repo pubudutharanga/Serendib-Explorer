@@ -18,6 +18,7 @@ export default async function handler(req, res) {
   const OPENROUTER_URL = process.env.OPENROUTER_URL;
 
   if (!OPENROUTER_KEY || !OPENROUTER_URL) {
+    console.error('Missing env vars: OPENROUTER_KEY or OPENROUTER_URL');
     res.status(500).json({ error: 'Server misconfiguration: API key or URL missing' });
     return;
   }
@@ -25,6 +26,8 @@ export default async function handler(req, res) {
   try {
     const body = req.body;
     if (!body) throw new Error('Empty request body');
+
+    console.log('Proxying to OpenRouter:', { url: OPENROUTER_URL, payload: body }); // Debug log
 
     const response = await fetch(OPENROUTER_URL, {
       method: 'POST',
@@ -35,9 +38,16 @@ export default async function handler(req, res) {
       body: JSON.stringify(body),
     });
 
+    if (!response.ok) {
+      const errorText = await response.text();
+      console.error('OpenRouter error:', { status: response.status, text: errorText });
+      throw new Error(`OpenRouter responded with ${response.status}: ${errorText}`);
+    }
+
     const text = await response.text();
 
     if (text.startsWith('<!DOCTYPE html') || text.includes('Model Not Found')) {
+      console.error('Invalid response from OpenRouter:', text.slice(0, 300));
       res.status(400).json({
         error: 'Invalid model or upstream response not JSON',
         details: text.slice(0, 300) + '...',
@@ -48,7 +58,7 @@ export default async function handler(req, res) {
     const data = JSON.parse(text);
     res.status(200).json(data);
   } catch (error) {
-    console.error('Proxy fetch failed:', error);
+    console.error('Proxy fetch failed:', error.message, error.stack);
     res.status(502).json({ error: 'Bad Gateway', details: error.message });
   }
 }
