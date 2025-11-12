@@ -1,5 +1,14 @@
-// api/openrouter.js
 export default async function handler(req, res) {
+  // CORS headers
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Allow-Methods', 'POST,OPTIONS');
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type,Authorization');
+
+  if (req.method === 'OPTIONS') {
+    res.status(200).end();
+    return;
+  }
+
   if (req.method !== 'POST') {
     res.status(405).json({ error: 'Method not allowed' });
     return;
@@ -13,16 +22,10 @@ export default async function handler(req, res) {
     return;
   }
 
-  let body;
   try {
-    body = req.body;
+    const body = req.body;
     if (!body) throw new Error('Empty request body');
-  } catch (e) {
-    res.status(400).json({ error: 'Invalid JSON', details: e.message });
-    return;
-  }
 
-  try {
     const response = await fetch(OPENROUTER_URL, {
       method: 'POST',
       headers: {
@@ -34,31 +37,20 @@ export default async function handler(req, res) {
 
     const text = await response.text();
 
-    // If OpenRouter returns HTML instead of JSON, likely model not found
     if (text.startsWith('<!DOCTYPE html') || text.includes('Model Not Found')) {
       res.status(400).json({
         error: 'Invalid model or upstream response not JSON',
-        details: text.slice(0, 300) + '...', // truncate for readability
-      });
-      return;
-    }
-
-    // Try parsing JSON
-    let data;
-    try {
-      data = JSON.parse(text);
-    } catch (jsonErr) {
-      res.status(502).json({
-        error: 'Upstream API returned invalid JSON',
         details: text.slice(0, 300) + '...',
       });
       return;
     }
 
+    const data = JSON.parse(text);
     res.status(200).json(data);
   } catch (error) {
     console.error('Proxy fetch failed:', error);
     res.status(502).json({ error: 'Bad Gateway', details: error.message });
   }
 }
+
 
