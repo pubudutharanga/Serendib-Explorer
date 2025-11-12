@@ -32,13 +32,29 @@ export default async function handler(req, res) {
       body: JSON.stringify(body),
     });
 
-    if (!response.ok) {
-      const text = await response.text();
-      res.status(response.status).json({ error: 'Upstream API error', details: text });
+    const text = await response.text();
+
+    // If OpenRouter returns HTML instead of JSON, likely model not found
+    if (text.startsWith('<!DOCTYPE html') || text.includes('Model Not Found')) {
+      res.status(400).json({
+        error: 'Invalid model or upstream response not JSON',
+        details: text.slice(0, 300) + '...', // truncate for readability
+      });
       return;
     }
 
-    const data = await response.json();
+    // Try parsing JSON
+    let data;
+    try {
+      data = JSON.parse(text);
+    } catch (jsonErr) {
+      res.status(502).json({
+        error: 'Upstream API returned invalid JSON',
+        details: text.slice(0, 300) + '...',
+      });
+      return;
+    }
+
     res.status(200).json(data);
   } catch (error) {
     console.error('Proxy fetch failed:', error);
