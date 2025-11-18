@@ -1,103 +1,85 @@
-SERENDIB EXPLORER - DISCOVER SRI LANKA
-=======================================
+# 🏝️ Serendib Explorer
 
-A modern, high-performance React web application showcasing the breathtaking beauty of Sri Lanka. Explore ancient heritage sites, pristine beaches, and cultural treasures through an immersive digital experience.
+<div align="center">
 
-FEATURES
-========
+![React](https://img.shields.io/badge/React-19.2.0-61dafb?style=for-the-badge&logo=react)
+![Vite](https://img.shields.io/badge/Vite-7.2.1-646CFF?style=for-the-badge&logo=vite)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.4.14-38B2AC?style=for-the-badge&logo=tailwind-css)
 
-CORE EXPERIENCE
----------------
-- Interactive Destination Explorer - Browse 30+ handpicked Sri Lankan destinations
-- Smart Search & Filtering - Find places by name, region, or category
-- Seasonal Recommendations - AI-powered best-time-to-visit suggestions
-- Favorites System - Save and manage your preferred destinations
-- Category-Based Discovery - Adventure, Cultural, Nature, Beaches, Culinary, Photography
+A modern, high-performance React web application showcasing the breathtaking beauty of Sri Lanka.  
+Explore ancient heritage sites, pristine beaches, and cultural treasures through an immersive digital experience.
 
-AI-POWERED ASSISTANT
---------------------
-- Voice-Enabled Chat - Speak naturally to get travel recommendations
-- Multi-Theme Interface - Sky, Luxury, Ocean, and Midnight themes
-- Real-time Travel Advice - Get personalized itinerary suggestions
-- OpenRouter AI Integration - Advanced language model capabilities
+🌐 **Live Demo:** https://pubudutharanga.github.io/Serendib-Explorer/
 
-INTERACTIVE FEATURES
---------------------
-- Leaflet Maps - Interactive location maps for every destination
-- Image Galleries - High-quality photo collections with fullscreen view
-- Video Integration - Embedded video tours and experiences
-- Social Sharing - Share destinations across platforms
+</div>
 
-PREMIUM DESIGN
---------------
-- Glassmorphism UI - Modern glass-effect design elements
-- Smooth Animations - Framer Motion powered transitions
-- Responsive Design - Flawless experience across all devices
-- Light Blue Theme - Calming, travel-inspired color palette
+---
 
-QUICK START
-===========
+## ✨ Features
 
-PREREQUISITES
--------------
-- Node.js 18+
+### 🌟 Core Experience
+- Interactive Destination Explorer — browse 30+ handpicked Sri Lankan destinations
+- Smart Search & Filtering — by name, region, and category
+- Seasonal Recommendations — best-time-to-visit insights
+- Favorites System — save and revisit preferred places
+- Category-Based Discovery — Adventure, Cultural, Nature, Beaches, Culinary, Photography
+
+### 🤖 AI-Powered Assistant
+- Voice-enabled chat interface
+- Sky / Luxury / Ocean / Midnight theme modes
+- Real-time personalized itinerary recommendations
+- Integrated with OpenRouter advanced language models
+
+### 🗺️ Interactive Features
+- Leaflet maps for every destination
+- High-resolution photo galleries (fullscreen)
+- Video tour integration
+- Social media sharing
+
+### 🎨 Premium Design
+- Glassmorphism UI components
+- Framer Motion animations
+- Mobile-first responsive layout
+- Light-blue travel-inspired theme palette
+
+---
+
+## 🚀 Quick Start
+
+### **Prerequisites**
+- Node.js **18+**
 - npm or yarn
 - Modern web browser
 
-INSTALLATION
-------------
-1. Clone the repository:
-   git clone https://github.com/pubudutharanga/Serendib-Explorer.git
-   cd Serendib-Explorer
+### **Local Development**
+```bash
+git clone https://github.com/pubudutharanga/Serendib-Explorer.git
+cd Serendib-Explorer
+npm install
+npm run dev
+Then open the browser:
 
-2. Install dependencies:
-   npm install
 
-3. Set up environment variables (Optional):
-   Create .env file with:
-   VITE_GA_ID=G-XXXXXXXXXX
-   VITE_OPENROUTER_API_KEY=your_key_here
+http://localhost:5173
+🔧 Advanced Setup
+AI Assistant Configuration (Optional)
+bash
+Copy code
+cp .env.example .env
+Update .env:
 
-4. Start development server:
-   npm run dev
+env
+VITE_GA_ID=G-XXXXXXXXXX
+VITE_OPENROUTER_API_KEY=your_api_key_here
+VITE_OPENROUTER_PROXY_URL=https://your-proxy.vercel.app/api/openrouter
 
-5. Open your browser:
-   http://localhost:5173
+Build for Production
+bash
+npm run build
+npm run preview
+npm run deploy
 
-TECH STACK
-==========
-
-FRONTEND FRAMEWORK
-------------------
-- React 19.2.0
-- Vite 7.2.1
-
-STYLING & UI
-------------
-- TailwindCSS 3.4.14
-- Framer Motion 11.18.2
-- Lucide React
-- Custom Glassmorphism
-
-MAPS & MEDIA
-------------
-- React Leaflet
-- React Player
-- Vite Imagetools
-
-AI & ANALYTICS
---------------
-- OpenRouter API
-- Google Analytics 4
-- Web Speech API
-
-DEPLOYMENT
-----------
-- GitHub Pages
-- GitHub Actions
-
-PROJECT STRUCTURE
-=================
+📁 Project Structure
 
 serendib-explorer/
 ├── public/
@@ -108,212 +90,85 @@ serendib-explorer/
 │       └── text.png
 ├── src/
 │   ├── components/
-│   │   ├── ui/
-│   │   │   ├── ModernCard.jsx
-│   │   │   ├── ModernButton.jsx
-│   │   │   └── Input.jsx
-│   │   ├── EnhancedNavigation.jsx
-│   │   ├── ModernHero.jsx
-│   │   ├── FeaturedDestinations.jsx
-│   │   ├── ExperienceCategories.jsx
-│   │   ├── SimpleDestinationGrid.jsx
-│   │   └── ErrorBoundary.jsx
 │   ├── pages/
-│   │   ├── ModernDestinationDetail.jsx
-│   │   ├── TrendingDestinations.jsx
-│   │   ├── CategoryPage.jsx
-│   │   ├── Favorites.jsx
-│   │   └── AITravelAssistant.jsx
 │   ├── hooks/
-│   │   ├── useLocalStorage.js
-│   │   └── useFetch.js
 │   ├── utils/
-│   │   ├── analytics.js
-│   │   └── dateUtils.js
 │   ├── data/
-│   │   └── destinations.json
 │   ├── App.jsx
 │   ├── main.jsx
 │   └── index.css
 ├── vite.config.js
-├── package.json
-├── index.html
-└── README.md
+└── package.json
 
-AVAILABLE SCRIPTS
-=================
+🧪 Testing Checklist
+Test Area	Status
+Home page loads	✅
+Navigation	✅
+Search & filters	✅
+Destination detail pages	✅
+Favorites system	✅
+Image galleries & maps	✅
+AI Assistant	🔄
 
-DEVELOPMENT
------------
-npm run dev          # Start development server
-npm run preview      # Preview production build
+🎯 Usage Guide
+Visiting Destinations
+Search by category or name
 
-BUILD & DEPLOY
---------------
-npm run build        # Create production build
-npm run predeploy    # Build and prepare for deployment
-npm run deploy       # Deploy to GitHub Pages
+Browse detailed travel guides
 
-CONFIGURATION
-=============
+Access maps & galleries
 
-ENVIRONMENT VARIABLES
----------------------
-# Optional: Google Analytics
-VITE_GA_ID=G-XXXXXXXXXX
+Using AI Assistant
+Ask travel-related questions
 
-# Optional: AI Assistant (OpenRouter)
-VITE_OPENROUTER_API_KEY=your_api_key_here
+Receive itinerary & suggestions
 
-VITE CONFIGURATION
-------------------
-// Optimized for GitHub Pages
-export default defineConfig({
-  base: '/Serendib-Explorer/',
-  plugins: [react(), imagetools()],
-  optimizeDeps: {
-    include: ['leaflet', 'react-leaflet']
-  }
-})
+Switch theme modes anytime
 
-DATA STRUCTURE
-==============
+Saving Favorites
+Click heart icon to save
 
-Destinations are managed through destinations.json:
+View saved list in Favorites page
 
-{
-  "destinations": [
-    {
-      "id": "sigiriya-rock-fortress",
-      "name": "Sigiriya Rock Fortress",
-      "description": "Ancient rock fortress and palace ruins",
-      "region": "Central Province",
-      "category": ["Cultural", "Adventure", "Photography"],
-      "rating": 4.8,
-      "visitors": 500000,
-      "bestTime": "December to April",
-      "images": ["/assets/destinations/sigiriya-1.jpg"],
-      "location": { "lat": 7.9570, "lng": 80.7603 },
-      "hotels": [...],
-      "activities": [...],
-      "videos": ["youtube-url"]
-    }
-  ]
-}
+Stored locally — no login required
 
-DEPLOYMENT
-==========
+🔧 Configuration Overview
+Variable	Description	Required
+VITE_GA_ID	Google Analytics ID	No
+VITE_OPENROUTER_API_KEY	AI API Key	No
+VITE_OPENROUTER_PROXY_URL	Proxy server URL	No
 
-GITHUB PAGES (CURRENT)
-----------------------
-1. Repository named 'Serendib-Explorer'
-2. Automatic deployment via GitHub Actions
-3. Access at: https://pubudutharanga.github.io/Serendib-Explorer/
+🐛 Troubleshooting
+Issue	Fix
+Images not loading	Verify file paths & destinations.json
+AI not responding	Check .env, proxy, console logs
+Build failing	Delete node_modules → reinstall
+Port conflict	Run npm run dev -- --port 3000
 
-OTHER PLATFORMS
----------------
-# Netlify
-npm run build
-# Deploy dist/ folder
+🤝 Contributing
+bash
+Copy code
+git checkout -b feature/amazing-feature
+git commit -m "Add amazing feature"
+git push origin feature/amazing-feature
+Follow:
 
-# Vercel
-npm run build
-# Deploy dist/ folder
+Readable commit messages
 
-CUSTOMIZATION
-=============
+Match project coding style
 
-ADDING NEW DESTINATIONS
------------------------
-1. Edit src/data/destinations.json
-2. Add high-quality images to public/assets/images/
-3. Follow the existing JSON structure
+Test before PR submission
 
-MODIFYING CATEGORIES
---------------------
-Update category configuration in:
-- src/components/ExperienceCategories.jsx
-- src/pages/CategoryPage.jsx
+📄 License
+Distributed under the MIT License.
 
-STYLING CHANGES
----------------
-- Primary colors: src/index.css CSS variables
-- Component styles: TailwindCSS classes
-- Global styles: src/index.css
-
-CONTRIBUTING
-============
-
-We welcome contributions! Please follow these steps:
-
-1. Fork the repository
-2. Create a feature branch: git checkout -b feature/amazing-feature
-3. Commit changes: git commit -m 'Add amazing feature'
-4. Push to branch: git push origin feature/amazing-feature
-5. Open a Pull Request
-
-DEVELOPMENT GUIDELINES
-----------------------
-- Use meaningful commit messages
-- Follow existing code style
-- Test on multiple devices
-- Update documentation as needed
-
-BROWSER SUPPORT
-===============
-
-- Chrome 90+
-- Firefox 88+
-- Safari 14+
-- Edge 90+
-
-TROUBLESHOOTING
-===============
-
-COMMON ISSUES
--------------
-
-Images not loading:
-- Check file paths in public/assets/
-- Verify image filenames in destinations.json
-
-AI Assistant not working:
-- Verify VITE_OPENROUTER_API_KEY in environment variables
-- Check browser console for API errors
-
-Build failures:
-- Clear node_modules: rm -rf node_modules && npm install
-- Ensure Node.js version 18+
-
-LICENSE
-=======
-
-This project is licensed under the MIT License.
-
-ACKNOWLEDGMENTS
-===============
-
-- Sri Lanka Tourism for inspiration and content
-- OpenRouter for AI API access
-- Unsplash for beautiful photography
-- React Community for excellent tools and libraries
-- Vite Team for the fantastic build tool
-
-DEVELOPER
-=========
-
+👨‍💻 Developer
 Pubudu Tharanga
-- GitHub: @pubudutharanga
-- LinkedIn: Pubudu Tharanga
-- Facebook: Pubudu Tharanga
+GitHub: https://github.com/pubudutharanga
+LinkedIn: https://www.linkedin.com/in/pubudutharanga
+Facebook: https://www.facebook.com/share/1ai3Wtn4jc/
 
-SUPPORT
-=======
+<div align="center">
+If you like this project, please ⭐ the repository!
 
-If you find this project helpful, please give it a star on GitHub!
-
----
-
-Built with love for Sri Lanka Tourism
-
-Experience the warmth of island hospitality
+</div> 
