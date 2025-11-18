@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Srendib Explore](src="./assets/readme.png")
+![Srendib Explore](src="./public/assets/readme.png")
 
 A modern, high-performance React web application showcasing the breathtaking beauty of Sri Lanka.  
 Explore ancient heritage sites, pristine beaches, and cultural treasures through an immersive digital experience.
