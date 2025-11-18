@@ -2,9 +2,7 @@
 
 <div align="center">
 
-![React](https://img.icons8.com/?size=100&id=J79emsSv2QCu&format=png&color=000000)
-![Vite](https://img.shields.io/badge/Vite-7.2.1-646CFF?style=for-the-badge&logo=vite)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.4.14-38B2AC?style=for-the-badge&logo=tailwind-css)
+![Srendib Explore](src="./assets/readme.png")
 
 A modern, high-performance React web application showcasing the breathtaking beauty of Sri Lanka.  
 Explore ancient heritage sites, pristine beaches, and cultural treasures through an immersive digital experience.
