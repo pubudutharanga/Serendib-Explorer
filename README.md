@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![React](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/768px-React-icon.svg.png?20220125121207)
+![React](https://img.icons8.com/?size=100&id=J79emsSv2QCu&format=png&color=000000)
 ![Vite](https://img.shields.io/badge/Vite-7.2.1-646CFF?style=for-the-badge&logo=vite)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.4.14-38B2AC?style=for-the-badge&logo=tailwind-css)
 
