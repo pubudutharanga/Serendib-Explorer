@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![React](https://icons8.com/icon/NfbyHexzVEDk/react)
+![React](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/768px-React-icon.svg.png?20220125121207)
 ![Vite](https://img.shields.io/badge/Vite-7.2.1-646CFF?style=for-the-badge&logo=vite)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.4.14-38B2AC?style=for-the-badge&logo=tailwind-css)
 
@@ -61,8 +61,9 @@ npm run dev
 Then open the browser:
 http://localhost:5173
 
-🔧 Advanced Setup
-AI Assistant Configuration (Optional)
+## 🔧 Advanced Setup
+## AI Assistant Configuration (Optional)
+
 ```bash
 cp .env.example .env
 Update .env:
@@ -99,74 +100,62 @@ serendib-explorer/
 ├── vite.config.js
 └── package.json
 ```
+---
+## 🧪 Testing Checklist
+### Test Area	Status
+- Home page loads	✅
+- Navigation	✅
+- Search & filters	✅
+- Destination detail pages	✅
+- Favorites system	✅
+- Image galleries & maps	✅
+- AI Assistant	🔄
 
-🧪 Testing Checklist
-Test Area	Status
-Home page loads	✅
-Navigation	✅
-Search & filters	✅
-Destination detail pages	✅
-Favorites system	✅
-Image galleries & maps	✅
-AI Assistant	🔄
+## 🎯 Usage Guide
 
-🎯 Usage Guide
-Visiting Destinations
-Search by category or name
+### Visiting Destinations
+- Search by category or name
+- Browse detailed travel guides
+- Access maps & galleries
 
-Browse detailed travel guides
+### Using AI Assistant 
+- Ask travel-related questions
+- Receive itinerary & suggestions
+- Switch theme modes anytime
 
-Access maps & galleries
+### Saving Favorites
+- Click heart icon to save
+- View saved list in Favorites page
+- Stored locally — no login required
 
-Using AI Assistant
-Ask travel-related questions
+## 🐛 Troubleshooting
+###	Fix
+- Images not loading	Verify file paths & destinations.json
+- AI not responding	Check .env, proxy, console logs
+- Build failing	Delete node_modules → reinstall
+- Port conflict	Run npm run dev -- --port 3000
 
-Receive itinerary & suggestions
+## 🤝 Contributing
 
-Switch theme modes anytime
-
-Saving Favorites
-Click heart icon to save
-
-View saved list in Favorites page
-
-Stored locally — no login required
-
-🔧 Configuration Overview
-Variable	Description	Required
-VITE_GA_ID	Google Analytics ID	No
-VITE_OPENROUTER_API_KEY	AI API Key	No
-VITE_OPENROUTER_PROXY_URL	Proxy server URL	No
-
-🐛 Troubleshooting
-Issue	Fix
-Images not loading	Verify file paths & destinations.json
-AI not responding	Check .env, proxy, console logs
-Build failing	Delete node_modules → reinstall
-Port conflict	Run npm run dev -- --port 3000
-
-🤝 Contributing
 ```bash
 git checkout -b feature/amazing-feature
 git commit -m "Add amazing feature"
 git push origin feature/amazing-feature
 ```
-Follow:
+## Follow:
 
-Readable commit messages
+- Readable commit messages
+- Match project coding style
+- Test before PR submission
 
-Match project coding style
+## 📄 License
+- Distributed under the MIT License.
 
-Test before PR submission
-
-📄 License
-Distributed under the MIT License.
-
-👨‍💻 Developer
-Pubudu Tharanga
-GitHub: https://github.com/pubudutharanga
-LinkedIn: https://www.linkedin.com/in/pubudutharanga
-Facebook: https://www.facebook.com/share/1ai3Wtn4jc/
+## 👨‍💻 Developer
+### Pubudu Tharanga
+- GitHub: https://github.com/pubudutharanga
+- LinkedIn: https://www.linkedin.com/in/pubudutharanga
+- Facebook: https://www.facebook.com/share/1ai3Wtn4jc/
 
 <div align="center">
 If you like this project, please ⭐ the repository!
