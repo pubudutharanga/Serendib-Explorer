@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![React](https://img.shields.io/badge/React-19.2.0-61dafb?style=for-the-badge&logo=react)
+![React](https://icons8.com/icon/NfbyHexzVEDk/react)
 ![Vite](https://img.shields.io/badge/Vite-7.2.1-646CFF?style=for-the-badge&logo=vite)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.4.14-38B2AC?style=for-the-badge&logo=tailwind-css)
 
@@ -57,30 +57,29 @@ git clone https://github.com/pubudutharanga/Serendib-Explorer.git
 cd Serendib-Explorer
 npm install
 npm run dev
+```
 Then open the browser:
-
-
 http://localhost:5173
+
 🔧 Advanced Setup
 AI Assistant Configuration (Optional)
-bash
-Copy code
+```bash
 cp .env.example .env
 Update .env:
-
 env
 VITE_GA_ID=G-XXXXXXXXXX
 VITE_OPENROUTER_API_KEY=your_api_key_here
 VITE_OPENROUTER_PROXY_URL=https://your-proxy.vercel.app/api/openrouter
+```
 
 Build for Production
-bash
+```bash
 npm run build
 npm run preview
 npm run deploy
-
+```
 📁 Project Structure
-
+```bash
 serendib-explorer/
 ├── public/
 │   └── assets/
@@ -99,6 +98,7 @@ serendib-explorer/
 │   └── index.css
 ├── vite.config.js
 └── package.json
+```
 
 🧪 Testing Checklist
 Test Area	Status
@@ -146,11 +146,11 @@ Build failing	Delete node_modules → reinstall
 Port conflict	Run npm run dev -- --port 3000
 
 🤝 Contributing
-bash
-Copy code
+```bash
 git checkout -b feature/amazing-feature
 git commit -m "Add amazing feature"
 git push origin feature/amazing-feature
+```
 Follow:
 
 Readable commit messages
