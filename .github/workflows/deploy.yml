@@ -23,14 +23,13 @@ jobs:
         run: npm run build
         env:
           VITE_OPENROUTER_API_KEY: ${{ secrets.VITE_OPENROUTER_API_KEY }}
+          VITE_OPENWEATHER_API_KEY: ${{ secrets.VITE_OPENWEATHER_API_KEY }}  # Add this line
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
-          # Use the GITHUB_TOKEN, not a personal access token
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
-          # Add these settings to fix permission issues
           force_orphan: true
           user_name: 'github-actions[bot]'
           user_email: 'github-actions[bot]@users.noreply.github.com'
