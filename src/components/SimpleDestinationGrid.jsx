@@ -7,6 +7,7 @@ import { ModernButton } from './ui/ModernButton'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Search, MapPin, Star, Users, Navigation } from 'lucide-react'
 import { trackSearch } from '../utils/analytics'
+import MiniWeatherBadge from './MiniWeatherBadge'
 
 export default function SimpleDestinationGrid({ title = "Explore Sri Lanka", subtitle = "Discover breathtaking destinations across the beautiful island" }) {
   const [searchQuery, setSearchQuery] = useState('')
@@ -175,6 +176,11 @@ function ModernDestinationCard({ dest }) {
                 {cat}
               </motion.span>
             ))}
+          </div>
+
+          {/* Weather Badge */}
+          <div className="absolute bottom-3 left-3">
+            <MiniWeatherBadge destination={dest} compact />
           </div>
         </div>
 
