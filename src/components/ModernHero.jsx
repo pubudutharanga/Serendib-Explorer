@@ -10,15 +10,20 @@ const bgPaths = [
   
   'assets/images/hero-backgrounds/sigiriya.webp',
   'assets/images/hero-backgrounds/ella.webp',
+  'assets/images/hero-backgrounds/hiriketiya2.jpeg',
   'assets/images/hero-backgrounds/colombo.webp',
   'assets/images/hero-backgrounds/ambuluwawa.webp',
   'assets/images/hero-backgrounds/ruwanwalimahasaya.webp',
   'assets/images/hero-backgrounds/palace.webp',
+  'assets/images/hero-backgrounds/dabulla.png',
   'assets/images/hero-backgrounds/elephants.webp',
-  'assets/images/hero-backgrounds/galle.webp',
+  'assets/images/hero-backgrounds/galle.png',
   'assets/images/hero-backgrounds/polhena.webp',
+  'assets/images/hero-backgrounds/mirissa2.jpeg',
   'assets/images/hero-backgrounds/mirissa.webp',
   'assets/images/hero-backgrounds/hiriketiya.webp',
+  'assets/images/hero-backgrounds/nuwara.png',
+  'assets/images/hero-backgrounds/jaffna.png',
   'assets/images/hero-backgrounds/mask.webp'
 ]
 
