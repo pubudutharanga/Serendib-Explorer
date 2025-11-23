@@ -32,27 +32,6 @@
 - 🎨 **Beautiful UI** - Modern glassmorphism design with smooth animations
 
 ---
-
-## 🎬 Demo & Screenshots
-
-<div align="center">
-
-### 🏠 Home Page
-![Home Page](https://via.placeholder.com/800x400/3B82F6/FFFFFF?text=Hero+Section+with+Dynamic+Backgrounds)
-
-### 📱 Mobile Experience
-<img src="https://via.placeholder.com/300x600/06B6D4/FFFFFF?text=Mobile+Responsive+Design" width="250" />
-
-### 🤖 AI Assistant
-![AI Assistant](https://via.placeholder.com/800x400/8B5CF6/FFFFFF?text=AI+Travel+Assistant+with+Voice+Support)
-
-### 🌤️ Weather Integration
-![Weather](https://via.placeholder.com/800x400/10B981/FFFFFF?text=Real-Time+Weather+Forecasts)
-
-</div>
-
----
-
 ## 🚀 Quick Start
 
 ### Prerequisites
