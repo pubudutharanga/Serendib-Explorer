@@ -525,9 +525,7 @@ of this software and associated documentation files...
 
 ### Special Thanks
 
-- Sri Lanka Tourism Board for destination information
 - The open-source community for amazing tools
-- All contributors who help improve this project
 
 ---
 
@@ -542,7 +540,7 @@ of this software and associated documentation files...
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)](https://github.com/pubudutharanga)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/pubudutharanga)
 [![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook)](https://www.facebook.com/share/1ai3Wtn4jc/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://pubudutharanga.github.io)
+[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://pubudutharanga.github.io/pubudu-portfolio/)
 
 </div>
 
