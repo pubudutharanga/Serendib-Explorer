@@ -25,7 +25,7 @@
 
 - 🤖 **AI Travel Assistant** - Get personalized recommendations powered by advanced language models
 - 🌤️ **Real-Time Weather** - Live weather updates for every destination
-- 📍 **30+ Curated Destinations** - Handpicked locations from beaches to ancient temples
+- 📍 **60+ Curated Destinations** - Handpicked locations from beaches to ancient temples
 - 🗺️ **Interactive Maps** - Explore locations with integrated Leaflet maps
 - 📱 **Mobile-First Design** - Seamless experience across all devices
 - ⚡ **Lightning Fast** - Built with Vite for optimal performance
@@ -135,7 +135,7 @@ The build output will be in the `dist/` directory.
 
 ### 🏝️ Destination Explorer
 
-Browse 30+ handpicked destinations across Sri Lanka:
+Browse 60+ handpicked destinations across Sri Lanka:
 
 - **Cultural Sites** - Ancient temples, UNESCO heritage sites
 - **Natural Wonders** - National parks, waterfalls, tea plantations
@@ -472,7 +472,7 @@ return <WeatherDisplay data={weather} />
 
 🚨 **DO NOT** open public issues for security vulnerabilities.
 
-Instead, email security concerns to: [pubudu.dev@example.com](mailto:pubudu.dev@example.com)
+Instead, email security concerns to: [pubudutharange@gmail.com](mailto:pubudutharange@gmail.com)
 
 We'll respond within 48 hours and work with you to resolve the issue.
 
@@ -575,7 +575,7 @@ If you find this project useful, please consider giving it a star ⭐
 
 ### ✅ Current Features (v1.0)
 
-- [x] 30+ curated destinations
+- [x] 60+ curated destinations
 - [x] Real-time weather integration
 - [x] AI travel assistant
 - [x] Interactive maps
@@ -584,19 +584,10 @@ If you find this project useful, please consider giving it a star ⭐
 - [x] Search and filtering
 - [x] Analytics integration
 
-### 🚧 In Development (v1.1)
-
-- [ ] User authentication
-- [ ] Review and rating system
-- [ ] Destination comparison
-- [ ] Offline mode (PWA)
-- [ ] Multi-language support
-
 ### 🔮 Future Plans (v2.0)
 
 - [ ] Mobile app (React Native)
 - [ ] Booking integration
-- [ ] Travel package builder
 - [ ] Community features
 
 ---
@@ -621,7 +612,5 @@ If you find this project useful, please consider giving it a star ⭐
 <div align="center">
 
 **Discover. Explore. Experience.**
-
-[⬆ Back to Top](#-serendib-explorer)
 
 </div>
