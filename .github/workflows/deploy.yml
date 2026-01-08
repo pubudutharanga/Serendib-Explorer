@@ -23,7 +23,7 @@ jobs:
         run: npm run build
         env:
           VITE_OPENROUTER_API_KEY: ${{ secrets.VITE_OPENROUTER_API_KEY }}
-          VITE_OPENWEATHER_API_KEY: ${{ secrets.VITE_OPENWEATHER_API_KEY }}  # Add this line
+          VITE_OPENWEATHER_API_KEY: ${{ secrets.VITE_OPENWEATHER_API_KEY }}  
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
